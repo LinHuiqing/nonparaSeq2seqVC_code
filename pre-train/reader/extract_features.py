@@ -82,8 +82,9 @@ def extract_dir(root, kind):
     pool = Pool(cpu_count())
     pool.map(extraction_function,abs_paths)
 
-    #estimate and save mean std statistics in root dir.
-    estimate_mean_std(root)
+    if kind == "audio":
+        #estimate and save mean std statistics in root dir.
+        estimate_mean_std(root)
 
 
 def estimate_mean_std(root, num=2000):
@@ -103,7 +104,7 @@ def estimate_mean_std(root, num=2000):
                 path = os.path.join(dirpath, f)
                 mels.append(np.load(path))
                 counter_mel += 1
-    
+
     specs = np.vstack(specs)
     mels = np.vstack(mels)
 
