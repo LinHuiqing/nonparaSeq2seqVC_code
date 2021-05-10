@@ -4,6 +4,7 @@ import random
 import numpy as np
 from .symbols import ph2id, sp2id
 from torch.utils.data import DataLoader
+import pandas as pd
 
 def read_text(fn):
     '''
@@ -25,17 +26,19 @@ class TextMelIDLoader(torch.utils.data.Dataset):
         list_file: 3-column: (path, n_frames, n_phones)
         mean_std_file: tensor loadable into numpy, of shape (2, feat_dims), i.e. [mean_row, std_row]
         '''
-        file_path_list = []
-        with open(list_file) as f:
-            lines = f.readlines()
-            for line in lines:
-                path, n_frame, n_phones = line.strip().split()
-                if int(n_frame) >= 1000:
-                    continue
-                file_path_list.append(path)
+        df = pd.read_csv(list_file)
+        file_path_list = df["path"]
+        # file_path_list = []
+        # with open(list_file) as f:
+        #     lines = f.readlines()
+        #     for line in lines:
+        #         path, n_frame, n_phones = line.strip().split()
+        #         if int(n_frame) >= 1000:
+        #             continue
+        #         file_path_list.append(path)
 
         if shuffle:
-            random.seed(1234)
+            random.seed(420)
             random.shuffle(file_path_list)
         
         self.file_path_list = file_path_list

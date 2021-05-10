@@ -2,3 +2,5 @@ checkpoint_*
 events.*
 *.pdf
 *.pyc
+
+dataset/
