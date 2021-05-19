@@ -6,18 +6,23 @@ from .symbols import ph2id, sp2id
 from torch.utils.data import DataLoader
 import pandas as pd
 
+FILE_TYPE_DIR_PLACEHOLDER = "<file_type_dir>"
+FILE_EXT_PLACEHOLDER = "<file_ext>"
+TEXT_SUBDIR = "txt"
+AUDIO_SUBDIR = "wav48"
+MEL_EXT = "mel.npy"
+SPEC_EXT = "spec.npy"
+PHONES_EXT = "phones"
+
 def read_text(fn):
     '''
     read phone alignments from file of the format:
     start end phone
     '''
-    text = []
     with open(fn) as f:
-        lines = f.readlines()
-        for line in lines:
-            start, end, phone = line.strip().split()
-            text.append([int(start), int(end), phone])
-    return text
+        file_contents = f.read()
+    phones = file_contents.strip().split()
+    return phones
 
 class TextMelIDLoader(torch.utils.data.Dataset):
     
@@ -27,15 +32,7 @@ class TextMelIDLoader(torch.utils.data.Dataset):
         mean_std_file: tensor loadable into numpy, of shape (2, feat_dims), i.e. [mean_row, std_row]
         '''
         df = pd.read_csv(list_file)
-        file_path_list = df["path"]
-        # file_path_list = []
-        # with open(list_file) as f:
-        #     lines = f.readlines()
-        #     for line in lines:
-        #         path, n_frame, n_phones = line.strip().split()
-        #         if int(n_frame) >= 1000:
-        #             continue
-        #         file_path_list.append(path)
+        file_path_list = list(df["path"])
 
         if shuffle:
             random.seed(420)
@@ -49,9 +46,9 @@ class TextMelIDLoader(torch.utils.data.Dataset):
         # Custom this function to obtain paths and speaker id
         # Deduce filenames
         spec_path = path
-        text_path = path.replace('spec', 'text').replace('npy', 'txt').replace('log-', '')
-        mel_path = path.replace('spec', 'mel')
-        speaker_id = path.split('/')[-2]
+        text_path = path.replace(AUDIO_SUBDIR, TEXT_SUBDIR).replace(SPEC_EXT, PHONES_EXT)
+        mel_path = path.replace(SPEC_EXT, MEL_EXT)
+        speaker_id = path.split('/')[-2].lstrip('p')
 
         return mel_path, spec_path, text_path, speaker_id
 
@@ -96,13 +93,21 @@ class TextMelIDLoader(torch.utils.data.Dataset):
         text = read_text(text_path)
         text_input = []
 
-        for start, end, ph in text:
+        for ph in text:
             text_input.append(ph2id[ph])
         
         return text_input
 
     def __getitem__(self, index):
-        return self.get_text_mel_id_pair(self.file_path_list[index])
+        '''
+        Returns:
+        
+        
+        '''
+        generic_file_path = self.file_path_list[index]
+        spec_file_path = generic_file_path.replace(FILE_TYPE_DIR_PLACEHOLDER, AUDIO_SUBDIR)
+        spec_file_path = spec_file_path.replace(FILE_EXT_PLACEHOLDER, SPEC_EXT)
+        return self.get_text_mel_id_pair(spec_file_path)
 
     def __len__(self):
         return len(self.file_path_list)

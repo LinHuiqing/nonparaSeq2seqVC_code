@@ -143,6 +143,7 @@ class ParrotLoss(nn.Module):
         text_classification_loss = torch.sum(loss * text_mask_plus_one.reshape(-1)) / torch.sum(text_mask_plus_one)
 
         # speaker adversival loss #
+        # print(n_speakers)
         flatten_target = 1. / n_speakers * torch.ones_like(speaker_logit_flatten)
         loss = self.MSELoss(F.softmax(speaker_logit_flatten, dim=1), flatten_target)
         mask = text_mask.unsqueeze(2).expand(-1,-1, n_speakers).reshape(-1, n_speakers)

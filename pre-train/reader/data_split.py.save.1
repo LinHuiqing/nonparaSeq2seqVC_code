@@ -16,7 +16,7 @@ def get_all_data(dir_path, txt_subdir="txt", audio_subdir="wav48"):
     file_output = []
     with tqdm(speakers_ls) as speakers:
         for speaker_id in speakers:
-            speaker_dir_path = f"{dir_path}/{FILE_TYPE_DIR_PLACEHOLDER}/p{speaker_id}"
+            speaker_dir_path = f"{dir_path}/<file_type_dir>/p{speaker_id}"
 
             audio_dir = speaker_dir_path.replace(FILE_TYPE_DIR_PLACEHOLDER, audio_subdir)
             speaker_mel_ls = sorted(glob.glob(f"{audio_dir}/*.mel.npy"))
@@ -43,6 +43,7 @@ def get_all_data(dir_path, txt_subdir="txt", audio_subdir="wav48"):
 
                 # row_str = ",".join(row)
                 file_output.append(row)
+            break
 
     all_data_df = pd.DataFrame(data=file_output, columns=["path", "n_frames", "n_phones"])
 

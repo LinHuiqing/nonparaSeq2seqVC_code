@@ -1,0 +1,7077 @@
+/home/users/huiqing_lin/nonparaSeq2seqVC_code
+Python 3.6.9 :: Anaconda, Inc.
+pip 20.0.2 from /opt/conda/lib/python3.6/site-packages/pip (python 3.6)
+Python 3.6.9 :: Anaconda, Inc.
+pip 21.1.1 from /home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/pip (python 3.6)
+/opt/pbs/bin/pbs_attach: tm_attach: a hook has rejected the task manager request (17012)
+pbs_attach failed, exit status=1
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:516: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:517: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:518: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:519: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:520: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:525: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:541: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:542: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:543: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:544: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:545: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/tensorboard/compat/tensorflow_stub/dtypes.py:550: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+WARNING:tensorflow:
+The TensorFlow contrib module will not be included in TensorFlow 2.0.
+For more information, please see:
+  * https://github.com/tensorflow/community/blob/master/rfcs/20180907-contrib-sunset.md
+  * https://github.com/tensorflow/addons
+  * https://github.com/tensorflow/io (for I/O related ops)
+If you depend on functionality not listed there, please file an issue.
+
+WARNING:tensorflow:From /home/users/huiqing_lin/nonparaSeq2seqVC_code/pre-train/hparams.py:112: The name tf.logging.info is deprecated. Please use tf.compat.v1.logging.info instead.
+
+('Distributed Run:', False)
+('cuDNN Enabled:', True)
+('cuDNN Benchmark:', False)
+Epoch: 0
+108
+Train TTS 0 13.768097 Grad Norm 3.302299 1.49s/it
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/pre-train/model/loss.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  padded = torch.tensor(text_target.data.new(B,1).zero_())
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+Validation loss 0: TTS 12.313773  VC 12.280785
+Saving model and optimizer state at iteration 0 to outdir/checkpoint_0
+108
+Train VC 1 12.349067 Grad Norm 11.952513 1.48s/it
+108
+Train TTS 2 13.211428 Grad Norm 2.298600 1.37s/it
+108
+Train VC 3 12.649830 Grad Norm 2.090993 1.76s/it
+108
+Train TTS 4 12.346330 Grad Norm 2.214405 1.51s/it
+108
+Train VC 5 12.126682 Grad Norm 2.561379 1.28s/it
+108
+Train TTS 6 13.769919 Grad Norm 31.786308 1.18s/it
+108
+Train VC 7 11.380369 Grad Norm 2.076487 1.58s/it
+108
+Train TTS 8 11.326203 Grad Norm 1.801738 1.48s/it
+108
+Train VC 9 11.310326 Grad Norm 1.805331 1.61s/it
+108
+Train TTS 10 10.659245 Grad Norm 1.524208 2.81s/it
+108
+Train VC 11 10.700039 Grad Norm 11.836903 2.54s/it
+108
+Train TTS 12 10.703117 Grad Norm 1.785423 2.02s/it
+108
+Train VC 13 10.580028 Grad Norm 1.477342 2.45s/it
+108
+Train TTS 14 10.952827 Grad Norm 1.837523 1.22s/it
+108
+Train VC 15 10.567545 Grad Norm 1.380288 1.66s/it
+108
+Train TTS 16 10.680103 Grad Norm 1.408704 1.29s/it
+108
+Train VC 17 11.219925 Grad Norm 21.849487 1.55s/it
+108
+Train TTS 18 10.899595 Grad Norm 2.473942 1.06s/it
+108
+Train VC 19 10.500390 Grad Norm 1.532479 1.35s/it
+108
+Train TTS 20 10.600685 Grad Norm 1.405352 1.39s/it
+108
+Train VC 21 10.111439 Grad Norm 1.329348 1.69s/it
+108
+Train TTS 22 10.403307 Grad Norm 4.482252 1.06s/it
+108
+Train VC 23 10.200791 Grad Norm 1.355300 1.68s/it
+108
+Train TTS 24 10.045706 Grad Norm 1.416338 2.03s/it
+108
+Train VC 25 10.392821 Grad Norm 1.481151 1.36s/it
+108
+Train TTS 26 10.084780 Grad Norm 1.466169 1.46s/it
+108
+Train VC 27 10.380469 Grad Norm 1.599559 1.45s/it
+108
+Train TTS 28 9.714612 Grad Norm 1.352866 2.41s/it
+108
+Train VC 29 10.633640 Grad Norm 20.945927 1.99s/it
+108
+Train TTS 30 9.778190 Grad Norm 1.356731 1.74s/it
+108
+Train VC 31 10.100206 Grad Norm 1.620360 1.16s/it
+108
+Train TTS 32 9.576004 Grad Norm 1.261230 2.68s/it
+108
+Train VC 33 9.651864 Grad Norm 1.535890 2.11s/it
+108
+Train TTS 34 9.583252 Grad Norm 1.304312 1.89s/it
+108
+Train VC 35 9.443124 Grad Norm 2.321987 2.52s/it
+108
+Train TTS 36 9.420423 Grad Norm 3.118818 2.06s/it
+108
+Train VC 37 9.462732 Grad Norm 1.593542 1.52s/it
+108
+Train TTS 38 9.860150 Grad Norm 1.742300 1.39s/it
+108
+Train VC 39 9.741680 Grad Norm 2.138076 1.70s/it
+108
+Train TTS 40 9.539804 Grad Norm 5.159840 1.74s/it
+108
+Train VC 41 9.552833 Grad Norm 1.922145 1.82s/it
+108
+Train TTS 42 9.405877 Grad Norm 1.572804 2.19s/it
+108
+Train VC 43 9.539972 Grad Norm 1.498501 1.93s/it
+108
+Train TTS 44 9.446980 Grad Norm 1.643299 1.70s/it
+108
+Train VC 45 9.438911 Grad Norm 1.846469 1.29s/it
+108
+Train TTS 46 9.193062 Grad Norm 1.442068 2.17s/it
+108
+Train VC 47 9.217821 Grad Norm 1.555687 1.83s/it
+108
+Train TTS 48 9.172754 Grad Norm 2.897315 1.84s/it
+108
+Train VC 49 9.360437 Grad Norm 3.605141 1.30s/it
+108
+Train TTS 50 9.358335 Grad Norm 2.327752 1.16s/it
+108
+Train VC 51 9.155428 Grad Norm 2.428455 1.59s/it
+108
+Train TTS 52 9.166040 Grad Norm 1.864889 1.32s/it
+108
+Train VC 53 8.847646 Grad Norm 2.045592 2.40s/it
+108
+Train TTS 54 9.309224 Grad Norm 1.883466 1.34s/it
+108
+Train VC 55 9.444398 Grad Norm 2.787657 1.31s/it
+108
+Train TTS 56 8.765250 Grad Norm 3.650129 1.41s/it
+108
+Train VC 57 8.897094 Grad Norm 1.995599 1.92s/it
+108
+Train TTS 58 9.030812 Grad Norm 3.559773 1.64s/it
+108
+Train VC 59 8.955858 Grad Norm 2.395561 1.83s/it
+108
+Train TTS 60 9.084588 Grad Norm 3.039068 0.94s/it
+108
+Train VC 61 8.901967 Grad Norm 2.424438 1.60s/it
+108
+Train TTS 62 8.904779 Grad Norm 5.193446 2.44s/it
+108
+Train VC 63 8.756596 Grad Norm 3.045195 1.44s/it
+108
+Train TTS 64 8.644292 Grad Norm 3.096165 1.73s/it
+108
+Train VC 65 8.595061 Grad Norm 2.972023 1.98s/it
+108
+Train TTS 66 8.906608 Grad Norm 3.469131 1.44s/it
+108
+Train VC 67 8.615401 Grad Norm 3.171168 1.78s/it
+108
+Train TTS 68 8.516447 Grad Norm 2.584483 2.08s/it
+108
+Train VC 69 8.672119 Grad Norm 4.904560 1.16s/it
+108
+Train TTS 70 8.663845 Grad Norm 2.867048 1.35s/it
+108
+Train VC 71 8.813894 Grad Norm 3.797223 1.85s/it
+108
+Train TTS 72 8.795022 Grad Norm 2.773401 1.39s/it
+108
+Train VC 73 8.403165 Grad Norm 2.913560 1.39s/it
+108
+Train TTS 74 8.368611 Grad Norm 3.725712 1.71s/it
+108
+Train VC 75 8.251207 Grad Norm 3.711896 1.85s/it
+108
+Train TTS 76 8.341067 Grad Norm 6.340885 1.57s/it
+108
+Train VC 77 8.240270 Grad Norm 2.563640 2.28s/it
+108
+Train TTS 78 8.249506 Grad Norm 3.404122 2.02s/it
+108
+Train VC 79 8.298959 Grad Norm 4.180275 1.80s/it
+108
+Train TTS 80 8.745377 Grad Norm 4.308526 2.38s/it
+108
+Train VC 81 8.346606 Grad Norm 3.766208 1.29s/it
+108
+Train TTS 82 8.440941 Grad Norm 3.084805 1.51s/it
+108
+Train VC 83 8.429529 Grad Norm 2.900905 1.78s/it
+108
+Train TTS 84 8.098499 Grad Norm 4.273008 2.25s/it
+108
+Train VC 85 8.113560 Grad Norm 3.343071 1.41s/it
+108
+Train TTS 86 8.312198 Grad Norm 2.959472 1.78s/it
+108
+Train VC 87 8.092103 Grad Norm 2.634036 1.61s/it
+108
+Train TTS 88 8.470874 Grad Norm 3.955881 1.15s/it
+108
+Train VC 89 8.017848 Grad Norm 3.058471 1.40s/it
+108
+Train TTS 90 8.255440 Grad Norm 3.281688 1.71s/it
+108
+Train VC 91 8.341609 Grad Norm 3.899816 1.53s/it
+108
+Train TTS 92 8.104939 Grad Norm 4.362912 1.70s/it
+108
+Train VC 93 7.996443 Grad Norm 3.061581 1.97s/it
+108
+Train TTS 94 7.924212 Grad Norm 3.069122 1.32s/it
+108
+Train VC 95 8.327414 Grad Norm 4.107940 1.53s/it
+108
+Train TTS 96 8.178270 Grad Norm 2.892816 1.43s/it
+108
+Train VC 97 8.012842 Grad Norm 3.842383 1.59s/it
+108
+Train TTS 98 7.886970 Grad Norm 4.105170 1.47s/it
+108
+Train VC 99 8.059619 Grad Norm 2.611959 1.42s/it
+108
+Train TTS 100 8.097586 Grad Norm 4.656147 1.45s/it
+108
+Train VC 101 8.133114 Grad Norm 4.717282 2.14s/it
+108
+Train TTS 102 7.569662 Grad Norm 3.871082 1.46s/it
+108
+Train VC 103 7.772754 Grad Norm 5.475947 1.66s/it
+108
+Train TTS 104 7.891139 Grad Norm 5.238066 1.79s/it
+108
+Train VC 105 7.712883 Grad Norm 3.894826 1.73s/it
+108
+Train TTS 106 7.648046 Grad Norm 3.643792 1.90s/it
+108
+Train VC 107 7.482980 Grad Norm 4.491216 1.38s/it
+108
+Train TTS 108 7.442213 Grad Norm 4.063192 2.22s/it
+108
+Train VC 109 7.632696 Grad Norm 5.010142 1.41s/it
+108
+Train TTS 110 7.690590 Grad Norm 4.502931 1.12s/it
+108
+Train VC 111 7.098893 Grad Norm 4.424849 2.55s/it
+108
+Train TTS 112 7.838421 Grad Norm 5.636116 1.89s/it
+108
+Train VC 113 7.565187 Grad Norm 4.281573 2.01s/it
+108
+Train TTS 114 7.555503 Grad Norm 3.476814 1.46s/it
+108
+Train VC 115 7.906217 Grad Norm 2.845964 1.45s/it
+108
+Train TTS 116 7.803480 Grad Norm 4.389389 1.25s/it
+108
+Train VC 117 7.808134 Grad Norm 4.143655 1.24s/it
+108
+Train TTS 118 7.411487 Grad Norm 3.406567 2.68s/it
+108
+Train VC 119 7.563410 Grad Norm 3.363338 1.72s/it
+108
+Train TTS 120 7.299158 Grad Norm 3.324939 2.51s/it
+108
+Train VC 121 7.557700 Grad Norm 5.187439 1.70s/it
+108
+Train TTS 122 7.531916 Grad Norm 4.619036 1.30s/it
+108
+Train VC 123 7.262301 Grad Norm 5.063273 1.73s/it
+108
+Train TTS 124 7.562486 Grad Norm 4.606183 1.59s/it
+108
+Train VC 125 7.524206 Grad Norm 4.901932 1.47s/it
+108
+Train TTS 126 7.259397 Grad Norm 4.104420 1.48s/it
+108
+Train VC 127 7.587239 Grad Norm 5.100880 1.87s/it
+108
+Train TTS 128 7.725692 Grad Norm 5.669612 1.38s/it
+108
+Train VC 129 7.394345 Grad Norm 6.027807 1.29s/it
+108
+Train TTS 130 7.140981 Grad Norm 4.350931 1.34s/it
+108
+Train VC 131 7.248522 Grad Norm 5.042439 2.49s/it
+108
+Train TTS 132 7.347601 Grad Norm 3.626227 1.75s/it
+108
+Train VC 133 7.634658 Grad Norm 6.459657 1.26s/it
+108
+Train TTS 134 7.276200 Grad Norm 5.256224 1.57s/it
+108
+Train VC 135 7.624529 Grad Norm 3.314723 1.13s/it
+108
+Train TTS 136 7.170012 Grad Norm 4.781398 1.38s/it
+108
+Train VC 137 7.690010 Grad Norm 4.358427 1.42s/it
+108
+Train TTS 138 7.215234 Grad Norm 4.474280 1.46s/it
+108
+Train VC 139 7.849547 Grad Norm 3.745071 1.17s/it
+108
+Train TTS 140 7.326792 Grad Norm 4.297586 1.22s/it
+108
+Train VC 141 7.053524 Grad Norm 5.161193 1.11s/it
+108
+Train TTS 142 7.586022 Grad Norm 5.484737 1.44s/it
+108
+Train VC 143 7.278666 Grad Norm 6.701634 2.14s/it
+108
+Train TTS 144 7.540386 Grad Norm 3.024810 1.67s/it
+108
+Train VC 145 7.161844 Grad Norm 5.269926 1.81s/it
+108
+Train TTS 146 6.888484 Grad Norm 5.278745 1.65s/it
+108
+Train VC 147 6.984623 Grad Norm 4.471344 1.50s/it
+108
+Train TTS 148 7.078043 Grad Norm 3.666825 1.69s/it
+108
+Train VC 149 7.435763 Grad Norm 3.330533 1.51s/it
+108
+Train TTS 150 7.278974 Grad Norm 5.732930 1.15s/it
+108
+Train VC 151 6.905527 Grad Norm 4.275770 1.73s/it
+108
+Train TTS 152 6.892738 Grad Norm 4.100106 2.51s/it
+108
+Train VC 153 6.871702 Grad Norm 4.359407 2.26s/it
+108
+Train TTS 154 6.945020 Grad Norm 5.101150 1.48s/it
+108
+Train VC 155 6.837064 Grad Norm 6.204259 1.50s/it
+108
+Train TTS 156 6.796524 Grad Norm 8.486104 1.76s/it
+108
+Train VC 157 6.776915 Grad Norm 4.578860 1.81s/it
+108
+Train TTS 158 6.946005 Grad Norm 3.777796 1.11s/it
+108
+Train VC 159 6.972987 Grad Norm 5.621231 2.78s/it
+108
+Train TTS 160 6.834327 Grad Norm 8.436222 1.66s/it
+108
+Train VC 161 6.781530 Grad Norm 4.911737 2.10s/it
+108
+Train TTS 162 6.748257 Grad Norm 3.833025 1.39s/it
+108
+Train VC 163 6.661350 Grad Norm 3.035510 2.08s/it
+108
+Train TTS 164 6.469693 Grad Norm 4.103100 1.26s/it
+108
+Train VC 165 6.943670 Grad Norm 7.300299 2.05s/it
+108
+Train TTS 166 6.880451 Grad Norm 7.003147 1.67s/it
+108
+Train VC 167 6.990771 Grad Norm 4.109713 1.26s/it
+108
+Train TTS 168 6.753907 Grad Norm 3.984535 1.78s/it
+108
+Train VC 169 6.924623 Grad Norm 5.394585 2.10s/it
+108
+Train TTS 170 7.055507 Grad Norm 4.707039 1.84s/it
+108
+Train VC 171 6.549332 Grad Norm 4.522452 1.34s/it
+108
+Train TTS 172 6.860691 Grad Norm 3.483425 1.42s/it
+108
+Train VC 173 6.683230 Grad Norm 4.061955 1.33s/it
+108
+Train TTS 174 6.653388 Grad Norm 6.064587 1.44s/it
+108
+Train VC 175 6.392911 Grad Norm 3.656575 3.27s/it
+108
+Train TTS 176 6.659937 Grad Norm 4.902891 2.06s/it
+108
+Train VC 177 6.985692 Grad Norm 5.431573 1.47s/it
+108
+Train TTS 178 6.637114 Grad Norm 3.508202 1.71s/it
+108
+Train VC 179 6.489089 Grad Norm 5.862055 1.87s/it
+108
+Train TTS 180 6.621171 Grad Norm 5.458018 1.37s/it
+108
+Train VC 181 6.717129 Grad Norm 3.719381 1.80s/it
+108
+Train TTS 182 6.753618 Grad Norm 4.196691 1.83s/it
+108
+Train VC 183 6.578246 Grad Norm 3.811696 2.52s/it
+108
+Train TTS 184 6.860272 Grad Norm 5.108516 1.81s/it
+108
+Train VC 185 6.523377 Grad Norm 6.054367 1.68s/it
+108
+Train TTS 186 6.280133 Grad Norm 3.533678 1.45s/it
+108
+Train VC 187 6.596557 Grad Norm 6.015136 1.42s/it
+108
+Train TTS 188 6.621975 Grad Norm 5.905329 1.58s/it
+108
+Train VC 189 6.862123 Grad Norm 4.542272 1.16s/it
+108
+Train TTS 190 6.285314 Grad Norm 4.262321 2.22s/it
+108
+Train VC 191 6.539916 Grad Norm 5.183621 1.90s/it
+108
+Train TTS 192 6.199416 Grad Norm 5.966956 2.15s/it
+108
+Train VC 193 7.044558 Grad Norm 7.017780 1.55s/it
+108
+Train TTS 194 6.963404 Grad Norm 5.561033 1.39s/it
+108
+Train VC 195 6.530705 Grad Norm 6.758521 1.64s/it
+108
+Train TTS 196 6.413107 Grad Norm 4.764984 1.12s/it
+108
+Train VC 197 6.548547 Grad Norm 5.513015 1.88s/it
+108
+Train TTS 198 6.600712 Grad Norm 5.762169 1.68s/it
+108
+Train VC 199 6.587169 Grad Norm 5.493603 1.23s/it
+108
+Train TTS 200 6.533562 Grad Norm 8.028603 1.41s/it
+108
+Train VC 201 6.685155 Grad Norm 9.030768 1.81s/it
+108
+Train TTS 202 6.246336 Grad Norm 6.579461 1.49s/it
+108
+Train VC 203 6.614348 Grad Norm 4.836342 1.19s/it
+108
+Train TTS 204 6.342531 Grad Norm 4.458643 3.01s/it
+108
+Train VC 205 6.303317 Grad Norm 5.393070 2.13s/it
+108
+Train TTS 206 6.359401 Grad Norm 3.650563 1.41s/it
+108
+Train VC 207 6.443354 Grad Norm 5.491441 1.56s/it
+108
+Train TTS 208 6.295894 Grad Norm 5.310303 1.37s/it
+108
+Train VC 209 6.431973 Grad Norm 3.968172 1.32s/it
+108
+Train TTS 210 6.306138 Grad Norm 3.655585 1.63s/it
+108
+Train VC 211 5.939615 Grad Norm 3.272585 1.93s/it
+108
+Train TTS 212 6.498619 Grad Norm 8.567815 1.28s/it
+108
+Train VC 213 6.747820 Grad Norm 5.210531 1.85s/it
+108
+Train TTS 214 6.510470 Grad Norm 4.791306 1.66s/it
+108
+Train VC 215 6.127033 Grad Norm 3.862052 1.56s/it
+108
+Train TTS 216 6.168982 Grad Norm 3.692470 1.63s/it
+108
+Train VC 217 6.283973 Grad Norm 6.488871 1.62s/it
+108
+Train TTS 218 6.064686 Grad Norm 5.926095 1.37s/it
+108
+Train VC 219 6.425440 Grad Norm 6.928624 1.04s/it
+108
+Train TTS 220 6.566481 Grad Norm 6.900991 1.71s/it
+108
+Train VC 221 5.915327 Grad Norm 5.864488 1.83s/it
+108
+Train TTS 222 6.499636 Grad Norm 6.066021 1.90s/it
+108
+Train VC 223 5.866857 Grad Norm 3.966204 2.45s/it
+108
+Train TTS 224 6.182752 Grad Norm 7.291639 1.37s/it
+108
+Train VC 225 6.597615 Grad Norm 10.128174 1.25s/it
+108
+Train TTS 226 6.340442 Grad Norm 7.004213 2.52s/it
+108
+Train VC 227 5.985420 Grad Norm 4.433684 1.66s/it
+108
+Train TTS 228 5.853519 Grad Norm 4.146811 1.27s/it
+108
+Train VC 229 6.391152 Grad Norm 5.710399 1.99s/it
+108
+Train TTS 230 5.693114 Grad Norm 3.515009 1.27s/it
+108
+Train VC 231 5.928098 Grad Norm 3.866249 1.27s/it
+108
+Train TTS 232 5.980033 Grad Norm 6.020044 2.05s/it
+108
+Train VC 233 6.168304 Grad Norm 5.129462 2.08s/it
+108
+Train TTS 234 5.904748 Grad Norm 4.781758 1.42s/it
+108
+Train VC 235 6.051855 Grad Norm 4.789399 1.73s/it
+108
+Train TTS 236 6.004680 Grad Norm 7.224744 0.99s/it
+108
+Train VC 237 5.909920 Grad Norm 4.871338 1.53s/it
+108
+Train TTS 238 6.133904 Grad Norm 4.551101 1.30s/it
+108
+Train VC 239 5.938342 Grad Norm 6.601168 1.53s/it
+108
+Train TTS 240 5.910211 Grad Norm 6.059584 1.87s/it
+108
+Train VC 241 6.182201 Grad Norm 4.603591 1.58s/it
+108
+Train TTS 242 5.924391 Grad Norm 5.245603 1.58s/it
+108
+Train VC 243 5.923904 Grad Norm 4.249012 1.38s/it
+108
+Train TTS 244 6.035128 Grad Norm 4.587529 1.40s/it
+108
+Train VC 245 5.727977 Grad Norm 4.350725 2.89s/it
+108
+Train TTS 246 6.174020 Grad Norm 7.269698 1.49s/it
+108
+Train VC 247 5.831006 Grad Norm 3.979297 1.77s/it
+108
+Train TTS 248 5.874488 Grad Norm 4.671079 1.61s/it
+108
+Train VC 249 5.693068 Grad Norm 4.759699 2.01s/it
+108
+Train TTS 250 5.440460 Grad Norm 8.845843 2.73s/it
+108
+Train VC 251 5.564649 Grad Norm 3.295429 1.19s/it
+108
+Train TTS 252 6.067402 Grad Norm 6.214194 2.42s/it
+108
+Train VC 253 5.619270 Grad Norm 5.655304 2.21s/it
+108
+Train TTS 254 5.567543 Grad Norm 3.680089 1.28s/it
+108
+Train VC 255 5.654821 Grad Norm 4.955191 1.65s/it
+108
+Train TTS 256 6.119177 Grad Norm 6.793014 1.82s/it
+108
+Train VC 257 5.791600 Grad Norm 6.115960 1.51s/it
+108
+Train TTS 258 5.743807 Grad Norm 7.184178 1.44s/it
+108
+Train VC 259 5.689509 Grad Norm 7.113203 1.82s/it
+108
+Train TTS 260 5.846379 Grad Norm 6.409827 1.37s/it
+108
+Train VC 261 5.727545 Grad Norm 6.034390 1.73s/it
+108
+Train TTS 262 5.315516 Grad Norm 3.468565 2.21s/it
+108
+Train VC 263 5.717603 Grad Norm 6.789818 1.46s/it
+108
+Train TTS 264 5.837257 Grad Norm 5.638607 1.71s/it
+108
+Train VC 265 5.567779 Grad Norm 11.722574 1.47s/it
+108
+Train TTS 266 5.726287 Grad Norm 4.048522 1.68s/it
+108
+Train VC 267 5.727780 Grad Norm 3.850545 1.21s/it
+108
+Train TTS 268 5.575296 Grad Norm 4.803024 1.44s/it
+108
+Train VC 269 5.570460 Grad Norm 4.443196 1.40s/it
+108
+Train TTS 270 5.578340 Grad Norm 5.057753 1.75s/it
+108
+Train VC 271 5.207400 Grad Norm 5.436838 1.91s/it
+108
+Train TTS 272 5.498076 Grad Norm 5.397088 3.08s/it
+108
+Train VC 273 5.542257 Grad Norm 7.046414 1.90s/it
+108
+Train TTS 274 5.459476 Grad Norm 7.406835 2.25s/it
+108
+Train VC 275 5.646468 Grad Norm 7.526577 1.71s/it
+108
+Train TTS 276 5.601781 Grad Norm 3.957845 1.30s/it
+108
+Train VC 277 5.555612 Grad Norm 4.369288 1.41s/it
+108
+Train TTS 278 5.478214 Grad Norm 5.778141 1.30s/it
+108
+Train VC 279 5.495871 Grad Norm 5.436972 1.31s/it
+108
+Train TTS 280 5.469989 Grad Norm 6.520780 1.71s/it
+108
+Train VC 281 5.147576 Grad Norm 3.853264 2.49s/it
+108
+Train TTS 282 5.191344 Grad Norm 3.790792 1.35s/it
+108
+Train VC 283 5.434218 Grad Norm 5.662264 2.20s/it
+108
+Train TTS 284 5.530861 Grad Norm 6.805076 1.84s/it
+108
+Train VC 285 5.368169 Grad Norm 5.119516 1.65s/it
+108
+Train TTS 286 5.470623 Grad Norm 4.852077 1.18s/it
+108
+Train VC 287 5.703516 Grad Norm 5.687459 1.17s/it
+108
+Train TTS 288 5.447846 Grad Norm 6.367846 1.21s/it
+108
+Train VC 289 5.292489 Grad Norm 5.298180 1.44s/it
+108
+Train TTS 290 5.192891 Grad Norm 5.274440 2.68s/it
+108
+Train VC 291 5.436352 Grad Norm 5.853421 1.39s/it
+108
+Train TTS 292 5.190941 Grad Norm 6.020787 1.31s/it
+108
+Train VC 293 5.228131 Grad Norm 6.047935 2.28s/it
+108
+Train TTS 294 5.428939 Grad Norm 7.633930 1.46s/it
+108
+Train VC 295 5.256822 Grad Norm 5.786010 1.24s/it
+108
+Train TTS 296 5.098359 Grad Norm 6.872093 1.30s/it
+108
+Train VC 297 5.333362 Grad Norm 5.805526 1.51s/it
+108
+Train TTS 298 5.439425 Grad Norm 6.741292 1.70s/it
+108
+Train VC 299 5.349849 Grad Norm 6.241960 1.48s/it
+108
+Train TTS 300 5.312896 Grad Norm 5.077067 1.27s/it
+108
+Train VC 301 5.310305 Grad Norm 8.172954 1.40s/it
+108
+Train TTS 302 5.005422 Grad Norm 5.960369 1.47s/it
+108
+Train VC 303 5.230978 Grad Norm 4.150199 1.80s/it
+108
+Train TTS 304 5.231921 Grad Norm 3.996237 2.94s/it
+108
+Train VC 305 5.293360 Grad Norm 4.797170 1.74s/it
+108
+Train TTS 306 5.013536 Grad Norm 3.977324 2.05s/it
+108
+Train VC 307 5.178188 Grad Norm 3.964831 1.76s/it
+108
+Train TTS 308 5.248636 Grad Norm 6.985409 1.28s/it
+108
+Train VC 309 5.003704 Grad Norm 6.067429 1.80s/it
+108
+Train TTS 310 5.220590 Grad Norm 5.628770 2.09s/it
+108
+Train VC 311 4.987435 Grad Norm 4.508682 2.62s/it
+108
+Train TTS 312 5.297303 Grad Norm 6.116100 1.79s/it
+108
+Train VC 313 5.039625 Grad Norm 7.417040 1.98s/it
+108
+Train TTS 314 4.869052 Grad Norm 3.802108 1.60s/it
+108
+Train VC 315 4.821120 Grad Norm 4.049355 1.43s/it
+108
+Train TTS 316 4.678865 Grad Norm 6.304558 1.69s/it
+108
+Train VC 317 4.863577 Grad Norm 5.162064 1.70s/it
+108
+Train TTS 318 5.033499 Grad Norm 4.957155 1.67s/it
+108
+Train VC 319 5.083041 Grad Norm 4.453088 1.54s/it
+108
+Train TTS 320 5.124116 Grad Norm 4.593543 1.37s/it
+108
+Train VC 321 5.284880 Grad Norm 6.106231 1.32s/it
+108
+Train TTS 322 4.817889 Grad Norm 4.462426 1.83s/it
+108
+Train VC 323 5.049340 Grad Norm 7.242471 2.28s/it
+108
+Train TTS 324 4.972426 Grad Norm 5.529842 2.00s/it
+108
+Train VC 325 5.200980 Grad Norm 7.750526 1.44s/it
+108
+Train TTS 326 5.176307 Grad Norm 5.655040 1.69s/it
+108
+Train VC 327 4.740859 Grad Norm 3.898925 1.52s/it
+108
+Train TTS 328 4.788735 Grad Norm 5.067173 1.89s/it
+108
+Train VC 329 4.767877 Grad Norm 4.527834 1.33s/it
+108
+Train TTS 330 4.833576 Grad Norm 5.989320 1.79s/it
+108
+Train VC 331 4.889958 Grad Norm 7.804260 1.56s/it
+108
+Train TTS 332 4.816490 Grad Norm 6.894766 2.22s/it
+108
+Train VC 333 4.961865 Grad Norm 8.755047 1.97s/it
+108
+Train TTS 334 5.008796 Grad Norm 4.684968 2.03s/it
+108
+Train VC 335 4.550016 Grad Norm 6.801180 1.88s/it
+108
+Train TTS 336 4.764091 Grad Norm 3.994404 1.26s/it
+108
+Train VC 337 4.891076 Grad Norm 5.192549 1.44s/it
+108
+Train TTS 338 5.010077 Grad Norm 4.485321 1.85s/it
+108
+Train VC 339 4.688839 Grad Norm 6.132717 1.45s/it
+108
+Train TTS 340 4.799979 Grad Norm 10.156619 1.42s/it
+108
+Train VC 341 4.722242 Grad Norm 4.136227 1.35s/it
+108
+Train TTS 342 4.663785 Grad Norm 6.876431 2.35s/it
+108
+Train VC 343 4.807246 Grad Norm 4.433381 1.46s/it
+108
+Train TTS 344 4.685612 Grad Norm 4.690932 1.54s/it
+108
+Train VC 345 4.968863 Grad Norm 9.387410 1.23s/it
+108
+Train TTS 346 4.875593 Grad Norm 7.603309 2.84s/it
+108
+Train VC 347 4.722300 Grad Norm 5.622320 1.27s/it
+108
+Train TTS 348 4.573940 Grad Norm 5.765154 1.33s/it
+108
+Train VC 349 4.717437 Grad Norm 4.506490 1.38s/it
+108
+Train TTS 350 4.406256 Grad Norm 4.517581 1.47s/it
+108
+Train VC 351 4.757552 Grad Norm 4.592241 1.89s/it
+108
+Train TTS 352 4.460077 Grad Norm 4.161019 1.39s/it
+108
+Train VC 353 4.469219 Grad Norm 3.768108 2.15s/it
+108
+Train TTS 354 4.614652 Grad Norm 8.253668 1.47s/it
+108
+Train VC 355 4.647977 Grad Norm 4.735873 1.73s/it
+108
+Train TTS 356 4.609756 Grad Norm 6.565834 1.41s/it
+108
+Train VC 357 4.792748 Grad Norm 5.872083 1.77s/it
+108
+Train TTS 358 4.444954 Grad Norm 4.681228 1.83s/it
+108
+Train VC 359 4.521063 Grad Norm 5.976188 1.56s/it
+108
+Train TTS 360 4.636328 Grad Norm 11.132252 1.79s/it
+108
+Train VC 361 4.625732 Grad Norm 7.407452 1.48s/it
+108
+Train TTS 362 4.510911 Grad Norm 4.824452 2.24s/it
+108
+Train VC 363 4.585116 Grad Norm 5.138333 1.69s/it
+108
+Train TTS 364 4.747863 Grad Norm 5.337254 1.21s/it
+108
+Train VC 365 4.452891 Grad Norm 3.392366 1.76s/it
+108
+Train TTS 366 4.628692 Grad Norm 5.076231 2.43s/it
+108
+Train VC 367 4.793971 Grad Norm 6.804232 1.51s/it
+108
+Train TTS 368 4.733449 Grad Norm 5.655378 1.89s/it
+108
+Train VC 369 4.620943 Grad Norm 7.959052 1.82s/it
+108
+Train TTS 370 4.666524 Grad Norm 8.462019 1.63s/it
+108
+Train VC 371 4.466998 Grad Norm 6.892814 2.05s/it
+108
+Train TTS 372 4.407829 Grad Norm 4.174265 1.65s/it
+108
+Train VC 373 4.148116 Grad Norm 4.072112 1.79s/it
+108
+Train TTS 374 4.624154 Grad Norm 4.290981 1.92s/it
+108
+Train VC 375 4.331084 Grad Norm 5.882414 1.28s/it
+108
+Train TTS 376 4.516436 Grad Norm 4.648295 1.44s/it
+108
+Train VC 377 4.327124 Grad Norm 11.801196 1.34s/it
+108
+Train TTS 378 4.704352 Grad Norm 7.042535 1.16s/it
+108
+Train VC 379 4.313555 Grad Norm 9.307891 1.36s/it
+108
+Train TTS 380 4.510455 Grad Norm 9.249807 1.06s/it
+108
+Train VC 381 4.489689 Grad Norm 6.588843 2.18s/it
+108
+Train TTS 382 4.445471 Grad Norm 4.929969 1.72s/it
+108
+Train VC 383 4.428567 Grad Norm 4.907420 1.51s/it
+108
+Train TTS 384 4.155951 Grad Norm 8.498255 3.10s/it
+108
+Train VC 385 4.166523 Grad Norm 6.390363 2.03s/it
+108
+Train TTS 386 4.311496 Grad Norm 5.313006 1.27s/it
+108
+Train VC 387 4.187307 Grad Norm 5.169268 1.88s/it
+108
+Train TTS 388 4.551055 Grad Norm 4.747611 1.61s/it
+108
+Train VC 389 4.510183 Grad Norm 6.721338 1.25s/it
+108
+Train TTS 390 4.293181 Grad Norm 6.728963 1.96s/it
+108
+Train VC 391 4.537500 Grad Norm 4.532085 2.51s/it
+108
+Train TTS 392 4.570146 Grad Norm 5.885032 1.62s/it
+108
+Train VC 393 4.222570 Grad Norm 5.546723 1.52s/it
+108
+Train TTS 394 4.263773 Grad Norm 4.731430 2.18s/it
+108
+Train VC 395 4.409196 Grad Norm 4.442248 1.58s/it
+108
+Train TTS 396 4.291284 Grad Norm 9.245702 3.07s/it
+108
+Train VC 397 4.312621 Grad Norm 4.783709 1.29s/it
+108
+Train TTS 398 4.142949 Grad Norm 5.833329 1.67s/it
+108
+Train VC 399 4.330195 Grad Norm 4.417131 1.76s/it
+108
+Train TTS 400 4.350075 Grad Norm 6.053513 2.42s/it
+108
+Train VC 401 4.327624 Grad Norm 6.012557 1.29s/it
+108
+Train TTS 402 4.166960 Grad Norm 5.523298 1.52s/it
+108
+Train VC 403 4.615914 Grad Norm 6.362671 1.27s/it
+108
+Train TTS 404 4.103065 Grad Norm 5.667050 1.33s/it
+108
+Train VC 405 4.099930 Grad Norm 6.182685 1.93s/it
+108
+Train TTS 406 4.069379 Grad Norm 4.908620 1.26s/it
+108
+Train VC 407 4.064734 Grad Norm 7.046061 1.70s/it
+108
+Train TTS 408 4.362992 Grad Norm 9.150810 1.38s/it
+108
+Train VC 409 4.066182 Grad Norm 4.056694 1.58s/it
+108
+Train TTS 410 3.856431 Grad Norm 6.517311 2.42s/it
+108
+Train VC 411 3.937368 Grad Norm 4.852500 1.53s/it
+108
+Train TTS 412 3.847608 Grad Norm 5.652235 2.09s/it
+108
+Train VC 413 3.923539 Grad Norm 4.966517 1.65s/it
+108
+Train TTS 414 4.221522 Grad Norm 5.081213 1.43s/it
+108
+Train VC 415 4.199402 Grad Norm 7.706230 1.51s/it
+108
+Train TTS 416 3.789146 Grad Norm 21.531222 1.16s/it
+108
+Train VC 417 4.093438 Grad Norm 5.501628 1.86s/it
+108
+Train TTS 418 4.167459 Grad Norm 6.425092 1.91s/it
+108
+Train VC 419 4.036939 Grad Norm 6.384106 1.19s/it
+108
+Train TTS 420 4.093781 Grad Norm 5.923941 1.78s/it
+108
+Train VC 421 3.909562 Grad Norm 5.628878 1.23s/it
+108
+Train TTS 422 4.002499 Grad Norm 6.705828 2.27s/it
+108
+Train VC 423 3.722429 Grad Norm 5.844749 1.40s/it
+108
+Train TTS 424 3.700781 Grad Norm 9.609600 1.34s/it
+108
+Train VC 425 4.078019 Grad Norm 7.050245 1.69s/it
+108
+Train TTS 426 4.122068 Grad Norm 5.442532 1.73s/it
+108
+Train VC 427 3.832581 Grad Norm 5.092282 2.07s/it
+108
+Train TTS 428 3.782267 Grad Norm 4.756185 1.96s/it
+108
+Train VC 429 3.663454 Grad Norm 4.963789 1.84s/it
+108
+Train TTS 430 3.816971 Grad Norm 5.078726 1.91s/it
+108
+Train VC 431 3.508249 Grad Norm 3.110020 2.60s/it
+108
+Train TTS 432 4.029256 Grad Norm 6.897633 1.62s/it
+108
+Train VC 433 3.810798 Grad Norm 6.909968 1.28s/it
+108
+Train TTS 434 3.857852 Grad Norm 6.051052 1.25s/it
+108
+Train VC 435 3.815385 Grad Norm 5.915285 1.38s/it
+108
+Train TTS 436 3.739751 Grad Norm 5.788627 1.58s/it
+108
+Train VC 437 3.862829 Grad Norm 24.335559 1.22s/it
+108
+Train TTS 438 4.104703 Grad Norm 6.475729 1.58s/it
+108
+Train VC 439 3.747362 Grad Norm 4.310177 1.21s/it
+108
+Train TTS 440 3.678506 Grad Norm 5.555757 1.56s/it
+108
+Train VC 441 3.635400 Grad Norm 4.988161 2.64s/it
+108
+Train TTS 442 3.772326 Grad Norm 7.372812 1.28s/it
+108
+Train VC 443 4.025110 Grad Norm 8.592620 1.53s/it
+108
+Train TTS 444 3.796059 Grad Norm 6.178165 1.33s/it
+108
+Train VC 445 3.667864 Grad Norm 4.999764 1.45s/it
+108
+Train TTS 446 3.759055 Grad Norm 3.840562 1.40s/it
+108
+Train VC 447 3.731142 Grad Norm 5.005692 1.19s/it
+108
+Train TTS 448 3.865482 Grad Norm 4.882403 1.49s/it
+108
+Train VC 449 3.856554 Grad Norm 11.150571 1.24s/it
+108
+Train TTS 450 4.061894 Grad Norm 21.853412 1.28s/it
+108
+Train VC 451 3.853533 Grad Norm 23.046775 1.32s/it
+108
+Train TTS 452 3.655979 Grad Norm 5.298829 1.99s/it
+108
+Train VC 453 3.837263 Grad Norm 6.096491 2.09s/it
+108
+Train TTS 454 3.541212 Grad Norm 3.759659 1.63s/it
+108
+Train VC 455 3.403225 Grad Norm 4.757725 1.70s/it
+108
+Train TTS 456 3.839395 Grad Norm 5.664798 1.35s/it
+108
+Train VC 457 3.587087 Grad Norm 5.451226 1.74s/it
+108
+Train TTS 458 3.634756 Grad Norm 5.208017 1.50s/it
+108
+Train VC 459 3.638788 Grad Norm 4.167851 1.38s/it
+108
+Train TTS 460 3.665528 Grad Norm 6.649216 1.07s/it
+108
+Train VC 461 3.616077 Grad Norm 4.187653 1.40s/it
+108
+Train TTS 462 3.311591 Grad Norm 4.550420 1.89s/it
+108
+Train VC 463 3.547830 Grad Norm 5.389288 1.56s/it
+108
+Train TTS 464 3.652484 Grad Norm 4.629059 1.21s/it
+108
+Train VC 465 3.597674 Grad Norm 7.127301 1.54s/it
+108
+Train TTS 466 3.794061 Grad Norm 4.308428 1.58s/it
+108
+Train VC 467 3.741635 Grad Norm 4.826388 1.77s/it
+108
+Train TTS 468 3.538224 Grad Norm 5.502119 1.31s/it
+108
+Train VC 469 3.631038 Grad Norm 5.190403 2.17s/it
+108
+Train TTS 470 3.720783 Grad Norm 5.177287 1.61s/it
+108
+Train VC 471 3.652896 Grad Norm 4.542913 1.73s/it
+108
+Train TTS 472 3.319508 Grad Norm 5.959418 2.48s/it
+108
+Train VC 473 3.906723 Grad Norm 5.754503 1.35s/it
+108
+Train TTS 474 3.643385 Grad Norm 6.227737 1.61s/it
+108
+Train VC 475 3.899143 Grad Norm 6.583459 1.42s/it
+108
+Train TTS 476 3.598958 Grad Norm 4.532329 1.67s/it
+108
+Train VC 477 3.722014 Grad Norm 8.817435 1.78s/it
+108
+Train TTS 478 3.421793 Grad Norm 4.311519 1.51s/it
+108
+Train VC 479 3.489320 Grad Norm 7.865741 2.11s/it
+108
+Train TTS 480 3.545430 Grad Norm 4.366514 1.53s/it
+108
+Train VC 481 3.527361 Grad Norm 17.661179 1.24s/it
+108
+Train TTS 482 3.614273 Grad Norm 4.936699 1.71s/it
+108
+Train VC 483 3.486223 Grad Norm 6.367314 1.82s/it
+108
+Train TTS 484 3.611783 Grad Norm 5.592791 1.21s/it
+108
+Train VC 485 3.621391 Grad Norm 4.134987 1.37s/it
+108
+Train TTS 486 3.783781 Grad Norm 6.016349 1.45s/it
+108
+Train VC 487 3.436795 Grad Norm 20.046790 1.96s/it
+108
+Train TTS 488 4.011734 Grad Norm 6.834631 1.23s/it
+108
+Train VC 489 3.795720 Grad Norm 8.535862 1.72s/it
+108
+Train TTS 490 4.050079 Grad Norm 6.485679 1.54s/it
+108
+Train VC 491 3.662596 Grad Norm 6.323098 1.62s/it
+108
+Train TTS 492 3.463488 Grad Norm 6.041000 1.32s/it
+108
+Train VC 493 3.630814 Grad Norm 6.485979 1.80s/it
+108
+Train TTS 494 3.782590 Grad Norm 5.496797 1.06s/it
+108
+Train VC 495 3.649201 Grad Norm 3.856578 1.87s/it
+108
+Train TTS 496 3.820188 Grad Norm 8.156017 1.60s/it
+108
+Train VC 497 3.631505 Grad Norm 7.015312 1.50s/it
+108
+Train TTS 498 3.554699 Grad Norm 6.647762 1.49s/it
+108
+Train VC 499 3.535531 Grad Norm 6.055175 1.67s/it
+108
+Train TTS 500 3.678142 Grad Norm 5.872135 1.96s/it
+108
+Train VC 501 3.412585 Grad Norm 3.678752 1.52s/it
+108
+Train TTS 502 3.332873 Grad Norm 3.581207 2.34s/it
+108
+Train VC 503 3.382616 Grad Norm 4.273587 1.39s/it
+108
+Train TTS 504 3.830536 Grad Norm 7.847476 0.99s/it
+108
+Train VC 505 3.549934 Grad Norm 5.687838 1.62s/it
+108
+Train TTS 506 3.579459 Grad Norm 10.152841 2.22s/it
+108
+Train VC 507 3.494514 Grad Norm 4.818736 1.61s/it
+108
+Train TTS 508 3.864999 Grad Norm 4.748642 1.30s/it
+108
+Train VC 509 3.494444 Grad Norm 5.487667 1.57s/it
+108
+Train TTS 510 3.394692 Grad Norm 4.211975 1.20s/it
+108
+Train VC 511 3.602255 Grad Norm 4.999481 1.60s/it
+108
+Train TTS 512 3.872920 Grad Norm 6.289199 2.27s/it
+108
+Train VC 513 3.452930 Grad Norm 8.867670 1.95s/it
+108
+Train TTS 514 3.587293 Grad Norm 6.408651 1.65s/it
+108
+Train VC 515 3.565048 Grad Norm 7.066838 1.13s/it
+108
+Train TTS 516 3.660963 Grad Norm 4.983798 2.10s/it
+108
+Train VC 517 3.387013 Grad Norm 4.510923 1.96s/it
+108
+Train TTS 518 3.200330 Grad Norm 3.570769 1.58s/it
+108
+Train VC 519 3.548530 Grad Norm 4.822934 1.41s/it
+108
+Train TTS 520 3.736615 Grad Norm 7.305560 1.33s/it
+108
+Train VC 521 3.669494 Grad Norm 4.508015 1.09s/it
+108
+Train TTS 522 3.389007 Grad Norm 3.923280 1.23s/it
+108
+Train VC 523 3.401325 Grad Norm 5.714112 1.70s/it
+108
+Train TTS 524 3.189367 Grad Norm 3.331668 1.34s/it
+108
+Train VC 525 3.377833 Grad Norm 34.117414 1.19s/it
+108
+Train TTS 526 3.289168 Grad Norm 3.527695 1.53s/it
+108
+Train VC 527 3.405993 Grad Norm 5.932687 1.55s/it
+108
+Train TTS 528 3.138288 Grad Norm 7.956648 2.63s/it
+108
+Train VC 529 3.427125 Grad Norm 3.904278 1.69s/it
+108
+Train TTS 530 3.083343 Grad Norm 4.476320 1.29s/it
+108
+Train VC 531 3.087543 Grad Norm 7.997242 1.92s/it
+108
+Train TTS 532 3.121493 Grad Norm 4.540115 2.31s/it
+108
+Train VC 533 3.388802 Grad Norm 7.476061 1.25s/it
+108
+Train TTS 534 3.321310 Grad Norm 5.379637 1.11s/it
+108
+Train VC 535 3.334323 Grad Norm 5.881566 1.05s/it
+108
+Train TTS 536 3.260809 Grad Norm 5.185561 1.34s/it
+108
+Train VC 537 3.096112 Grad Norm 4.422683 1.54s/it
+108
+Train TTS 538 3.217379 Grad Norm 5.014335 2.07s/it
+108
+Train VC 539 3.303972 Grad Norm 3.635979 1.23s/it
+108
+Train TTS 540 3.245720 Grad Norm 4.538319 1.49s/it
+108
+Train VC 541 3.274495 Grad Norm 4.466741 1.55s/it
+108
+Train TTS 542 3.347545 Grad Norm 6.041964 1.34s/it
+108
+Train VC 543 3.104994 Grad Norm 6.391731 2.45s/it
+108
+Train TTS 544 3.335533 Grad Norm 6.752562 1.49s/it
+108
+Train VC 545 3.180296 Grad Norm 5.150841 1.79s/it
+108
+Train TTS 546 3.021173 Grad Norm 5.784566 1.56s/it
+108
+Train VC 547 3.500662 Grad Norm 5.761353 1.54s/it
+108
+Train TTS 548 3.225720 Grad Norm 5.973342 1.21s/it
+108
+Train VC 549 3.267709 Grad Norm 7.156973 2.38s/it
+108
+Train TTS 550 3.493315 Grad Norm 11.105648 1.98s/it
+108
+Train VC 551 3.324752 Grad Norm 6.036700 1.32s/it
+108
+Train TTS 552 3.320460 Grad Norm 6.930250 1.64s/it
+108
+Train VC 553 3.219256 Grad Norm 4.113858 1.45s/it
+108
+Train TTS 554 3.305094 Grad Norm 6.292913 2.73s/it
+108
+Train VC 555 3.239244 Grad Norm 4.726458 1.53s/it
+108
+Train TTS 556 2.970151 Grad Norm 10.765244 2.19s/it
+108
+Train VC 557 2.911481 Grad Norm 2.594264 1.69s/it
+108
+Train TTS 558 3.203967 Grad Norm 5.334972 1.34s/it
+108
+Train VC 559 3.057500 Grad Norm 6.269103 1.67s/it
+108
+Train TTS 560 3.079334 Grad Norm 4.695646 1.82s/it
+108
+Train VC 561 2.879220 Grad Norm 3.806741 2.36s/it
+108
+Train TTS 562 3.236618 Grad Norm 5.231539 2.02s/it
+108
+Train VC 563 3.192086 Grad Norm 4.424449 1.88s/it
+108
+Train TTS 564 2.829672 Grad Norm 7.274495 2.40s/it
+108
+Train VC 565 3.152277 Grad Norm 4.612351 1.42s/it
+108
+Train TTS 566 2.850102 Grad Norm 3.794525 2.01s/it
+108
+Train VC 567 3.157798 Grad Norm 5.397904 1.78s/it
+108
+Train TTS 568 3.099854 Grad Norm 5.635342 1.74s/it
+108
+Train VC 569 2.933165 Grad Norm 15.281617 2.69s/it
+108
+Train TTS 570 3.279969 Grad Norm 8.410286 1.71s/it
+108
+Train VC 571 3.491657 Grad Norm 8.121053 1.63s/it
+108
+Train TTS 572 3.291231 Grad Norm 6.537723 1.90s/it
+108
+Train VC 573 3.377656 Grad Norm 7.398854 2.44s/it
+108
+Train TTS 574 3.356450 Grad Norm 4.515046 1.30s/it
+108
+Train VC 575 3.454293 Grad Norm 6.701888 1.55s/it
+108
+Train TTS 576 3.216843 Grad Norm 6.598362 3.04s/it
+108
+Train VC 577 3.163894 Grad Norm 5.232483 1.45s/it
+108
+Train TTS 578 3.402782 Grad Norm 4.841894 1.30s/it
+108
+Train VC 579 3.302049 Grad Norm 4.297263 1.42s/it
+108
+Train TTS 580 3.242207 Grad Norm 10.918787 1.23s/it
+108
+Train VC 581 3.360453 Grad Norm 7.133879 1.94s/it
+108
+Train TTS 582 3.308956 Grad Norm 6.025481 1.38s/it
+108
+Train VC 583 3.026052 Grad Norm 4.246929 1.40s/it
+108
+Train TTS 584 3.272600 Grad Norm 7.964113 1.75s/it
+108
+Train VC 585 3.116000 Grad Norm 3.839245 1.42s/it
+108
+Train TTS 586 2.944741 Grad Norm 4.926638 2.49s/it
+108
+Train VC 587 3.356908 Grad Norm 4.677099 1.57s/it
+108
+Train TTS 588 3.268734 Grad Norm 4.193756 1.39s/it
+108
+Train VC 589 3.142728 Grad Norm 5.271638 1.48s/it
+108
+Train TTS 590 3.140266 Grad Norm 5.385993 1.54s/it
+108
+Train VC 591 3.142146 Grad Norm 4.981047 1.48s/it
+108
+Train TTS 592 2.685016 Grad Norm 5.214823 1.64s/it
+108
+Train VC 593 3.106227 Grad Norm 5.414084 1.66s/it
+108
+Train TTS 594 3.123947 Grad Norm 5.722825 2.03s/it
+108
+Train VC 595 3.189354 Grad Norm 5.509047 1.87s/it
+108
+Train TTS 596 2.955616 Grad Norm 3.734163 1.62s/it
+108
+Train VC 597 2.940502 Grad Norm 4.937543 1.74s/it
+108
+Train TTS 598 3.511434 Grad Norm 6.023074 1.27s/it
+108
+Train VC 599 3.314400 Grad Norm 6.643479 1.38s/it
+108
+Train TTS 600 3.217915 Grad Norm 8.293708 2.74s/it
+108
+Train VC 601 3.183257 Grad Norm 6.901763 1.44s/it
+108
+Train TTS 602 3.438289 Grad Norm 5.516329 1.08s/it
+108
+Train VC 603 2.973590 Grad Norm 4.524817 1.62s/it
+108
+Train TTS 604 2.815902 Grad Norm 3.988421 1.74s/it
+108
+Train VC 605 2.943464 Grad Norm 4.054404 2.10s/it
+108
+Train TTS 606 3.048388 Grad Norm 3.571366 1.47s/it
+108
+Train VC 607 3.145492 Grad Norm 6.162987 1.91s/it
+108
+Train TTS 608 3.105510 Grad Norm 4.616158 3.07s/it
+108
+Train VC 609 3.122489 Grad Norm 5.333078 1.26s/it
+108
+Train TTS 610 2.918149 Grad Norm 6.570092 1.33s/it
+108
+Train VC 611 3.182566 Grad Norm 8.922824 1.36s/it
+108
+Train TTS 612 2.990896 Grad Norm 5.383316 1.69s/it
+108
+Train VC 613 2.824671 Grad Norm 5.153381 1.77s/it
+108
+Train TTS 614 2.780930 Grad Norm 3.401203 1.45s/it
+108
+Train VC 615 3.164622 Grad Norm 4.935798 1.35s/it
+108
+Train TTS 616 3.050052 Grad Norm 5.548719 1.23s/it
+108
+Train VC 617 3.226588 Grad Norm 5.316765 1.21s/it
+108
+Train TTS 618 3.234969 Grad Norm 9.293595 1.70s/it
+108
+Train VC 619 3.061988 Grad Norm 5.291595 1.49s/it
+108
+Train TTS 620 3.257629 Grad Norm 7.998586 1.19s/it
+108
+Train VC 621 3.153742 Grad Norm 7.110660 1.11s/it
+108
+Train TTS 622 3.237087 Grad Norm 5.117993 1.26s/it
+108
+Train VC 623 3.010284 Grad Norm 2.993852 1.26s/it
+108
+Train TTS 624 3.089017 Grad Norm 6.177643 1.62s/it
+108
+Train VC 625 3.072275 Grad Norm 4.463224 1.84s/it
+108
+Train TTS 626 3.106977 Grad Norm 6.372966 1.14s/it
+108
+Train VC 627 2.908086 Grad Norm 4.847363 1.54s/it
+108
+Train TTS 628 3.127573 Grad Norm 4.827311 1.03s/it
+108
+Train VC 629 3.063924 Grad Norm 4.599819 1.09s/it
+108
+Train TTS 630 2.886754 Grad Norm 5.359640 1.39s/it
+108
+Train VC 631 3.076913 Grad Norm 4.660025 1.33s/it
+108
+Train TTS 632 2.885628 Grad Norm 4.911935 1.32s/it
+108
+Train VC 633 2.838971 Grad Norm 5.387401 2.13s/it
+108
+Train TTS 634 3.024011 Grad Norm 6.232230 1.08s/it
+108
+Train VC 635 2.880548 Grad Norm 5.246479 1.86s/it
+108
+Train TTS 636 2.883791 Grad Norm 21.974028 1.41s/it
+108
+Train VC 637 2.952076 Grad Norm 5.071501 1.61s/it
+108
+Train TTS 638 3.259311 Grad Norm 6.753883 1.30s/it
+108
+Train VC 639 2.999293 Grad Norm 5.025091 1.36s/it
+108
+Train TTS 640 3.053259 Grad Norm 6.134310 1.75s/it
+108
+Train VC 641 2.952471 Grad Norm 5.173162 1.56s/it
+108
+Train TTS 642 2.774819 Grad Norm 2.541366 1.23s/it
+108
+Train VC 643 3.154838 Grad Norm 24.517559 1.40s/it
+108
+Train TTS 644 3.108117 Grad Norm 4.786979 1.24s/it
+108
+Train VC 645 3.078038 Grad Norm 6.469851 1.56s/it
+108
+Train TTS 646 3.281147 Grad Norm 5.916642 1.52s/it
+108
+Train VC 647 3.215825 Grad Norm 5.629634 2.38s/it
+108
+Train TTS 648 3.042319 Grad Norm 4.646924 1.79s/it
+108
+Train VC 649 2.911119 Grad Norm 5.929363 1.45s/it
+108
+Train TTS 650 3.237808 Grad Norm 7.300622 1.57s/it
+108
+Train VC 651 2.960925 Grad Norm 4.863248 2.28s/it
+108
+Train TTS 652 3.218756 Grad Norm 6.168184 1.41s/it
+108
+Train VC 653 2.893801 Grad Norm 5.436602 2.12s/it
+108
+Train TTS 654 2.854307 Grad Norm 7.573315 1.62s/it
+108
+Train VC 655 2.982254 Grad Norm 4.245006 1.75s/it
+108
+Train TTS 656 2.782069 Grad Norm 7.818146 1.32s/it
+108
+Train VC 657 3.060245 Grad Norm 4.903207 1.57s/it
+108
+Train TTS 658 3.006856 Grad Norm 5.582454 2.03s/it
+108
+Train VC 659 3.430196 Grad Norm 5.742317 1.41s/it
+108
+Train TTS 660 3.250542 Grad Norm 6.651172 1.25s/it
+108
+Train VC 661 2.888415 Grad Norm 5.358435 1.61s/it
+108
+Train TTS 662 2.979831 Grad Norm 8.086685 1.20s/it
+108
+Train VC 663 2.905030 Grad Norm 4.483140 2.55s/it
+108
+Train TTS 664 2.903227 Grad Norm 5.260366 1.67s/it
+108
+Train VC 665 2.761292 Grad Norm 6.406222 1.33s/it
+108
+Train TTS 666 3.243864 Grad Norm 6.241815 1.04s/it
+108
+Train VC 667 2.694253 Grad Norm 3.649640 2.02s/it
+108
+Train TTS 668 2.868465 Grad Norm 6.591977 1.49s/it
+108
+Train VC 669 2.981591 Grad Norm 6.758768 1.46s/it
+108
+Train TTS 670 2.823110 Grad Norm 4.446181 2.23s/it
+108
+Train VC 671 3.088674 Grad Norm 4.369120 1.48s/it
+108
+Train TTS 672 2.909765 Grad Norm 4.535534 1.42s/it
+108
+Train VC 673 3.014748 Grad Norm 5.605642 1.55s/it
+108
+Train TTS 674 3.133566 Grad Norm 5.070429 2.12s/it
+108
+Train VC 675 2.812131 Grad Norm 3.464982 1.40s/it
+108
+Train TTS 676 3.073963 Grad Norm 5.790436 2.49s/it
+108
+Train VC 677 2.636834 Grad Norm 2.872237 1.64s/it
+108
+Train TTS 678 2.738444 Grad Norm 3.744894 1.60s/it
+108
+Train VC 679 3.329651 Grad Norm 4.626014 1.58s/it
+108
+Train TTS 680 2.798675 Grad Norm 6.250703 2.27s/it
+108
+Train VC 681 2.729920 Grad Norm 4.144549 1.40s/it
+108
+Train TTS 682 3.072098 Grad Norm 6.238820 1.64s/it
+108
+Train VC 683 2.747160 Grad Norm 3.059356 1.28s/it
+108
+Train TTS 684 2.813264 Grad Norm 2.922339 1.42s/it
+108
+Train VC 685 3.063889 Grad Norm 6.232686 1.85s/it
+108
+Train TTS 686 2.875558 Grad Norm 5.304109 1.44s/it
+108
+Train VC 687 3.014123 Grad Norm 5.812031 2.77s/it
+108
+Train TTS 688 2.714343 Grad Norm 4.272948 1.37s/it
+108
+Train VC 689 2.887363 Grad Norm 6.543021 1.52s/it
+108
+Train TTS 690 2.625854 Grad Norm 4.437586 1.65s/it
+108
+Train VC 691 3.025321 Grad Norm 5.089342 2.41s/it
+108
+Train TTS 692 2.721593 Grad Norm 3.396393 1.24s/it
+108
+Train VC 693 2.806143 Grad Norm 5.928150 1.79s/it
+108
+Train TTS 694 2.769025 Grad Norm 5.370196 1.35s/it
+108
+Train VC 695 2.461808 Grad Norm 6.693755 2.19s/it
+108
+Train TTS 696 2.665938 Grad Norm 6.927041 2.46s/it
+108
+Train VC 697 2.683698 Grad Norm 5.184811 2.70s/it
+108
+Train TTS 698 2.800760 Grad Norm 6.950321 1.39s/it
+108
+Train VC 699 2.720890 Grad Norm 6.299737 1.89s/it
+108
+Train TTS 700 2.901677 Grad Norm 4.399275 1.77s/it
+108
+Train VC 701 2.848019 Grad Norm 4.803467 1.32s/it
+108
+Train TTS 702 2.818781 Grad Norm 4.328997 1.61s/it
+108
+Train VC 703 3.116069 Grad Norm 5.471777 1.18s/it
+108
+Train TTS 704 2.928241 Grad Norm 3.122247 1.37s/it
+108
+Train VC 705 2.960840 Grad Norm 8.288638 1.55s/it
+108
+Train TTS 706 2.597180 Grad Norm 3.936792 1.74s/it
+108
+Train VC 707 2.623665 Grad Norm 3.827961 1.52s/it
+108
+Train TTS 708 2.626335 Grad Norm 4.803238 2.80s/it
+108
+Train VC 709 2.594482 Grad Norm 3.920106 1.86s/it
+108
+Train TTS 710 2.680230 Grad Norm 4.380254 1.52s/it
+108
+Train VC 711 2.754931 Grad Norm 7.369111 2.04s/it
+108
+Train TTS 712 2.741318 Grad Norm 4.814347 1.44s/it
+108
+Train VC 713 2.495480 Grad Norm 4.683163 3.16s/it
+108
+Train TTS 714 2.728894 Grad Norm 4.683528 1.29s/it
+108
+Train VC 715 2.730716 Grad Norm 3.895051 1.20s/it
+108
+Train TTS 716 2.844602 Grad Norm 5.872049 1.85s/it
+108
+Train VC 717 2.674657 Grad Norm 4.384561 1.65s/it
+108
+Train TTS 718 2.543632 Grad Norm 3.397508 1.43s/it
+108
+Train VC 719 2.640464 Grad Norm 11.450018 1.55s/it
+108
+Train TTS 720 2.589863 Grad Norm 5.397141 1.76s/it
+108
+Train VC 721 2.806761 Grad Norm 7.346525 1.59s/it
+108
+Train TTS 722 2.528603 Grad Norm 4.574730 2.57s/it
+108
+Train VC 723 2.513062 Grad Norm 4.118289 1.25s/it
+108
+Train TTS 724 2.343876 Grad Norm 6.951440 2.57s/it
+108
+Train VC 725 2.930581 Grad Norm 4.703863 1.22s/it
+108
+Train TTS 726 2.727338 Grad Norm 3.740049 1.45s/it
+108
+Train VC 727 2.850869 Grad Norm 5.267722 2.08s/it
+108
+Train TTS 728 2.366977 Grad Norm 10.443325 1.55s/it
+108
+Train VC 729 2.459692 Grad Norm 3.757870 2.03s/it
+108
+Train TTS 730 2.645411 Grad Norm 4.696786 1.62s/it
+108
+Train VC 731 2.773150 Grad Norm 5.411504 1.28s/it
+108
+Train TTS 732 2.797702 Grad Norm 5.912395 1.90s/it
+108
+Train VC 733 2.562235 Grad Norm 5.559704 1.13s/it
+108
+Train TTS 734 2.564435 Grad Norm 5.057764 1.36s/it
+108
+Train VC 735 2.885866 Grad Norm 31.143019 1.25s/it
+108
+Train TTS 736 2.765201 Grad Norm 4.533307 1.57s/it
+108
+Train VC 737 2.632553 Grad Norm 4.415213 2.12s/it
+108
+Train TTS 738 2.993924 Grad Norm 4.448292 1.55s/it
+108
+Train VC 739 2.797940 Grad Norm 5.817228 1.29s/it
+108
+Train TTS 740 2.527980 Grad Norm 3.748805 1.59s/it
+108
+Train VC 741 2.749481 Grad Norm 4.447917 1.51s/it
+108
+Train TTS 742 2.681926 Grad Norm 4.316909 1.76s/it
+108
+Train VC 743 3.067281 Grad Norm 6.297701 1.70s/it
+108
+Train TTS 744 2.663168 Grad Norm 3.517004 1.03s/it
+108
+Train VC 745 2.465305 Grad Norm 3.983611 1.61s/it
+108
+Train TTS 746 2.768841 Grad Norm 6.711121 1.66s/it
+108
+Train VC 747 2.563887 Grad Norm 7.487226 1.60s/it
+108
+Train TTS 748 2.777523 Grad Norm 6.255338 1.39s/it
+108
+Train VC 749 2.722139 Grad Norm 5.700077 1.62s/it
+108
+Train TTS 750 2.761558 Grad Norm 7.735856 2.79s/it
+108
+Train VC 751 2.746169 Grad Norm 4.496810 1.39s/it
+108
+Train TTS 752 2.783094 Grad Norm 5.580585 1.51s/it
+108
+Train VC 753 2.838501 Grad Norm 6.018487 1.79s/it
+108
+Train TTS 754 2.608801 Grad Norm 4.408192 1.95s/it
+108
+Train VC 755 2.983473 Grad Norm 10.066967 1.95s/it
+108
+Train TTS 756 2.733009 Grad Norm 5.812554 1.82s/it
+108
+Train VC 757 2.940164 Grad Norm 4.412690 1.37s/it
+108
+Train TTS 758 2.792164 Grad Norm 6.699306 1.13s/it
+108
+Train VC 759 2.351994 Grad Norm 4.385141 2.83s/it
+108
+Train TTS 760 2.586221 Grad Norm 4.114824 1.99s/it
+108
+Train VC 761 2.688967 Grad Norm 3.622314 1.39s/it
+108
+Train TTS 762 2.671041 Grad Norm 3.961331 1.29s/it
+108
+Train VC 763 3.051930 Grad Norm 4.446629 1.51s/it
+108
+Train TTS 764 2.914019 Grad Norm 9.618577 1.76s/it
+108
+Train VC 765 2.622634 Grad Norm 5.337782 1.42s/it
+108
+Train TTS 766 2.735253 Grad Norm 5.820250 1.42s/it
+108
+Train VC 767 2.663340 Grad Norm 6.204147 1.36s/it
+108
+Train TTS 768 2.926667 Grad Norm 7.604605 1.38s/it
+108
+Train VC 769 2.472312 Grad Norm 4.699462 2.32s/it
+108
+Train TTS 770 2.721058 Grad Norm 7.696909 1.32s/it
+108
+Train VC 771 2.548097 Grad Norm 5.550723 1.52s/it
+108
+Train TTS 772 2.474594 Grad Norm 3.204816 1.71s/it
+108
+Train VC 773 2.832542 Grad Norm 5.626488 1.15s/it
+108
+Train TTS 774 2.673565 Grad Norm 4.772587 1.98s/it
+108
+Train VC 775 2.670580 Grad Norm 12.737045 1.49s/it
+108
+Train TTS 776 2.766315 Grad Norm 4.510814 1.45s/it
+108
+Train VC 777 2.769536 Grad Norm 5.893372 1.80s/it
+108
+Train TTS 778 2.693792 Grad Norm 4.467757 1.97s/it
+108
+Train VC 779 2.647327 Grad Norm 4.613580 1.38s/it
+108
+Train TTS 780 2.946165 Grad Norm 5.453395 1.08s/it
+108
+Train VC 781 2.588705 Grad Norm 3.555534 2.15s/it
+108
+Train TTS 782 2.982061 Grad Norm 4.842833 1.77s/it
+108
+Train VC 783 2.506493 Grad Norm 3.406713 1.40s/it
+108
+Train TTS 784 2.799952 Grad Norm 4.456001 1.21s/it
+108
+Train VC 785 2.887404 Grad Norm 5.124925 1.10s/it
+108
+Train TTS 786 2.734873 Grad Norm 6.261338 1.44s/it
+108
+Train VC 787 2.437104 Grad Norm 6.036051 2.10s/it
+108
+Train TTS 788 2.689159 Grad Norm 4.658179 1.17s/it
+108
+Train VC 789 2.501242 Grad Norm 4.894227 1.28s/it
+108
+Train TTS 790 2.609651 Grad Norm 4.007141 1.08s/it
+108
+Train VC 791 2.903596 Grad Norm 7.460269 1.70s/it
+108
+Train TTS 792 2.504759 Grad Norm 5.174654 1.36s/it
+108
+Train VC 793 2.661299 Grad Norm 6.339581 1.56s/it
+108
+Train TTS 794 2.477830 Grad Norm 3.647341 1.17s/it
+108
+Train VC 795 2.385117 Grad Norm 2.936252 1.79s/it
+108
+Train TTS 796 2.553482 Grad Norm 3.437264 1.58s/it
+108
+Train VC 797 2.784357 Grad Norm 6.210202 1.40s/it
+108
+Train TTS 798 2.556426 Grad Norm 7.795659 1.54s/it
+108
+Train VC 799 2.510663 Grad Norm 3.675253 1.83s/it
+108
+Train TTS 800 2.655974 Grad Norm 5.076817 1.55s/it
+108
+Train VC 801 2.607358 Grad Norm 3.664458 1.45s/it
+108
+Train TTS 802 2.593464 Grad Norm 5.025159 1.32s/it
+108
+Train VC 803 2.357133 Grad Norm 2.772934 1.52s/it
+108
+Train TTS 804 2.694168 Grad Norm 5.545256 1.48s/it
+108
+Train VC 805 2.365033 Grad Norm 3.714137 1.67s/it
+108
+Train TTS 806 2.538130 Grad Norm 4.728895 1.48s/it
+108
+Train VC 807 2.279314 Grad Norm 7.127504 2.08s/it
+108
+Train TTS 808 2.347355 Grad Norm 4.731408 1.75s/it
+108
+Train VC 809 2.596113 Grad Norm 4.255650 1.41s/it
+108
+Train TTS 810 2.784922 Grad Norm 3.157579 1.59s/it
+108
+Train VC 811 2.424383 Grad Norm 5.049610 1.62s/it
+108
+Train TTS 812 2.630701 Grad Norm 4.770288 1.50s/it
+108
+Train VC 813 2.650043 Grad Norm 5.128891 1.14s/it
+108
+Train TTS 814 2.224089 Grad Norm 2.545226 2.09s/it
+108
+Train VC 815 2.459700 Grad Norm 4.201098 1.66s/it
+108
+Train TTS 816 2.543116 Grad Norm 6.316574 1.07s/it
+108
+Train VC 817 2.551490 Grad Norm 4.608317 1.10s/it
+108
+Train TTS 818 2.560913 Grad Norm 4.233017 1.73s/it
+108
+Train VC 819 2.515950 Grad Norm 5.367533 1.39s/it
+108
+Train TTS 820 2.508666 Grad Norm 4.802066 1.77s/it
+108
+Train VC 821 2.432425 Grad Norm 3.268914 1.69s/it
+108
+Train TTS 822 2.405633 Grad Norm 3.795477 3.06s/it
+108
+Train VC 823 2.493899 Grad Norm 4.262065 1.37s/it
+108
+Train TTS 824 2.531053 Grad Norm 5.480899 1.64s/it
+108
+Train VC 825 2.672555 Grad Norm 4.520419 1.31s/it
+108
+Train TTS 826 2.633027 Grad Norm 7.825789 1.98s/it
+108
+Train VC 827 2.351085 Grad Norm 4.304278 1.87s/it
+108
+Train TTS 828 2.339881 Grad Norm 6.182228 1.86s/it
+108
+Train VC 829 2.507527 Grad Norm 4.775368 1.63s/it
+108
+Train TTS 830 2.615205 Grad Norm 4.545438 1.06s/it
+108
+Train VC 831 2.573256 Grad Norm 5.483981 1.51s/it
+108
+Train TTS 832 2.571225 Grad Norm 3.521133 1.39s/it
+108
+Train VC 833 2.460046 Grad Norm 4.194286 1.78s/it
+108
+Train TTS 834 2.575923 Grad Norm 5.918121 1.36s/it
+108
+Train VC 835 2.634638 Grad Norm 8.654316 1.82s/it
+108
+Train TTS 836 2.439399 Grad Norm 3.685752 2.35s/it
+108
+Train VC 837 2.605994 Grad Norm 7.292856 1.33s/it
+108
+Train TTS 838 2.328196 Grad Norm 2.392013 1.66s/it
+108
+Train VC 839 2.544718 Grad Norm 4.867619 1.25s/it
+108
+Train TTS 840 2.306425 Grad Norm 7.418778 1.96s/it
+108
+Train VC 841 2.364536 Grad Norm 6.626424 1.28s/it
+108
+Train TTS 842 2.534475 Grad Norm 4.820206 2.15s/it
+108
+Train VC 843 2.412326 Grad Norm 4.945972 1.84s/it
+108
+Train TTS 844 2.449459 Grad Norm 3.965388 1.75s/it
+108
+Train VC 845 2.583460 Grad Norm 6.427160 1.27s/it
+108
+Train TTS 846 2.530620 Grad Norm 6.235774 1.35s/it
+108
+Train VC 847 2.338991 Grad Norm 4.468865 1.27s/it
+108
+Train TTS 848 2.677277 Grad Norm 11.903423 1.42s/it
+108
+Train VC 849 2.189867 Grad Norm 2.936464 1.73s/it
+108
+Train TTS 850 2.678889 Grad Norm 4.601944 1.62s/it
+108
+Train VC 851 2.337496 Grad Norm 8.598862 2.72s/it
+108
+Train TTS 852 2.540921 Grad Norm 9.175387 1.77s/it
+108
+Train VC 853 2.473290 Grad Norm 3.928300 1.08s/it
+108
+Train TTS 854 2.284852 Grad Norm 6.864232 2.01s/it
+108
+Train VC 855 2.207599 Grad Norm 3.599590 2.67s/it
+108
+Train TTS 856 2.225549 Grad Norm 3.499545 1.53s/it
+108
+Train VC 857 2.492000 Grad Norm 5.583782 1.93s/it
+108
+Train TTS 858 2.316066 Grad Norm 5.283599 1.80s/it
+108
+Train VC 859 2.590122 Grad Norm 5.200803 1.20s/it
+108
+Train TTS 860 2.338967 Grad Norm 4.677655 1.57s/it
+108
+Train VC 861 2.218954 Grad Norm 4.109336 1.23s/it
+108
+Train TTS 862 2.694758 Grad Norm 5.313597 1.24s/it
+108
+Train VC 863 2.313583 Grad Norm 3.967939 1.70s/it
+108
+Train TTS 864 2.343456 Grad Norm 5.731332 2.72s/it
+108
+Train VC 865 2.488906 Grad Norm 6.051839 1.25s/it
+108
+Train TTS 866 2.414262 Grad Norm 3.962435 1.53s/it
+108
+Train VC 867 2.446378 Grad Norm 3.498560 1.52s/it
+108
+Train TTS 868 2.581345 Grad Norm 3.310075 1.11s/it
+108
+Train VC 869 2.556757 Grad Norm 2.738274 1.77s/it
+108
+Train TTS 870 2.450028 Grad Norm 7.210312 1.97s/it
+108
+Train VC 871 2.471271 Grad Norm 4.129302 2.09s/it
+108
+Train TTS 872 2.747619 Grad Norm 4.936434 2.95s/it
+108
+Train VC 873 2.624131 Grad Norm 3.891212 1.22s/it
+108
+Train TTS 874 2.564493 Grad Norm 5.117709 1.51s/it
+108
+Train VC 875 2.507510 Grad Norm 6.600362 1.38s/it
+108
+Train TTS 876 2.748643 Grad Norm 4.962467 1.71s/it
+108
+Train VC 877 2.546293 Grad Norm 6.029269 2.26s/it
+108
+Train TTS 878 2.332596 Grad Norm 3.207506 1.75s/it
+108
+Train VC 879 2.708187 Grad Norm 6.800844 1.81s/it
+108
+Train TTS 880 2.503794 Grad Norm 8.413987 1.41s/it
+108
+Train VC 881 2.555351 Grad Norm 6.496707 1.60s/it
+108
+Train TTS 882 2.389356 Grad Norm 4.822568 2.01s/it
+108
+Train VC 883 2.404580 Grad Norm 2.506973 1.13s/it
+108
+Train TTS 884 2.414705 Grad Norm 7.328022 1.35s/it
+108
+Train VC 885 2.464766 Grad Norm 4.316720 2.08s/it
+108
+Train TTS 886 2.470554 Grad Norm 4.985088 1.47s/it
+108
+Train VC 887 2.327016 Grad Norm 4.312106 2.17s/it
+108
+Train TTS 888 2.514365 Grad Norm 4.988128 1.33s/it
+108
+Train VC 889 2.767028 Grad Norm 13.576105 1.26s/it
+108
+Train TTS 890 2.605971 Grad Norm 5.012770 1.52s/it
+108
+Train VC 891 2.549871 Grad Norm 4.635307 1.53s/it
+108
+Train TTS 892 2.479947 Grad Norm 4.579475 2.67s/it
+108
+Train VC 893 2.783434 Grad Norm 8.414004 1.23s/it
+108
+Train TTS 894 2.324637 Grad Norm 4.269769 1.78s/it
+108
+Train VC 895 2.721942 Grad Norm 5.995972 1.41s/it
+108
+Train TTS 896 2.822503 Grad Norm 4.530880 1.39s/it
+108
+Train VC 897 2.578013 Grad Norm 4.549677 1.26s/it
+108
+Train TTS 898 2.415934 Grad Norm 3.699613 1.58s/it
+108
+Train VC 899 2.531005 Grad Norm 4.328886 1.56s/it
+108
+Train TTS 900 2.419503 Grad Norm 6.506125 1.73s/it
+108
+Train VC 901 2.645582 Grad Norm 4.417974 1.45s/it
+108
+Train TTS 902 2.538153 Grad Norm 4.922198 2.10s/it
+108
+Train VC 903 2.510381 Grad Norm 4.413002 1.29s/it
+108
+Train TTS 904 2.285288 Grad Norm 6.424081 1.75s/it
+108
+Train VC 905 2.800809 Grad Norm 6.432945 1.42s/it
+108
+Train TTS 906 2.766299 Grad Norm 5.626541 1.90s/it
+108
+Train VC 907 2.847315 Grad Norm 3.364595 1.09s/it
+108
+Train TTS 908 2.679916 Grad Norm 3.070780 2.43s/it
+108
+Train VC 909 2.960245 Grad Norm 3.907413 1.03s/it
+108
+Train TTS 910 2.799288 Grad Norm 4.249942 1.19s/it
+108
+Train VC 911 2.670811 Grad Norm 3.329374 1.95s/it
+108
+Train TTS 912 2.645237 Grad Norm 2.875197 1.47s/it
+108
+Train VC 913 2.542998 Grad Norm 3.752103 1.63s/it
+108
+Train TTS 914 2.579119 Grad Norm 3.667938 1.23s/it
+108
+Train VC 915 2.434021 Grad Norm 6.884120 1.84s/it
+108
+Train TTS 916 2.538022 Grad Norm 2.861611 1.28s/it
+108
+Train VC 917 2.369585 Grad Norm 2.041944 2.44s/it
+108
+Train TTS 918 2.593629 Grad Norm 3.087494 1.32s/it
+108
+Train VC 919 2.326722 Grad Norm 3.917027 2.23s/it
+108
+Train TTS 920 2.471410 Grad Norm 4.230764 2.12s/it
+108
+Train VC 921 2.405035 Grad Norm 3.335244 1.75s/it
+108
+Train TTS 922 2.372260 Grad Norm 5.271647 1.48s/it
+108
+Train VC 923 2.512507 Grad Norm 6.225349 1.93s/it
+108
+Train TTS 924 2.608839 Grad Norm 3.625943 1.41s/it
+108
+Train VC 925 2.405085 Grad Norm 6.822428 1.69s/it
+108
+Train TTS 926 2.487144 Grad Norm 3.868688 1.48s/it
+108
+Train VC 927 2.197366 Grad Norm 3.422894 1.92s/it
+108
+Train TTS 928 2.436903 Grad Norm 7.203948 2.32s/it
+108
+Train VC 929 2.709291 Grad Norm 5.793290 1.15s/it
+108
+Train TTS 930 2.456347 Grad Norm 3.432041 1.48s/it
+108
+Train VC 931 2.361314 Grad Norm 4.387196 1.92s/it
+108
+Train TTS 932 2.603922 Grad Norm 3.921817 1.51s/it
+108
+Train VC 933 2.531303 Grad Norm 6.373213 1.46s/it
+108
+Train TTS 934 2.505481 Grad Norm 4.057862 1.24s/it
+108
+Train VC 935 2.420369 Grad Norm 3.503820 1.45s/it
+108
+Train TTS 936 2.612624 Grad Norm 6.095383 1.37s/it
+108
+Train VC 937 2.575755 Grad Norm 5.458973 1.12s/it
+108
+Train TTS 938 2.321148 Grad Norm 2.471177 1.12s/it
+108
+Train VC 939 2.408637 Grad Norm 5.939495 1.43s/it
+108
+Train TTS 940 2.435952 Grad Norm 4.519709 1.67s/it
+108
+Train VC 941 2.228633 Grad Norm 3.754458 1.85s/it
+108
+Train TTS 942 2.514709 Grad Norm 5.019123 1.22s/it
+108
+Train VC 943 2.282990 Grad Norm 4.164631 1.46s/it
+108
+Train TTS 944 2.332322 Grad Norm 3.637825 0.96s/it
+108
+Train VC 945 2.458261 Grad Norm 3.231525 1.55s/it
+108
+Train TTS 946 2.180970 Grad Norm 2.371303 1.48s/it
+108
+Train VC 947 2.679496 Grad Norm 6.946597 1.27s/it
+108
+Train TTS 948 2.202572 Grad Norm 2.635006 1.57s/it
+108
+Train VC 949 2.264917 Grad Norm 3.895090 1.48s/it
+108
+Train TTS 950 2.569726 Grad Norm 5.529837 1.52s/it
+108
+Train VC 951 2.523409 Grad Norm 8.670685 1.03s/it
+108
+Train TTS 952 2.372036 Grad Norm 2.941063 1.26s/it
+108
+Train VC 953 2.257016 Grad Norm 3.603508 1.68s/it
+108
+Train TTS 954 2.493866 Grad Norm 3.093458 1.80s/it
+108
+Train VC 955 2.413953 Grad Norm 7.242963 1.43s/it
+108
+Train TTS 956 2.456855 Grad Norm 4.762289 1.86s/it
+108
+Train VC 957 2.661283 Grad Norm 3.877545 1.46s/it
+108
+Train TTS 958 2.446159 Grad Norm 6.250916 1.26s/it
+108
+Train VC 959 2.220918 Grad Norm 2.106702 1.35s/it
+108
+Train TTS 960 2.049839 Grad Norm 3.070610 1.77s/it
+108
+Train VC 961 2.684516 Grad Norm 4.337484 1.08s/it
+108
+Train TTS 962 2.469767 Grad Norm 4.863180 2.09s/it
+108
+Train VC 963 2.301031 Grad Norm 2.118369 1.43s/it
+108
+Train TTS 964 2.163805 Grad Norm 1.824323 1.49s/it
+108
+Train VC 965 2.235023 Grad Norm 4.589090 1.13s/it
+108
+Train TTS 966 2.155021 Grad Norm 2.173568 1.23s/it
+108
+Train VC 967 2.497415 Grad Norm 4.119924 1.13s/it
+108
+Train TTS 968 2.506642 Grad Norm 5.858649 1.24s/it
+108
+Train VC 969 2.142277 Grad Norm 1.604854 1.58s/it
+108
+Train TTS 970 2.074894 Grad Norm 3.603689 2.71s/it
+108
+Train VC 971 2.207866 Grad Norm 2.653641 1.83s/it
+108
+Train TTS 972 2.208787 Grad Norm 2.976645 1.13s/it
+108
+Train VC 973 2.395856 Grad Norm 5.537926 1.26s/it
+108
+Train TTS 974 2.394056 Grad Norm 2.803622 1.20s/it
+108
+Train VC 975 2.230994 Grad Norm 2.471480 1.33s/it
+108
+Train TTS 976 2.260659 Grad Norm 2.358945 1.52s/it
+108
+Train VC 977 2.227366 Grad Norm 4.670597 1.61s/it
+108
+Train TTS 978 2.108158 Grad Norm 4.916970 1.29s/it
+108
+Train VC 979 2.688062 Grad Norm 6.187117 1.56s/it
+108
+Train TTS 980 2.350487 Grad Norm 4.025018 1.08s/it
+108
+Train VC 981 2.325034 Grad Norm 3.131744 3.04s/it
+108
+Train TTS 982 2.102304 Grad Norm 3.048399 1.64s/it
+108
+Train VC 983 2.195169 Grad Norm 2.441114 1.71s/it
+108
+Train TTS 984 2.277179 Grad Norm 3.114709 1.85s/it
+108
+Train VC 985 2.363733 Grad Norm 12.292307 1.61s/it
+108
+Train TTS 986 2.130898 Grad Norm 3.433631 1.80s/it
+108
+Train VC 987 2.143405 Grad Norm 4.447170 1.81s/it
+108
+Train TTS 988 2.143073 Grad Norm 3.898517 3.00s/it
+108
+Train VC 989 2.134083 Grad Norm 4.359491 1.40s/it
+108
+Train TTS 990 2.246801 Grad Norm 4.127652 1.52s/it
+108
+Train VC 991 2.434062 Grad Norm 4.620935 1.62s/it
+108
+Train TTS 992 2.278020 Grad Norm 4.667668 1.42s/it
+108
+Train VC 993 2.486167 Grad Norm 5.748351 1.45s/it
+108
+Train TTS 994 2.230659 Grad Norm 4.339165 1.26s/it
+108
+Train VC 995 2.487128 Grad Norm 5.134359 1.83s/it
+108
+Train TTS 996 2.334338 Grad Norm 4.526585 1.77s/it
+108
+Train VC 997 2.525741 Grad Norm 4.265719 1.51s/it
+108
+Train TTS 998 2.272757 Grad Norm 30.497411 1.42s/it
+108
+Train VC 999 2.298789 Grad Norm 3.268241 1.39s/it
+108
+Train TTS 1000 2.602676 Grad Norm 5.156274 1.13s/it
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1332: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1332: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/pre-train/model/loss.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  padded = torch.tensor(text_target.data.new(B,1).zero_())
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1332: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1332: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/pre-train/model/loss.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  padded = torch.tensor(text_target.data.new(B,1).zero_())
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+Validation loss 1000: TTS  2.208116  VC  2.227773
+Saving model and optimizer state at iteration 1000 to outdir/checkpoint_1000
+108
+Train VC 1001 2.437297 Grad Norm 3.544781 3.06s/it
+108
+Train TTS 1002 2.207743 Grad Norm 2.543657 1.64s/it
+108
+Train VC 1003 2.431670 Grad Norm 5.517009 1.38s/it
+108
+Train TTS 1004 2.323576 Grad Norm 3.682785 1.34s/it
+108
+Train VC 1005 2.275657 Grad Norm 3.659380 1.29s/it
+108
+Train TTS 1006 2.230213 Grad Norm 3.856939 1.96s/it
+108
+Train VC 1007 2.239488 Grad Norm 3.203673 1.73s/it
+108
+Train TTS 1008 2.417574 Grad Norm 4.257246 1.41s/it
+108
+Train VC 1009 2.188808 Grad Norm 4.652410 1.38s/it
+108
+Train TTS 1010 2.283814 Grad Norm 5.015048 1.14s/it
+108
+Train VC 1011 2.493578 Grad Norm 3.948146 1.27s/it
+108
+Train TTS 1012 2.351976 Grad Norm 4.695661 1.98s/it
+108
+Train VC 1013 2.385737 Grad Norm 3.119106 1.34s/it
+108
+Train TTS 1014 2.265784 Grad Norm 3.224837 1.51s/it
+108
+Train VC 1015 2.262541 Grad Norm 3.493810 1.47s/it
+108
+Train TTS 1016 2.236625 Grad Norm 3.206707 1.46s/it
+108
+Train VC 1017 2.456156 Grad Norm 5.423044 1.21s/it
+108
+Train TTS 1018 2.099805 Grad Norm 4.603050 1.65s/it
+108
+Train VC 1019 2.263953 Grad Norm 5.817299 1.39s/it
+108
+Train TTS 1020 2.179342 Grad Norm 3.781725 2.68s/it
+108
+Train VC 1021 2.113216 Grad Norm 2.557004 1.38s/it
+108
+Train TTS 1022 2.032690 Grad Norm 3.260983 1.81s/it
+108
+Train VC 1023 2.561547 Grad Norm 6.847747 1.04s/it
+108
+Train TTS 1024 2.256715 Grad Norm 3.531851 2.23s/it
+108
+Train VC 1025 2.220169 Grad Norm 4.824022 1.30s/it
+108
+Train TTS 1026 2.215493 Grad Norm 5.277274 1.57s/it
+108
+Train VC 1027 2.037586 Grad Norm 3.046342 1.40s/it
+108
+Train TTS 1028 2.285547 Grad Norm 3.604443 1.99s/it
+108
+Train VC 1029 2.315187 Grad Norm 2.614825 1.97s/it
+108
+Train TTS 1030 2.167201 Grad Norm 4.051482 2.21s/it
+108
+Train VC 1031 2.207911 Grad Norm 2.225505 1.68s/it
+108
+Train TTS 1032 2.211315 Grad Norm 58.737030 1.69s/it
+108
+Train VC 1033 2.253742 Grad Norm 4.635158 1.68s/it
+108
+Train TTS 1034 2.083647 Grad Norm 4.473475 2.85s/it
+108
+Train VC 1035 2.213910 Grad Norm 3.405626 1.34s/it
+108
+Train TTS 1036 2.175762 Grad Norm 4.678101 2.07s/it
+108
+Train VC 1037 2.173420 Grad Norm 3.002657 1.73s/it
+108
+Train TTS 1038 2.174607 Grad Norm 3.939961 1.79s/it
+108
+Train VC 1039 2.200037 Grad Norm 5.561564 1.66s/it
+108
+Train TTS 1040 2.184303 Grad Norm 3.772064 1.20s/it
+108
+Train VC 1041 2.159140 Grad Norm 3.765304 1.31s/it
+108
+Train TTS 1042 2.308491 Grad Norm 2.934335 1.47s/it
+108
+Train VC 1043 2.198477 Grad Norm 1.853023 1.11s/it
+108
+Train TTS 1044 2.147042 Grad Norm 3.977167 1.96s/it
+108
+Train VC 1045 2.353703 Grad Norm 8.427776 1.40s/it
+108
+Train TTS 1046 2.217151 Grad Norm 2.756550 2.21s/it
+108
+Train VC 1047 2.392556 Grad Norm 3.642771 1.30s/it
+108
+Train TTS 1048 2.273419 Grad Norm 4.872197 1.38s/it
+108
+Train VC 1049 2.161175 Grad Norm 2.001981 1.31s/it
+108
+Train TTS 1050 2.307027 Grad Norm 6.877175 1.22s/it
+108
+Train VC 1051 2.103125 Grad Norm 4.740326 1.67s/it
+108
+Train TTS 1052 2.207901 Grad Norm 4.804512 1.92s/it
+108
+Train VC 1053 2.139338 Grad Norm 2.838447 1.38s/it
+108
+Train TTS 1054 2.102393 Grad Norm 4.568187 1.19s/it
+108
+Train VC 1055 2.270293 Grad Norm 3.572087 1.15s/it
+108
+Train TTS 1056 2.280912 Grad Norm 5.976584 1.48s/it
+108
+Train VC 1057 2.289465 Grad Norm 7.666310 1.37s/it
+108
+Train TTS 1058 2.353794 Grad Norm 5.327491 1.94s/it
+108
+Train VC 1059 1.981655 Grad Norm 3.166186 1.98s/it
+108
+Train TTS 1060 2.094804 Grad Norm 2.571046 2.03s/it
+108
+Train VC 1061 2.128141 Grad Norm 3.195255 1.59s/it
+108
+Train TTS 1062 2.207398 Grad Norm 2.175479 1.49s/it
+108
+Train VC 1063 2.188403 Grad Norm 3.954816 1.92s/it
+108
+Train TTS 1064 2.176106 Grad Norm 3.759402 1.49s/it
+108
+Train VC 1065 2.205326 Grad Norm 4.964360 1.56s/it
+108
+Train TTS 1066 2.265478 Grad Norm 3.620423 1.54s/it
+108
+Train VC 1067 2.329493 Grad Norm 4.420226 1.81s/it
+108
+Train TTS 1068 2.390347 Grad Norm 4.943612 1.78s/it
+108
+Train VC 1069 2.195858 Grad Norm 4.367327 1.24s/it
+108
+Train TTS 1070 2.325647 Grad Norm 3.422952 1.09s/it
+108
+Train VC 1071 2.346181 Grad Norm 2.926409 1.15s/it
+108
+Train TTS 1072 2.115269 Grad Norm 3.445086 2.40s/it
+108
+Train VC 1073 2.273889 Grad Norm 2.750007 1.62s/it
+108
+Train TTS 1074 2.358848 Grad Norm 8.497497 1.98s/it
+108
+Train VC 1075 2.307512 Grad Norm 4.329199 1.75s/it
+108
+Train TTS 1076 2.256157 Grad Norm 3.415577 1.46s/it
+108
+Train VC 1077 2.356439 Grad Norm 5.103716 1.31s/it
+108
+Train TTS 1078 2.116733 Grad Norm 3.295630 1.41s/it
+108
+Train VC 1079 2.098259 Grad Norm 3.092576 1.73s/it
+108
+Train TTS 1080 2.159689 Grad Norm 3.276426 1.26s/it
+108
+Train VC 1081 2.024942 Grad Norm 3.038062 1.93s/it
+108
+Train TTS 1082 2.304503 Grad Norm 4.038369 1.65s/it
+108
+Train VC 1083 2.012677 Grad Norm 3.682168 2.12s/it
+108
+Train TTS 1084 2.199868 Grad Norm 4.876430 1.58s/it
+108
+Train VC 1085 2.051498 Grad Norm 8.863249 2.36s/it
+108
+Train TTS 1086 2.089596 Grad Norm 2.942496 1.54s/it
+108
+Train VC 1087 1.922612 Grad Norm 2.468236 1.95s/it
+108
+Train TTS 1088 2.065618 Grad Norm 3.028659 2.40s/it
+108
+Train VC 1089 2.284763 Grad Norm 3.304117 1.08s/it
+108
+Train TTS 1090 1.998498 Grad Norm 3.677294 2.54s/it
+108
+Train VC 1091 2.165704 Grad Norm 5.398201 2.32s/it
+108
+Train TTS 1092 1.857951 Grad Norm 2.488282 1.95s/it
+108
+Train VC 1093 2.165045 Grad Norm 5.252936 1.90s/it
+Epoch: 1
+108
+Train TTS 1094 1.884229 Grad Norm 4.749969 1.91s/it
+108
+Train VC 1095 2.023597 Grad Norm 5.866369 2.00s/it
+108
+Train TTS 1096 2.088250 Grad Norm 2.592456 2.06s/it
+108
+Train VC 1097 2.072043 Grad Norm 4.216211 1.72s/it
+108
+Train TTS 1098 1.899773 Grad Norm 3.062205 2.12s/it
+108
+Train VC 1099 2.090917 Grad Norm 4.353846 1.21s/it
+108
+Train TTS 1100 2.077073 Grad Norm 5.184533 1.85s/it
+108
+Train VC 1101 1.925292 Grad Norm 2.101468 1.89s/it
+108
+Train TTS 1102 2.093962 Grad Norm 6.296165 1.38s/it
+108
+Train VC 1103 2.224689 Grad Norm 3.895028 1.27s/it
+108
+Train TTS 1104 2.132157 Grad Norm 2.175621 1.11s/it
+108
+Train VC 1105 2.409723 Grad Norm 14.080181 1.62s/it
+108
+Train TTS 1106 2.061911 Grad Norm 3.601122 1.98s/it
+108
+Train VC 1107 2.038887 Grad Norm 3.864643 1.68s/it
+108
+Train TTS 1108 2.139027 Grad Norm 4.272263 1.79s/it
+108
+Train VC 1109 2.051854 Grad Norm 4.467475 1.25s/it
+108
+Train TTS 1110 2.393146 Grad Norm 4.206611 1.22s/it
+108
+Train VC 1111 1.947648 Grad Norm 2.782049 1.62s/it
+108
+Train TTS 1112 2.169959 Grad Norm 4.914598 1.36s/it
+108
+Train VC 1113 1.957753 Grad Norm 2.331330 1.69s/it
+108
+Train TTS 1114 2.121308 Grad Norm 14.917347 1.27s/it
+108
+Train VC 1115 2.045291 Grad Norm 3.620356 1.99s/it
+108
+Train TTS 1116 2.176624 Grad Norm 4.725295 1.31s/it
+108
+Train VC 1117 2.282975 Grad Norm 4.335074 1.60s/it
+108
+Train TTS 1118 2.068011 Grad Norm 3.064210 1.71s/it
+108
+Train VC 1119 2.464882 Grad Norm 4.716936 1.19s/it
+108
+Train TTS 1120 1.934518 Grad Norm 2.194648 1.71s/it
+108
+Train VC 1121 2.016192 Grad Norm 3.114679 1.58s/it
+108
+Train TTS 1122 2.218968 Grad Norm 2.534037 1.37s/it
+108
+Train VC 1123 2.184579 Grad Norm 8.747391 1.37s/it
+108
+Train TTS 1124 2.154091 Grad Norm 3.336401 1.32s/it
+108
+Train VC 1125 1.917476 Grad Norm 4.853688 1.88s/it
+108
+Train TTS 1126 2.007385 Grad Norm 6.491702 2.23s/it
+108
+Train VC 1127 2.264028 Grad Norm 4.487257 1.24s/it
+108
+Train TTS 1128 2.098027 Grad Norm 2.307882 1.30s/it
+108
+Train VC 1129 2.085483 Grad Norm 5.204784 1.12s/it
+108
+Train TTS 1130 2.036341 Grad Norm 2.962584 1.64s/it
+108
+Train VC 1131 2.341120 Grad Norm 9.537216 1.17s/it
+108
+Train TTS 1132 2.046183 Grad Norm 5.694522 1.19s/it
+108
+Train VC 1133 1.927087 Grad Norm 3.012783 1.72s/it
+108
+Train TTS 1134 1.979850 Grad Norm 7.135550 2.65s/it
+108
+Train VC 1135 2.049906 Grad Norm 4.257696 2.65s/it
+108
+Train TTS 1136 2.018321 Grad Norm 3.183831 1.40s/it
+108
+Train VC 1137 1.962729 Grad Norm 3.537693 1.72s/it
+108
+Train TTS 1138 2.183823 Grad Norm 4.220965 1.73s/it
+108
+Train VC 1139 2.181000 Grad Norm 2.877074 1.23s/it
+108
+Train TTS 1140 2.079159 Grad Norm 4.967143 1.60s/it
+108
+Train VC 1141 1.944507 Grad Norm 2.913736 1.19s/it
+108
+Train TTS 1142 2.164612 Grad Norm 3.043710 1.30s/it
+108
+Train VC 1143 2.001465 Grad Norm 3.652944 1.45s/it
+108
+Train TTS 1144 2.095259 Grad Norm 3.097437 1.57s/it
+108
+Train VC 1145 1.852054 Grad Norm 2.706171 1.83s/it
+108
+Train TTS 1146 2.244049 Grad Norm 6.780291 1.38s/it
+108
+Train VC 1147 2.222373 Grad Norm 5.029330 1.14s/it
+108
+Train TTS 1148 2.166028 Grad Norm 4.376607 1.58s/it
+108
+Train VC 1149 2.036160 Grad Norm 3.017574 1.80s/it
+108
+Train TTS 1150 2.067715 Grad Norm 2.633299 1.49s/it
+108
+Train VC 1151 2.168957 Grad Norm 11.128774 2.08s/it
+108
+Train TTS 1152 2.094059 Grad Norm 7.645449 1.26s/it
+108
+Train VC 1153 1.896027 Grad Norm 3.873142 2.29s/it
+108
+Train TTS 1154 1.988735 Grad Norm 3.566101 2.65s/it
+108
+Train VC 1155 2.297592 Grad Norm 5.068183 1.39s/it
+108
+Train TTS 1156 2.249957 Grad Norm 5.118205 1.39s/it
+108
+Train VC 1157 2.086807 Grad Norm 2.745936 1.16s/it
+108
+Train TTS 1158 1.956636 Grad Norm 4.144322 1.43s/it
+108
+Train VC 1159 2.125127 Grad Norm 4.561127 1.28s/it
+108
+Train TTS 1160 2.197563 Grad Norm 3.705369 1.79s/it
+108
+Train VC 1161 1.909569 Grad Norm 2.485069 1.36s/it
+108
+Train TTS 1162 2.130639 Grad Norm 6.394305 2.18s/it
+108
+Train VC 1163 2.139305 Grad Norm 3.449466 1.06s/it
+108
+Train TTS 1164 1.967300 Grad Norm 1.752907 1.08s/it
+108
+Train VC 1165 1.976341 Grad Norm 4.198449 1.38s/it
+108
+Train TTS 1166 2.041309 Grad Norm 5.619332 1.37s/it
+108
+Train VC 1167 1.868106 Grad Norm 3.227383 3.15s/it
+108
+Train TTS 1168 1.997745 Grad Norm 8.725292 1.43s/it
+108
+Train VC 1169 2.114997 Grad Norm 2.580801 1.54s/it
+108
+Train TTS 1170 1.993371 Grad Norm 3.532867 2.24s/it
+108
+Train VC 1171 2.209828 Grad Norm 4.174881 1.56s/it
+108
+Train TTS 1172 1.899304 Grad Norm 2.089718 1.23s/it
+108
+Train VC 1173 2.279666 Grad Norm 4.625337 1.35s/it
+108
+Train TTS 1174 2.100427 Grad Norm 4.207934 1.54s/it
+108
+Train VC 1175 2.015323 Grad Norm 2.263475 1.80s/it
+108
+Train TTS 1176 1.925043 Grad Norm 2.762971 1.81s/it
+108
+Train VC 1177 2.211214 Grad Norm 4.759419 1.54s/it
+108
+Train TTS 1178 2.052847 Grad Norm 4.516067 1.42s/it
+108
+Train VC 1179 2.095299 Grad Norm 3.534310 1.20s/it
+108
+Train TTS 1180 2.120551 Grad Norm 2.543691 1.14s/it
+108
+Train VC 1181 2.099808 Grad Norm 2.960140 1.67s/it
+108
+Train TTS 1182 2.108412 Grad Norm 2.217757 1.36s/it
+108
+Train VC 1183 1.927237 Grad Norm 1.545940 1.38s/it
+108
+Train TTS 1184 2.063410 Grad Norm 4.781019 1.22s/it
+108
+Train VC 1185 2.145291 Grad Norm 5.601647 1.10s/it
+108
+Train TTS 1186 2.029056 Grad Norm 3.321112 2.24s/it
+108
+Train VC 1187 1.929117 Grad Norm 1.758352 1.34s/it
+108
+Train TTS 1188 1.878253 Grad Norm 2.288011 1.70s/it
+108
+Train VC 1189 2.349651 Grad Norm 6.520683 1.67s/it
+108
+Train TTS 1190 1.915034 Grad Norm 2.982808 1.83s/it
+108
+Train VC 1191 1.970973 Grad Norm 2.775206 1.68s/it
+108
+Train TTS 1192 2.054738 Grad Norm 3.817328 1.55s/it
+108
+Train VC 1193 2.016328 Grad Norm 3.695709 1.56s/it
+108
+Train TTS 1194 2.009280 Grad Norm 3.245449 1.20s/it
+108
+Train VC 1195 1.810081 Grad Norm 2.742433 1.75s/it
+108
+Train TTS 1196 2.019755 Grad Norm 2.824019 1.20s/it
+108
+Train VC 1197 2.041661 Grad Norm 2.960598 1.20s/it
+108
+Train TTS 1198 2.069303 Grad Norm 2.328657 1.22s/it
+108
+Train VC 1199 2.069959 Grad Norm 5.549251 2.85s/it
+108
+Train TTS 1200 2.027528 Grad Norm 7.299359 1.58s/it
+108
+Train VC 1201 1.974773 Grad Norm 1.782310 1.49s/it
+108
+Train TTS 1202 1.951962 Grad Norm 3.889356 1.41s/it
+108
+Train VC 1203 1.930895 Grad Norm 3.267801 2.08s/it
+108
+Train TTS 1204 2.205390 Grad Norm 4.661036 1.57s/it
+108
+Train VC 1205 1.902307 Grad Norm 1.617756 1.12s/it
+108
+Train TTS 1206 2.183027 Grad Norm 3.609392 1.64s/it
+108
+Train VC 1207 2.018642 Grad Norm 3.719703 1.66s/it
+108
+Train TTS 1208 2.129902 Grad Norm 2.710908 1.20s/it
+108
+Train VC 1209 2.122926 Grad Norm 3.052886 1.22s/it
+108
+Train TTS 1210 2.123541 Grad Norm 3.440132 1.46s/it
+108
+Train VC 1211 2.031941 Grad Norm 2.960234 1.47s/it
+108
+Train TTS 1212 1.937489 Grad Norm 4.417261 2.46s/it
+108
+Train VC 1213 2.043517 Grad Norm 4.945721 1.56s/it
+108
+Train TTS 1214 2.067659 Grad Norm 3.259390 1.50s/it
+108
+Train VC 1215 1.910521 Grad Norm 3.207753 1.59s/it
+108
+Train TTS 1216 1.943015 Grad Norm 3.480535 1.26s/it
+108
+Train VC 1217 1.797573 Grad Norm 2.405841 1.96s/it
+108
+Train TTS 1218 2.092014 Grad Norm 2.968869 1.91s/it
+108
+Train VC 1219 1.974156 Grad Norm 4.460991 1.79s/it
+108
+Train TTS 1220 1.886169 Grad Norm 2.984224 1.88s/it
+108
+Train VC 1221 1.995809 Grad Norm 3.034226 1.36s/it
+108
+Train TTS 1222 1.950289 Grad Norm 2.697400 1.77s/it
+108
+Train VC 1223 1.913038 Grad Norm 1.991014 1.47s/it
+108
+Train TTS 1224 1.950340 Grad Norm 4.213036 2.06s/it
+108
+Train VC 1225 2.043971 Grad Norm 4.061180 1.84s/it
+108
+Train TTS 1226 2.134856 Grad Norm 6.767143 1.18s/it
+108
+Train VC 1227 2.258279 Grad Norm 5.752734 1.28s/it
+108
+Train TTS 1228 1.850926 Grad Norm 5.748106 1.60s/it
+108
+Train VC 1229 1.906619 Grad Norm 3.675997 1.72s/it
+108
+Train TTS 1230 1.923753 Grad Norm 13.423281 2.11s/it
+108
+Train VC 1231 1.967461 Grad Norm 3.362559 1.53s/it
+108
+Train TTS 1232 2.119350 Grad Norm 3.063686 1.53s/it
+108
+Train VC 1233 2.077181 Grad Norm 4.349491 1.82s/it
+108
+Train TTS 1234 2.267889 Grad Norm 6.489357 1.51s/it
+108
+Train VC 1235 1.980122 Grad Norm 3.202363 1.33s/it
+108
+Train TTS 1236 2.087763 Grad Norm 5.566214 1.69s/it
+108
+Train VC 1237 1.891493 Grad Norm 2.393274 1.72s/it
+108
+Train TTS 1238 1.936530 Grad Norm 3.134752 2.43s/it
+108
+Train VC 1239 1.753869 Grad Norm 1.541805 1.70s/it
+108
+Train TTS 1240 2.115185 Grad Norm 4.789943 2.33s/it
+108
+Train VC 1241 2.006866 Grad Norm 5.107365 1.36s/it
+108
+Train TTS 1242 2.149063 Grad Norm 6.027121 2.03s/it
+108
+Train VC 1243 1.965790 Grad Norm 4.226877 1.79s/it
+108
+Train TTS 1244 1.948950 Grad Norm 2.145755 2.31s/it
+108
+Train VC 1245 1.937605 Grad Norm 2.591921 1.43s/it
+108
+Train TTS 1246 2.207956 Grad Norm 5.835683 1.83s/it
+108
+Train VC 1247 2.178824 Grad Norm 3.495147 1.35s/it
+108
+Train TTS 1248 2.226429 Grad Norm 9.158937 1.40s/it
+108
+Train VC 1249 2.017772 Grad Norm 5.702151 1.37s/it
+108
+Train TTS 1250 1.887174 Grad Norm 4.479799 2.40s/it
+108
+Train VC 1251 2.053488 Grad Norm 8.269267 1.94s/it
+108
+Train TTS 1252 2.076431 Grad Norm 4.087475 1.12s/it
+108
+Train VC 1253 2.009240 Grad Norm 3.086416 1.66s/it
+108
+Train TTS 1254 2.184551 Grad Norm 5.489238 1.42s/it
+108
+Train VC 1255 2.541966 Grad Norm 7.511888 1.01s/it
+108
+Train TTS 1256 2.004648 Grad Norm 3.599017 1.68s/it
+108
+Train VC 1257 2.073703 Grad Norm 4.891952 1.47s/it
+108
+Train TTS 1258 1.996841 Grad Norm 3.176569 1.70s/it
+108
+Train VC 1259 2.162837 Grad Norm 5.628752 1.31s/it
+108
+Train TTS 1260 1.956731 Grad Norm 2.714329 2.01s/it
+108
+Train VC 1261 2.040505 Grad Norm 4.472085 1.68s/it
+108
+Train TTS 1262 2.455817 Grad Norm 6.189506 1.13s/it
+108
+Train VC 1263 2.118795 Grad Norm 5.572252 1.37s/it
+108
+Train TTS 1264 1.988486 Grad Norm 2.526989 1.23s/it
+108
+Train VC 1265 2.056963 Grad Norm 3.295917 1.37s/it
+108
+Train TTS 1266 2.058051 Grad Norm 4.826943 1.47s/it
+108
+Train VC 1267 2.042428 Grad Norm 4.518182 1.34s/it
+108
+Train TTS 1268 2.161515 Grad Norm 5.096864 1.40s/it
+108
+Train VC 1269 1.858662 Grad Norm 2.401192 1.92s/it
+108
+Train TTS 1270 2.109789 Grad Norm 3.756534 2.31s/it
+108
+Train VC 1271 1.879024 Grad Norm 3.881528 2.74s/it
+108
+Train TTS 1272 1.860404 Grad Norm 2.983874 1.96s/it
+108
+Train VC 1273 2.074168 Grad Norm 5.815779 1.57s/it
+108
+Train TTS 1274 1.885792 Grad Norm 2.732677 1.33s/it
+108
+Train VC 1275 1.935167 Grad Norm 5.055032 2.35s/it
+108
+Train TTS 1276 1.992176 Grad Norm 2.036211 1.13s/it
+108
+Train VC 1277 1.965942 Grad Norm 6.042629 1.70s/it
+108
+Train TTS 1278 1.914616 Grad Norm 1.883705 1.48s/it
+108
+Train VC 1279 2.363879 Grad Norm 7.359851 1.38s/it
+108
+Train TTS 1280 1.872216 Grad Norm 2.712532 1.34s/it
+108
+Train VC 1281 1.947427 Grad Norm 3.247639 1.74s/it
+108
+Train TTS 1282 2.006950 Grad Norm 2.888754 1.41s/it
+108
+Train VC 1283 1.922815 Grad Norm 4.448985 1.78s/it
+108
+Train TTS 1284 2.062836 Grad Norm 2.162661 1.23s/it
+108
+Train VC 1285 1.876060 Grad Norm 1.894863 1.34s/it
+108
+Train TTS 1286 1.963819 Grad Norm 2.802896 1.43s/it
+108
+Train VC 1287 2.100492 Grad Norm 4.501718 1.27s/it
+108
+Train TTS 1288 1.997125 Grad Norm 2.966434 1.31s/it
+108
+Train VC 1289 2.060690 Grad Norm 3.677766 1.39s/it
+108
+Train TTS 1290 2.001263 Grad Norm 3.574887 1.38s/it
+108
+Train VC 1291 2.224165 Grad Norm 3.539661 1.67s/it
+108
+Train TTS 1292 1.847736 Grad Norm 2.145192 2.70s/it
+108
+Train VC 1293 2.115473 Grad Norm 1.829060 1.26s/it
+108
+Train TTS 1294 1.943197 Grad Norm 4.216661 1.22s/it
+108
+Train VC 1295 1.944883 Grad Norm 3.003100 1.43s/it
+108
+Train TTS 1296 1.852662 Grad Norm 2.117618 1.40s/it
+108
+Train VC 1297 1.921833 Grad Norm 2.465765 1.87s/it
+108
+Train TTS 1298 1.989094 Grad Norm 6.391645 2.14s/it
+108
+Train VC 1299 1.944336 Grad Norm 3.870056 1.49s/it
+108
+Train TTS 1300 2.107696 Grad Norm 4.323770 1.19s/it
+108
+Train VC 1301 1.932346 Grad Norm 1.770387 2.00s/it
+108
+Train TTS 1302 1.847720 Grad Norm 4.344529 1.90s/it
+108
+Train VC 1303 1.911268 Grad Norm 1.869499 1.15s/it
+108
+Train TTS 1304 1.974473 Grad Norm 3.173475 1.10s/it
+108
+Train VC 1305 1.832570 Grad Norm 4.397036 1.21s/it
+108
+Train TTS 1306 1.874837 Grad Norm 4.499716 1.60s/it
+108
+Train VC 1307 1.942511 Grad Norm 3.901502 1.72s/it
+108
+Train TTS 1308 1.839494 Grad Norm 2.623521 1.75s/it
+108
+Train VC 1309 2.357970 Grad Norm 7.344711 1.56s/it
+108
+Train TTS 1310 2.067715 Grad Norm 4.558427 1.51s/it
+108
+Train VC 1311 1.926045 Grad Norm 7.628126 1.67s/it
+108
+Train TTS 1312 1.906942 Grad Norm 4.027004 1.39s/it
+108
+Train VC 1313 2.030967 Grad Norm 3.090893 1.28s/it
+108
+Train TTS 1314 1.960911 Grad Norm 3.675613 1.85s/it
+108
+Train VC 1315 1.855117 Grad Norm 5.624559 2.42s/it
+108
+Train TTS 1316 2.190676 Grad Norm 3.067889 1.58s/it
+108
+Train VC 1317 2.409060 Grad Norm 6.010262 1.24s/it
+108
+Train TTS 1318 2.105234 Grad Norm 4.425429 1.77s/it
+108
+Train VC 1319 2.026713 Grad Norm 4.084066 1.62s/it
+108
+Train TTS 1320 1.916483 Grad Norm 3.619827 1.76s/it
+108
+Train VC 1321 1.882870 Grad Norm 3.054556 1.47s/it
+108
+Train TTS 1322 1.900853 Grad Norm 3.290160 1.23s/it
+108
+Train VC 1323 1.976665 Grad Norm 4.390177 1.71s/it
+108
+Train TTS 1324 1.841361 Grad Norm 2.581952 2.89s/it
+108
+Train VC 1325 2.108820 Grad Norm 4.644089 1.71s/it
+108
+Train TTS 1326 1.895192 Grad Norm 2.012456 1.51s/it
+108
+Train VC 1327 1.754203 Grad Norm 3.139778 1.80s/it
+108
+Train TTS 1328 2.054815 Grad Norm 2.954919 1.38s/it
+108
+Train VC 1329 1.864689 Grad Norm 1.436411 1.84s/it
+108
+Train TTS 1330 1.923601 Grad Norm 3.939381 2.06s/it
+108
+Train VC 1331 2.002621 Grad Norm 3.696024 1.49s/it
+108
+Train TTS 1332 1.973132 Grad Norm 3.256467 1.45s/it
+108
+Train VC 1333 2.295487 Grad Norm 4.249986 1.49s/it
+108
+Train TTS 1334 1.955678 Grad Norm 3.286843 1.40s/it
+108
+Train VC 1335 1.774644 Grad Norm 3.130935 1.69s/it
+108
+Train TTS 1336 1.921602 Grad Norm 1.513859 1.09s/it
+108
+Train VC 1337 2.196750 Grad Norm 3.804358 1.03s/it
+108
+Train TTS 1338 2.088231 Grad Norm 4.406303 1.15s/it
+108
+Train VC 1339 1.832977 Grad Norm 3.356110 1.94s/it
+108
+Train TTS 1340 1.830010 Grad Norm 2.115273 2.28s/it
+108
+Train VC 1341 1.892337 Grad Norm 3.684245 2.17s/it
+108
+Train TTS 1342 2.054300 Grad Norm 4.381285 1.60s/it
+108
+Train VC 1343 1.911503 Grad Norm 2.771637 1.18s/it
+108
+Train TTS 1344 1.870170 Grad Norm 3.009511 1.52s/it
+108
+Train VC 1345 2.159348 Grad Norm 6.293542 1.81s/it
+108
+Train TTS 1346 2.096293 Grad Norm 5.130469 1.17s/it
+108
+Train VC 1347 2.016565 Grad Norm 10.464027 1.68s/it
+108
+Train TTS 1348 2.222005 Grad Norm 5.248085 1.63s/it
+108
+Train VC 1349 1.967127 Grad Norm 3.404579 1.54s/it
+108
+Train TTS 1350 1.913301 Grad Norm 2.792348 1.52s/it
+108
+Train VC 1351 1.746601 Grad Norm 3.918274 2.48s/it
+108
+Train TTS 1352 1.939859 Grad Norm 2.786385 1.81s/it
+108
+Train VC 1353 2.127676 Grad Norm 5.891170 1.57s/it
+108
+Train TTS 1354 1.782260 Grad Norm 2.761396 1.64s/it
+108
+Train VC 1355 2.174747 Grad Norm 3.433338 1.22s/it
+108
+Train TTS 1356 1.820552 Grad Norm 1.783137 1.64s/it
+108
+Train VC 1357 1.886477 Grad Norm 4.751669 2.23s/it
+108
+Train TTS 1358 1.695180 Grad Norm 4.979256 2.61s/it
+108
+Train VC 1359 2.017851 Grad Norm 3.637111 1.97s/it
+108
+Train TTS 1360 2.008202 Grad Norm 4.567722 1.26s/it
+108
+Train VC 1361 1.835687 Grad Norm 3.128981 1.93s/it
+108
+Train TTS 1362 1.706058 Grad Norm 1.654629 2.29s/it
+108
+Train VC 1363 1.852838 Grad Norm 2.757103 1.80s/it
+108
+Train TTS 1364 2.015930 Grad Norm 1.416157 1.20s/it
+108
+Train VC 1365 1.978468 Grad Norm 2.909430 1.81s/it
+108
+Train TTS 1366 1.881180 Grad Norm 5.873243 1.39s/it
+108
+Train VC 1367 2.164360 Grad Norm 2.873659 1.41s/it
+108
+Train TTS 1368 1.841637 Grad Norm 4.680313 2.15s/it
+108
+Train VC 1369 1.913308 Grad Norm 2.769595 1.22s/it
+108
+Train TTS 1370 1.948693 Grad Norm 4.357471 1.51s/it
+108
+Train VC 1371 1.860001 Grad Norm 3.636868 1.38s/it
+108
+Train TTS 1372 2.126618 Grad Norm 5.227955 1.23s/it
+108
+Train VC 1373 1.911216 Grad Norm 2.920526 1.65s/it
+108
+Train TTS 1374 1.687674 Grad Norm 1.972179 1.68s/it
+108
+Train VC 1375 1.947440 Grad Norm 2.136967 1.37s/it
+108
+Train TTS 1376 1.878628 Grad Norm 3.161006 1.07s/it
+108
+Train VC 1377 2.183907 Grad Norm 4.326312 1.16s/it
+108
+Train TTS 1378 1.895094 Grad Norm 6.087832 1.31s/it
+108
+Train VC 1379 2.046753 Grad Norm 3.599077 1.95s/it
+108
+Train TTS 1380 1.908883 Grad Norm 3.088186 1.34s/it
+108
+Train VC 1381 2.064615 Grad Norm 4.990079 1.35s/it
+108
+Train TTS 1382 1.821077 Grad Norm 3.332548 1.26s/it
+108
+Train VC 1383 1.702312 Grad Norm 2.265431 1.76s/it
+108
+Train TTS 1384 1.969312 Grad Norm 2.809980 1.26s/it
+108
+Train VC 1385 1.872317 Grad Norm 3.486915 1.52s/it
+108
+Train TTS 1386 1.966446 Grad Norm 2.683181 1.18s/it
+108
+Train VC 1387 1.702152 Grad Norm 1.265576 1.70s/it
+108
+Train TTS 1388 1.862674 Grad Norm 3.271255 1.24s/it
+108
+Train VC 1389 1.932598 Grad Norm 5.476738 1.17s/it
+108
+Train TTS 1390 1.827560 Grad Norm 2.821776 1.15s/it
+108
+Train VC 1391 2.003282 Grad Norm 5.093943 1.54s/it
+108
+Train TTS 1392 1.936801 Grad Norm 2.072482 1.51s/it
+108
+Train VC 1393 1.879538 Grad Norm 2.019025 1.24s/it
+108
+Train TTS 1394 1.928721 Grad Norm 3.558901 1.36s/it
+108
+Train VC 1395 2.038365 Grad Norm 7.384301 2.30s/it
+108
+Train TTS 1396 1.920472 Grad Norm 4.359736 1.74s/it
+108
+Train VC 1397 1.967629 Grad Norm 4.823019 1.59s/it
+108
+Train TTS 1398 2.002623 Grad Norm 5.619635 1.52s/it
+108
+Train VC 1399 2.052696 Grad Norm 3.225473 1.00s/it
+108
+Train TTS 1400 1.839553 Grad Norm 2.941241 1.71s/it
+108
+Train VC 1401 1.929926 Grad Norm 3.868705 1.04s/it
+108
+Train TTS 1402 1.843606 Grad Norm 2.738445 1.12s/it
+108
+Train VC 1403 1.921150 Grad Norm 4.297666 1.74s/it
+108
+Train TTS 1404 2.122556 Grad Norm 3.609087 1.30s/it
+108
+Train VC 1405 1.842252 Grad Norm 2.116398 1.69s/it
+108
+Train TTS 1406 1.797497 Grad Norm 2.576767 1.20s/it
+108
+Train VC 1407 1.978862 Grad Norm 2.585293 1.54s/it
+108
+Train TTS 1408 1.856801 Grad Norm 10.081992 1.46s/it
+108
+Train VC 1409 1.990227 Grad Norm 3.721361 1.48s/it
+108
+Train TTS 1410 1.932915 Grad Norm 5.895959 1.12s/it
+108
+Train VC 1411 1.755346 Grad Norm 3.163724 1.73s/it
+108
+Train TTS 1412 1.880543 Grad Norm 2.353276 1.61s/it
+108
+Train VC 1413 1.972720 Grad Norm 5.070931 1.22s/it
+108
+Train TTS 1414 1.837152 Grad Norm 4.325750 1.58s/it
+108
+Train VC 1415 1.868540 Grad Norm 3.632171 2.66s/it
+108
+Train TTS 1416 1.909629 Grad Norm 3.081310 1.54s/it
+108
+Train VC 1417 1.688658 Grad Norm 6.402949 2.75s/it
+108
+Train TTS 1418 1.834093 Grad Norm 3.221204 1.96s/it
+108
+Train VC 1419 1.851812 Grad Norm 15.228361 1.64s/it
+108
+Train TTS 1420 2.030176 Grad Norm 3.251724 1.40s/it
+108
+Train VC 1421 1.942452 Grad Norm 2.606937 1.98s/it
+108
+Train TTS 1422 1.951539 Grad Norm 4.783098 2.99s/it
+108
+Train VC 1423 1.744071 Grad Norm 2.241257 1.59s/it
+108
+Train TTS 1424 1.939854 Grad Norm 3.596089 1.84s/it
+108
+Train VC 1425 1.947371 Grad Norm 2.871789 1.74s/it
+108
+Train TTS 1426 1.942549 Grad Norm 4.272696 1.20s/it
+108
+Train VC 1427 1.942558 Grad Norm 3.407423 1.24s/it
+108
+Train TTS 1428 1.792280 Grad Norm 2.673264 1.98s/it
+108
+Train VC 1429 1.826210 Grad Norm 1.433450 1.18s/it
+108
+Train TTS 1430 1.813734 Grad Norm 3.687247 1.29s/it
+108
+Train VC 1431 1.702600 Grad Norm 2.450476 2.06s/it
+108
+Train TTS 1432 2.100328 Grad Norm 7.899653 1.30s/it
+108
+Train VC 1433 2.157883 Grad Norm 6.158560 1.32s/it
+108
+Train TTS 1434 2.010761 Grad Norm 3.346719 1.16s/it
+108
+Train VC 1435 1.917391 Grad Norm 3.300318 1.33s/it
+108
+Train TTS 1436 1.899270 Grad Norm 4.936292 1.63s/it
+108
+Train VC 1437 1.945751 Grad Norm 3.109030 2.37s/it
+108
+Train TTS 1438 1.976411 Grad Norm 2.314695 1.25s/it
+108
+Train VC 1439 2.177223 Grad Norm 3.907805 2.17s/it
+108
+Train TTS 1440 2.047475 Grad Norm 5.298934 1.10s/it
+108
+Train VC 1441 1.855889 Grad Norm 2.125932 1.74s/it
+108
+Train TTS 1442 2.074910 Grad Norm 3.262800 1.33s/it
+108
+Train VC 1443 1.927772 Grad Norm 3.354229 2.70s/it
+108
+Train TTS 1444 1.993172 Grad Norm 4.974706 1.99s/it
+108
+Train VC 1445 2.006921 Grad Norm 6.857815 1.55s/it
+108
+Train TTS 1446 2.009612 Grad Norm 3.955069 1.48s/it
+108
+Train VC 1447 1.964557 Grad Norm 3.425883 2.12s/it
+108
+Train TTS 1448 1.798347 Grad Norm 2.216145 1.51s/it
+108
+Train VC 1449 1.891144 Grad Norm 1.453106 1.20s/it
+108
+Train TTS 1450 1.872285 Grad Norm 5.542570 1.57s/it
+108
+Train VC 1451 1.703855 Grad Norm 5.275106 2.00s/it
+108
+Train TTS 1452 1.953412 Grad Norm 2.566326 1.17s/it
+108
+Train VC 1453 1.914046 Grad Norm 3.654684 1.86s/it
+108
+Train TTS 1454 1.936927 Grad Norm 3.785490 1.36s/it
+108
+Train VC 1455 1.880226 Grad Norm 3.582516 1.66s/it
+108
+Train TTS 1456 1.688902 Grad Norm 1.928039 2.60s/it
+108
+Train VC 1457 1.915120 Grad Norm 2.946307 1.78s/it
+108
+Train TTS 1458 1.795164 Grad Norm 4.207231 1.23s/it
+108
+Train VC 1459 1.919605 Grad Norm 4.034981 2.01s/it
+108
+Train TTS 1460 1.840454 Grad Norm 3.521804 1.08s/it
+108
+Train VC 1461 1.723688 Grad Norm 1.883678 2.05s/it
+108
+Train TTS 1462 1.928901 Grad Norm 6.634581 1.71s/it
+108
+Train VC 1463 1.973632 Grad Norm 5.734288 1.71s/it
+108
+Train TTS 1464 1.719497 Grad Norm 2.574588 1.57s/it
+108
+Train VC 1465 1.765810 Grad Norm 1.615205 1.38s/it
+108
+Train TTS 1466 1.937139 Grad Norm 4.681165 1.94s/it
+108
+Train VC 1467 1.888491 Grad Norm 2.454915 1.34s/it
+108
+Train TTS 1468 1.758679 Grad Norm 2.712847 1.90s/it
+108
+Train VC 1469 1.833194 Grad Norm 3.580345 1.60s/it
+108
+Train TTS 1470 1.903750 Grad Norm 2.866378 1.09s/it
+108
+Train VC 1471 1.936827 Grad Norm 2.025444 1.42s/it
+108
+Train TTS 1472 1.922359 Grad Norm 5.700949 1.49s/it
+108
+Train VC 1473 1.932902 Grad Norm 5.231902 1.26s/it
+108
+Train TTS 1474 1.776567 Grad Norm 2.762972 2.20s/it
+108
+Train VC 1475 1.717215 Grad Norm 1.654585 1.58s/it
+108
+Train TTS 1476 1.775720 Grad Norm 3.045852 1.58s/it
+108
+Train VC 1477 1.850231 Grad Norm 8.104866 2.30s/it
+108
+Train TTS 1478 1.785412 Grad Norm 3.365066 2.18s/it
+108
+Train VC 1479 1.880666 Grad Norm 3.872014 2.07s/it
+108
+Train TTS 1480 1.822888 Grad Norm 2.340398 1.19s/it
+108
+Train VC 1481 1.803873 Grad Norm 1.887288 1.24s/it
+108
+Train TTS 1482 1.938335 Grad Norm 5.475954 1.26s/it
+108
+Train VC 1483 1.833944 Grad Norm 2.386079 2.03s/it
+108
+Train TTS 1484 1.866590 Grad Norm 3.046265 1.32s/it
+108
+Train VC 1485 1.791584 Grad Norm 2.459527 1.42s/it
+108
+Train TTS 1486 2.077054 Grad Norm 4.759867 1.21s/it
+108
+Train VC 1487 1.859358 Grad Norm 4.619028 1.49s/it
+108
+Train TTS 1488 1.890864 Grad Norm 4.655938 1.40s/it
+108
+Train VC 1489 1.742082 Grad Norm 7.264571 1.84s/it
+108
+Train TTS 1490 1.820075 Grad Norm 1.978512 1.65s/it
+108
+Train VC 1491 2.020162 Grad Norm 4.573417 1.38s/it
+108
+Train TTS 1492 1.886184 Grad Norm 2.847516 1.68s/it
+108
+Train VC 1493 1.736219 Grad Norm 30.338569 1.97s/it
+108
+Train TTS 1494 2.193072 Grad Norm 6.591681 1.32s/it
+108
+Train VC 1495 2.126981 Grad Norm 6.852989 1.39s/it
+108
+Train TTS 1496 2.083734 Grad Norm 7.218617 1.44s/it
+108
+Train VC 1497 1.923222 Grad Norm 9.609996 1.85s/it
+108
+Train TTS 1498 1.712696 Grad Norm 3.312829 2.13s/it
+108
+Train VC 1499 1.946901 Grad Norm 3.261902 1.27s/it
+108
+Train TTS 1500 2.011503 Grad Norm 5.348633 1.24s/it
+108
+Train VC 1501 1.882798 Grad Norm 4.348877 1.10s/it
+108
+Train TTS 1502 1.752488 Grad Norm 2.568757 3.06s/it
+108
+Train VC 1503 1.757561 Grad Norm 1.739899 2.10s/it
+108
+Train TTS 1504 1.839084 Grad Norm 1.805446 1.20s/it
+108
+Train VC 1505 1.821737 Grad Norm 5.835751 2.70s/it
+108
+Train TTS 1506 1.993066 Grad Norm 4.980569 1.63s/it
+108
+Train VC 1507 1.863018 Grad Norm 4.185504 1.78s/it
+108
+Train TTS 1508 1.879803 Grad Norm 2.734184 1.14s/it
+108
+Train VC 1509 1.687230 Grad Norm 1.747698 1.49s/it
+108
+Train TTS 1510 1.806504 Grad Norm 2.681235 1.81s/it
+108
+Train VC 1511 1.839489 Grad Norm 3.383958 1.52s/it
+108
+Train TTS 1512 1.809244 Grad Norm 4.622410 1.59s/it
+108
+Train VC 1513 2.167171 Grad Norm 5.426004 1.30s/it
+108
+Train TTS 1514 2.063983 Grad Norm 3.129353 1.44s/it
+108
+Train VC 1515 1.846550 Grad Norm 2.783338 1.56s/it
+108
+Train TTS 1516 1.868715 Grad Norm 2.378899 1.55s/it
+108
+Train VC 1517 1.804521 Grad Norm 2.587475 1.38s/it
+108
+Train TTS 1518 1.800012 Grad Norm 3.665748 2.22s/it
+108
+Train VC 1519 1.844205 Grad Norm 1.976105 1.61s/it
+108
+Train TTS 1520 1.851936 Grad Norm 2.659317 1.39s/it
+108
+Train VC 1521 1.954873 Grad Norm 6.752136 1.38s/it
+108
+Train TTS 1522 1.880947 Grad Norm 2.501270 1.47s/it
+108
+Train VC 1523 1.827272 Grad Norm 2.831368 1.34s/it
+108
+Train TTS 1524 1.851739 Grad Norm 5.967211 2.74s/it
+108
+Train VC 1525 1.772237 Grad Norm 6.056487 1.96s/it
+108
+Train TTS 1526 1.919066 Grad Norm 5.557840 1.77s/it
+108
+Train VC 1527 1.860601 Grad Norm 2.971040 1.38s/it
+108
+Train TTS 1528 1.911744 Grad Norm 3.753681 1.16s/it
+108
+Train VC 1529 1.969452 Grad Norm 3.800589 1.19s/it
+108
+Train TTS 1530 1.931098 Grad Norm 2.650435 1.39s/it
+108
+Train VC 1531 1.936721 Grad Norm 4.802488 1.13s/it
+108
+Train TTS 1532 1.962955 Grad Norm 5.854223 1.09s/it
+108
+Train VC 1533 2.054447 Grad Norm 5.001150 1.76s/it
+108
+Train TTS 1534 2.128930 Grad Norm 4.562905 1.20s/it
+108
+Train VC 1535 1.905227 Grad Norm 2.186540 1.13s/it
+108
+Train TTS 1536 1.674382 Grad Norm 1.804036 1.98s/it
+108
+Train VC 1537 1.944193 Grad Norm 3.688132 1.44s/it
+108
+Train TTS 1538 1.890054 Grad Norm 4.722715 2.38s/it
+108
+Train VC 1539 1.890542 Grad Norm 2.757734 1.64s/it
+108
+Train TTS 1540 1.877182 Grad Norm 2.784994 1.30s/it
+108
+Train VC 1541 1.971473 Grad Norm 4.188091 1.21s/it
+108
+Train TTS 1542 1.787727 Grad Norm 1.966658 2.08s/it
+108
+Train VC 1543 1.851479 Grad Norm 3.671880 2.08s/it
+108
+Train TTS 1544 1.960037 Grad Norm 3.774128 1.45s/it
+108
+Train VC 1545 1.862655 Grad Norm 5.747330 1.99s/it
+108
+Train TTS 1546 1.934613 Grad Norm 2.635503 1.44s/it
+108
+Train VC 1547 1.907291 Grad Norm 4.569062 1.81s/it
+108
+Train TTS 1548 1.820620 Grad Norm 3.097633 1.61s/it
+108
+Train VC 1549 1.874514 Grad Norm 2.714393 1.59s/it
+108
+Train TTS 1550 1.728373 Grad Norm 2.101997 2.55s/it
+108
+Train VC 1551 1.845454 Grad Norm 2.910078 1.48s/it
+108
+Train TTS 1552 1.817440 Grad Norm 12.541914 2.43s/it
+108
+Train VC 1553 1.758607 Grad Norm 2.144827 1.56s/it
+108
+Train TTS 1554 1.761045 Grad Norm 2.585690 1.84s/it
+108
+Train VC 1555 1.925734 Grad Norm 3.036172 1.17s/it
+108
+Train TTS 1556 1.852815 Grad Norm 2.748063 1.37s/it
+108
+Train VC 1557 2.027502 Grad Norm 4.446756 1.70s/it
+108
+Train TTS 1558 1.706194 Grad Norm 2.179764 2.18s/it
+108
+Train VC 1559 1.745510 Grad Norm 2.297405 1.90s/it
+108
+Train TTS 1560 1.820390 Grad Norm 3.941093 1.59s/it
+108
+Train VC 1561 1.993945 Grad Norm 3.098973 1.83s/it
+108
+Train TTS 1562 1.874603 Grad Norm 46.692001 1.75s/it
+108
+Train VC 1563 2.004009 Grad Norm 5.647259 1.14s/it
+108
+Train TTS 1564 1.906266 Grad Norm 4.162028 1.16s/it
+108
+Train VC 1565 1.828906 Grad Norm 2.218147 2.02s/it
+108
+Train TTS 1566 1.733754 Grad Norm 8.849670 1.81s/it
+108
+Train VC 1567 2.032435 Grad Norm 4.580035 1.52s/it
+108
+Train TTS 1568 1.860395 Grad Norm 1.850658 1.77s/it
+108
+Train VC 1569 1.885343 Grad Norm 1.608505 1.56s/it
+108
+Train TTS 1570 1.922741 Grad Norm 5.223059 1.91s/it
+108
+Train VC 1571 2.134792 Grad Norm 7.108999 1.27s/it
+108
+Train TTS 1572 1.769215 Grad Norm 1.396111 1.50s/it
+108
+Train VC 1573 1.974600 Grad Norm 7.562130 1.70s/it
+108
+Train TTS 1574 2.048770 Grad Norm 2.873634 1.51s/it
+108
+Train VC 1575 2.118715 Grad Norm 5.365883 1.62s/it
+108
+Train TTS 1576 2.226348 Grad Norm 4.261355 1.58s/it
+108
+Train VC 1577 2.311445 Grad Norm 4.552259 2.49s/it
+108
+Train TTS 1578 2.104101 Grad Norm 3.527510 1.74s/it
+108
+Train VC 1579 2.125246 Grad Norm 3.092200 1.68s/it
+108
+Train TTS 1580 2.026791 Grad Norm 5.329759 1.78s/it
+108
+Train VC 1581 2.024487 Grad Norm 2.327319 2.16s/it
+108
+Train TTS 1582 1.987039 Grad Norm 5.384109 1.18s/it
+108
+Train VC 1583 2.106031 Grad Norm 3.633291 1.72s/it
+108
+Train TTS 1584 2.374522 Grad Norm 2.936482 1.42s/it
+108
+Train VC 1585 2.170455 Grad Norm 7.623281 1.64s/it
+108
+Train TTS 1586 2.096400 Grad Norm 3.133873 1.96s/it
+108
+Train VC 1587 2.439624 Grad Norm 6.793752 1.30s/it
+108
+Train TTS 1588 2.419654 Grad Norm 4.377690 1.19s/it
+108
+Train VC 1589 2.157179 Grad Norm 3.578313 1.17s/it
+108
+Train TTS 1590 2.205853 Grad Norm 4.480430 1.38s/it
+108
+Train VC 1591 2.175164 Grad Norm 4.773461 1.55s/it
+108
+Train TTS 1592 1.943064 Grad Norm 1.890429 0.96s/it
+108
+Train VC 1593 2.129789 Grad Norm 9.111192 2.00s/it
+108
+Train TTS 1594 1.884918 Grad Norm 1.679385 1.33s/it
+108
+Train VC 1595 2.093667 Grad Norm 3.858620 1.53s/it
+108
+Train TTS 1596 2.235742 Grad Norm 3.680997 1.40s/it
+108
+Train VC 1597 2.231948 Grad Norm 4.320165 2.38s/it
+108
+Train TTS 1598 1.952220 Grad Norm 1.670426 1.02s/it
+108
+Train VC 1599 2.277214 Grad Norm 2.111602 1.13s/it
+108
+Train TTS 1600 2.195392 Grad Norm 2.182932 1.47s/it
+108
+Train VC 1601 1.814385 Grad Norm 1.905267 2.09s/it
+108
+Train TTS 1602 2.074174 Grad Norm 2.578717 1.46s/it
+108
+Train VC 1603 2.138930 Grad Norm 3.298101 1.37s/it
+108
+Train TTS 1604 2.152658 Grad Norm 5.218667 1.24s/it
+108
+Train VC 1605 1.986786 Grad Norm 2.247889 1.97s/it
+108
+Train TTS 1606 2.169744 Grad Norm 2.387043 1.38s/it
+108
+Train VC 1607 2.213620 Grad Norm 1.814758 1.14s/it
+108
+Train TTS 1608 2.091340 Grad Norm 2.317937 1.33s/it
+108
+Train VC 1609 1.925176 Grad Norm 2.776927 1.82s/it
+108
+Train TTS 1610 2.101998 Grad Norm 2.883173 2.64s/it
+108
+Train VC 1611 2.076289 Grad Norm 5.457281 2.02s/it
+108
+Train TTS 1612 2.008005 Grad Norm 2.220947 1.38s/it
+108
+Train VC 1613 2.080844 Grad Norm 4.736871 2.69s/it
+108
+Train TTS 1614 1.933999 Grad Norm 2.776530 1.65s/it
+108
+Train VC 1615 1.854703 Grad Norm 3.202238 1.42s/it
+108
+Train TTS 1616 2.131008 Grad Norm 4.080277 1.40s/it
+108
+Train VC 1617 1.906191 Grad Norm 3.306341 1.16s/it
+108
+Train TTS 1618 2.079361 Grad Norm 7.953742 1.31s/it
+108
+Train VC 1619 1.877672 Grad Norm 4.825379 1.95s/it
+108
+Train TTS 1620 2.103528 Grad Norm 4.809339 1.35s/it
+108
+Train VC 1621 1.852973 Grad Norm 2.373099 1.39s/it
+108
+Train TTS 1622 1.839377 Grad Norm 1.952796 1.55s/it
+108
+Train VC 1623 2.028022 Grad Norm 4.343235 1.39s/it
+108
+Train TTS 1624 2.073149 Grad Norm 2.244406 1.29s/it
+108
+Train VC 1625 1.804109 Grad Norm 2.002139 1.51s/it
+108
+Train TTS 1626 1.998127 Grad Norm 7.875347 1.55s/it
+108
+Train VC 1627 1.986755 Grad Norm 3.439823 1.77s/it
+108
+Train TTS 1628 2.028064 Grad Norm 3.969893 1.65s/it
+108
+Train VC 1629 1.992916 Grad Norm 5.287938 1.46s/it
+108
+Train TTS 1630 1.953476 Grad Norm 2.811861 1.42s/it
+108
+Train VC 1631 1.890549 Grad Norm 1.901281 0.89s/it
+108
+Train TTS 1632 1.832985 Grad Norm 2.516031 1.52s/it
+108
+Train VC 1633 1.915003 Grad Norm 1.656659 1.59s/it
+108
+Train TTS 1634 1.954818 Grad Norm 2.292319 1.46s/it
+108
+Train VC 1635 2.108090 Grad Norm 4.308533 1.22s/it
+108
+Train TTS 1636 1.882022 Grad Norm 2.665303 1.43s/it
+108
+Train VC 1637 1.968751 Grad Norm 2.236680 1.33s/it
+108
+Train TTS 1638 1.743536 Grad Norm 1.663200 2.49s/it
+108
+Train VC 1639 1.818054 Grad Norm 1.208712 1.68s/it
+108
+Train TTS 1640 2.059236 Grad Norm 5.417428 1.18s/it
+108
+Train VC 1641 1.949118 Grad Norm 3.080901 1.36s/it
+108
+Train TTS 1642 1.688250 Grad Norm 1.477566 2.31s/it
+108
+Train VC 1643 1.922252 Grad Norm 2.716995 1.10s/it
+108
+Train TTS 1644 1.910653 Grad Norm 3.771246 2.04s/it
+108
+Train VC 1645 1.810002 Grad Norm 3.607317 1.95s/it
+108
+Train TTS 1646 1.854925 Grad Norm 4.523534 2.00s/it
+108
+Train VC 1647 1.780550 Grad Norm 1.782465 1.70s/it
+108
+Train TTS 1648 1.904525 Grad Norm 2.320685 1.21s/it
+108
+Train VC 1649 2.337665 Grad Norm 2.776639 1.24s/it
+108
+Train TTS 1650 1.913659 Grad Norm 3.482997 1.94s/it
+108
+Train VC 1651 1.876373 Grad Norm 3.989989 2.03s/it
+108
+Train TTS 1652 1.961060 Grad Norm 4.184665 1.52s/it
+108
+Train VC 1653 1.732640 Grad Norm 1.337538 1.75s/it
+108
+Train TTS 1654 1.803120 Grad Norm 2.432287 2.80s/it
+108
+Train VC 1655 2.003724 Grad Norm 6.745723 1.47s/it
+108
+Train TTS 1656 2.019035 Grad Norm 6.244445 1.67s/it
+108
+Train VC 1657 1.811479 Grad Norm 1.365859 1.17s/it
+108
+Train TTS 1658 1.883229 Grad Norm 1.744900 1.69s/it
+108
+Train VC 1659 1.813941 Grad Norm 3.264200 1.63s/it
+108
+Train TTS 1660 2.019529 Grad Norm 3.308072 1.09s/it
+108
+Train VC 1661 1.777266 Grad Norm 1.990772 1.46s/it
+108
+Train TTS 1662 1.760962 Grad Norm 2.419215 2.41s/it
+108
+Train VC 1663 2.070633 Grad Norm 5.086638 2.09s/it
+108
+Train TTS 1664 1.662096 Grad Norm 0.838741 1.36s/it
+108
+Train VC 1665 1.743444 Grad Norm 5.476586 2.76s/it
+108
+Train TTS 1666 1.923594 Grad Norm 4.588671 1.25s/it
+108
+Train VC 1667 1.765455 Grad Norm 2.472828 1.27s/it
+108
+Train TTS 1668 1.850908 Grad Norm 3.005132 1.53s/it
+108
+Train VC 1669 1.736132 Grad Norm 2.919012 1.35s/it
+108
+Train TTS 1670 1.873344 Grad Norm 2.322833 1.75s/it
+108
+Train VC 1671 1.728466 Grad Norm 2.984701 1.86s/it
+108
+Train TTS 1672 1.840857 Grad Norm 2.764591 1.03s/it
+108
+Train VC 1673 1.855679 Grad Norm 2.131118 1.42s/it
+108
+Train TTS 1674 1.732000 Grad Norm 1.424509 1.32s/it
+108
+Train VC 1675 1.902555 Grad Norm 4.546771 1.58s/it
+108
+Train TTS 1676 1.810127 Grad Norm 6.569194 1.75s/it
+108
+Train VC 1677 1.922615 Grad Norm 4.543138 1.13s/it
+108
+Train TTS 1678 2.090415 Grad Norm 4.831223 1.74s/it
+108
+Train VC 1679 1.965890 Grad Norm 3.022764 1.56s/it
+108
+Train TTS 1680 1.726558 Grad Norm 1.559552 1.50s/it
+108
+Train VC 1681 1.864277 Grad Norm 2.110190 1.44s/it
+108
+Train TTS 1682 1.832653 Grad Norm 2.460603 1.75s/it
+108
+Train VC 1683 1.855648 Grad Norm 4.750717 1.78s/it
+108
+Train TTS 1684 2.049123 Grad Norm 6.926622 1.85s/it
+108
+Train VC 1685 1.863234 Grad Norm 4.098340 1.52s/it
+108
+Train TTS 1686 1.749263 Grad Norm 8.757639 1.57s/it
+108
+Train VC 1687 1.949142 Grad Norm 7.344269 1.07s/it
+108
+Train TTS 1688 1.929781 Grad Norm 3.045084 1.22s/it
+108
+Train VC 1689 1.748548 Grad Norm 4.188879 1.54s/it
+108
+Train TTS 1690 1.876022 Grad Norm 2.506367 1.09s/it
+108
+Train VC 1691 1.935585 Grad Norm 2.871690 1.09s/it
+108
+Train TTS 1692 1.662976 Grad Norm 3.565731 1.84s/it
+108
+Train VC 1693 1.816561 Grad Norm 3.086087 2.47s/it
+108
+Train TTS 1694 1.854827 Grad Norm 3.126517 1.17s/it
+108
+Train VC 1695 1.962557 Grad Norm 4.613359 2.00s/it
+108
+Train TTS 1696 1.754747 Grad Norm 2.272302 1.96s/it
+108
+Train VC 1697 1.778945 Grad Norm 2.182365 1.63s/it
+108
+Train TTS 1698 1.782472 Grad Norm 5.301923 1.63s/it
+108
+Train VC 1699 1.847416 Grad Norm 2.635498 1.69s/it
+108
+Train TTS 1700 1.881216 Grad Norm 8.216105 1.28s/it
+108
+Train VC 1701 1.900142 Grad Norm 3.495593 2.20s/it
+108
+Train TTS 1702 1.708862 Grad Norm 2.904518 1.41s/it
+108
+Train VC 1703 1.824285 Grad Norm 3.561256 1.76s/it
+108
+Train TTS 1704 2.172513 Grad Norm 5.090963 1.34s/it
+108
+Train VC 1705 1.964034 Grad Norm 2.676809 1.10s/it
+108
+Train TTS 1706 1.829583 Grad Norm 3.056127 1.51s/it
+108
+Train VC 1707 1.733517 Grad Norm 1.936139 1.79s/it
+108
+Train TTS 1708 1.743458 Grad Norm 1.805410 1.16s/it
+108
+Train VC 1709 1.856564 Grad Norm 2.876781 1.31s/it
+108
+Train TTS 1710 1.764669 Grad Norm 4.559329 2.40s/it
+108
+Train VC 1711 1.863991 Grad Norm 2.599055 1.79s/it
+108
+Train TTS 1712 1.908386 Grad Norm 5.054606 1.19s/it
+108
+Train VC 1713 1.739127 Grad Norm 2.319180 1.79s/it
+108
+Train TTS 1714 2.082854 Grad Norm 4.109212 1.08s/it
+108
+Train VC 1715 1.945313 Grad Norm 4.697013 1.51s/it
+108
+Train TTS 1716 1.784088 Grad Norm 3.430500 2.63s/it
+108
+Train VC 1717 1.857077 Grad Norm 3.326913 1.65s/it
+108
+Train TTS 1718 1.976980 Grad Norm 4.479436 1.43s/it
+108
+Train VC 1719 1.787398 Grad Norm 1.610661 1.14s/it
+108
+Train TTS 1720 1.825931 Grad Norm 7.221402 1.42s/it
+108
+Train VC 1721 1.876779 Grad Norm 3.908302 1.24s/it
+108
+Train TTS 1722 1.737217 Grad Norm 5.978073 1.70s/it
+108
+Train VC 1723 2.076742 Grad Norm 5.178993 1.20s/it
+108
+Train TTS 1724 1.793439 Grad Norm 3.184988 2.28s/it
+108
+Train VC 1725 1.924358 Grad Norm 4.431844 1.41s/it
+108
+Train TTS 1726 2.046513 Grad Norm 7.913911 1.82s/it
+108
+Train VC 1727 1.813802 Grad Norm 2.856402 1.85s/it
+108
+Train TTS 1728 1.933770 Grad Norm 4.445338 1.58s/it
+108
+Train VC 1729 1.921330 Grad Norm 7.145801 2.49s/it
+108
+Train TTS 1730 1.910007 Grad Norm 2.775300 1.36s/it
+108
+Train VC 1731 1.839358 Grad Norm 3.877316 1.31s/it
+108
+Train TTS 1732 1.815291 Grad Norm 4.377902 1.12s/it
+108
+Train VC 1733 1.749905 Grad Norm 1.318623 1.37s/it
+108
+Train TTS 1734 1.856875 Grad Norm 2.687742 1.42s/it
+108
+Train VC 1735 1.744239 Grad Norm 2.231646 1.04s/it
+108
+Train TTS 1736 1.700265 Grad Norm 3.374274 2.43s/it
+108
+Train VC 1737 1.870533 Grad Norm 5.631455 1.26s/it
+108
+Train TTS 1738 1.921477 Grad Norm 2.188322 1.27s/it
+108
+Train VC 1739 1.877321 Grad Norm 2.907704 1.32s/it
+108
+Train TTS 1740 1.794747 Grad Norm 3.384597 1.50s/it
+108
+Train VC 1741 1.728272 Grad Norm 2.111515 1.58s/it
+108
+Train TTS 1742 1.772372 Grad Norm 2.630347 1.88s/it
+108
+Train VC 1743 1.774605 Grad Norm 2.927228 1.45s/it
+108
+Train TTS 1744 2.001817 Grad Norm 5.970581 1.69s/it
+108
+Train VC 1745 2.024436 Grad Norm 5.078373 1.64s/it
+108
+Train TTS 1746 1.735312 Grad Norm 2.248316 1.62s/it
+108
+Train VC 1747 1.777699 Grad Norm 2.285444 1.44s/it
+108
+Train TTS 1748 1.619438 Grad Norm 2.017437 2.15s/it
+108
+Train VC 1749 1.813165 Grad Norm 2.886161 1.46s/it
+108
+Train TTS 1750 1.809740 Grad Norm 1.883298 1.18s/it
+108
+Train VC 1751 1.771883 Grad Norm 2.038359 1.26s/it
+108
+Train TTS 1752 1.660897 Grad Norm 1.319045 1.82s/it
+108
+Train VC 1753 1.928501 Grad Norm 3.143501 1.45s/it
+108
+Train TTS 1754 1.722159 Grad Norm 6.928933 1.55s/it
+108
+Train VC 1755 1.741014 Grad Norm 1.660407 1.59s/it
+108
+Train TTS 1756 1.847680 Grad Norm 4.120433 1.37s/it
+108
+Train VC 1757 1.792213 Grad Norm 4.547005 2.14s/it
+108
+Train TTS 1758 1.581091 Grad Norm 1.457712 1.85s/it
+108
+Train VC 1759 1.888744 Grad Norm 3.036058 1.42s/it
+108
+Train TTS 1760 1.697156 Grad Norm 3.101218 2.36s/it
+108
+Train VC 1761 1.689489 Grad Norm 1.399779 1.32s/it
+108
+Train TTS 1762 1.578038 Grad Norm 3.030754 1.71s/it
+108
+Train VC 1763 1.860144 Grad Norm 2.967205 1.40s/it
+108
+Train TTS 1764 1.593944 Grad Norm 1.325464 1.88s/it
+108
+Train VC 1765 1.703952 Grad Norm 2.738954 1.74s/it
+108
+Train TTS 1766 1.747374 Grad Norm 2.402048 1.67s/it
+108
+Train VC 1767 1.721125 Grad Norm 2.457686 1.36s/it
+108
+Train TTS 1768 1.784716 Grad Norm 3.048216 1.25s/it
+108
+Train VC 1769 1.620034 Grad Norm 1.066468 2.10s/it
+108
+Train TTS 1770 1.861158 Grad Norm 3.320396 1.68s/it
+108
+Train VC 1771 1.644101 Grad Norm 3.387637 1.65s/it
+108
+Train TTS 1772 1.670471 Grad Norm 2.798614 1.70s/it
+108
+Train VC 1773 1.760285 Grad Norm 2.611943 1.75s/it
+108
+Train TTS 1774 1.767182 Grad Norm 3.787617 1.29s/it
+108
+Train VC 1775 1.724754 Grad Norm 1.896600 1.81s/it
+108
+Train TTS 1776 1.675372 Grad Norm 2.267976 1.36s/it
+108
+Train VC 1777 1.895076 Grad Norm 2.793278 1.46s/it
+108
+Train TTS 1778 1.862232 Grad Norm 3.601352 2.02s/it
+108
+Train VC 1779 1.767624 Grad Norm 1.999388 1.43s/it
+108
+Train TTS 1780 1.643063 Grad Norm 1.981108 1.80s/it
+108
+Train VC 1781 1.751539 Grad Norm 2.001363 1.12s/it
+108
+Train TTS 1782 1.799633 Grad Norm 5.085558 1.31s/it
+108
+Train VC 1783 1.873232 Grad Norm 3.242232 1.15s/it
+108
+Train TTS 1784 1.812045 Grad Norm 4.746378 1.25s/it
+108
+Train VC 1785 1.672816 Grad Norm 2.775507 2.03s/it
+108
+Train TTS 1786 1.799718 Grad Norm 2.967655 1.71s/it
+108
+Train VC 1787 1.521517 Grad Norm 2.105626 1.95s/it
+108
+Train TTS 1788 1.758897 Grad Norm 3.627351 1.22s/it
+108
+Train VC 1789 1.823996 Grad Norm 12.629340 1.66s/it
+108
+Train TTS 1790 1.714397 Grad Norm 3.434999 1.18s/it
+108
+Train VC 1791 1.848466 Grad Norm 4.334483 1.40s/it
+108
+Train TTS 1792 1.731940 Grad Norm 2.768672 2.05s/it
+108
+Train VC 1793 1.670055 Grad Norm 2.393967 1.68s/it
+108
+Train TTS 1794 1.744736 Grad Norm 3.080585 1.28s/it
+108
+Train VC 1795 1.830566 Grad Norm 2.676117 3.05s/it
+108
+Train TTS 1796 1.611653 Grad Norm 2.029993 1.37s/it
+108
+Train VC 1797 1.804530 Grad Norm 3.977720 2.08s/it
+108
+Train TTS 1798 1.766875 Grad Norm 1.997234 1.38s/it
+108
+Train VC 1799 1.836952 Grad Norm 4.763852 1.72s/it
+108
+Train TTS 1800 1.863722 Grad Norm 3.391291 3.18s/it
+108
+Train VC 1801 1.695748 Grad Norm 1.537065 1.25s/it
+108
+Train TTS 1802 1.712789 Grad Norm 3.066907 1.45s/it
+108
+Train VC 1803 1.663575 Grad Norm 2.307849 2.71s/it
+108
+Train TTS 1804 1.840260 Grad Norm 3.554440 1.63s/it
+108
+Train VC 1805 1.867960 Grad Norm 4.814038 1.33s/it
+108
+Train TTS 1806 1.579192 Grad Norm 1.746455 1.91s/it
+108
+Train VC 1807 1.858889 Grad Norm 2.955527 1.44s/it
+108
+Train TTS 1808 1.759166 Grad Norm 2.379191 1.72s/it
+108
+Train VC 1809 1.770007 Grad Norm 1.946392 2.33s/it
+108
+Train TTS 1810 1.701692 Grad Norm 3.345776 1.57s/it
+108
+Train VC 1811 1.686173 Grad Norm 2.379974 1.73s/it
+108
+Train TTS 1812 1.674374 Grad Norm 1.964031 1.22s/it
+108
+Train VC 1813 1.641161 Grad Norm 1.336380 1.38s/it
+108
+Train TTS 1814 1.518790 Grad Norm 1.452841 1.80s/it
+108
+Train VC 1815 2.023222 Grad Norm 6.048807 1.67s/it
+108
+Train TTS 1816 1.619031 Grad Norm 1.656572 1.92s/it
+108
+Train VC 1817 1.602373 Grad Norm 1.647460 1.98s/it
+108
+Train TTS 1818 1.764258 Grad Norm 3.914820 1.47s/it
+108
+Train VC 1819 1.773328 Grad Norm 1.499886 1.40s/it
+108
+Train TTS 1820 1.767373 Grad Norm 1.180295 2.04s/it
+108
+Train VC 1821 1.616987 Grad Norm 2.247201 2.14s/it
+108
+Train TTS 1822 1.905799 Grad Norm 2.564660 1.70s/it
+108
+Train VC 1823 1.753492 Grad Norm 4.566516 2.15s/it
+108
+Train TTS 1824 1.848047 Grad Norm 3.473313 1.66s/it
+108
+Train VC 1825 1.780318 Grad Norm 2.360181 1.44s/it
+108
+Train TTS 1826 1.520629 Grad Norm 1.227901 2.10s/it
+108
+Train VC 1827 1.889613 Grad Norm 2.874857 1.53s/it
+108
+Train TTS 1828 1.568980 Grad Norm 2.741139 1.76s/it
+108
+Train VC 1829 1.620156 Grad Norm 1.130788 1.57s/it
+108
+Train TTS 1830 1.656165 Grad Norm 1.993537 1.87s/it
+108
+Train VC 1831 1.813500 Grad Norm 2.227841 1.00s/it
+108
+Train TTS 1832 1.920978 Grad Norm 4.070593 1.86s/it
+108
+Train VC 1833 1.964345 Grad Norm 5.037436 1.17s/it
+108
+Train TTS 1834 1.677410 Grad Norm 1.247991 1.62s/it
+108
+Train VC 1835 1.824629 Grad Norm 2.449682 1.41s/it
+108
+Train TTS 1836 1.703905 Grad Norm 2.628787 1.67s/it
+108
+Train VC 1837 1.727510 Grad Norm 4.251936 1.41s/it
+108
+Train TTS 1838 1.661535 Grad Norm 2.241142 1.79s/it
+108
+Train VC 1839 1.725864 Grad Norm 2.656746 1.27s/it
+108
+Train TTS 1840 1.718631 Grad Norm 3.442093 1.44s/it
+108
+Train VC 1841 1.699419 Grad Norm 2.426401 1.54s/it
+108
+Train TTS 1842 1.591975 Grad Norm 2.225590 2.34s/it
+108
+Train VC 1843 1.682413 Grad Norm 3.251731 1.42s/it
+108
+Train TTS 1844 1.728506 Grad Norm 8.546694 1.67s/it
+108
+Train VC 1845 1.707578 Grad Norm 3.723405 1.98s/it
+108
+Train TTS 1846 1.656079 Grad Norm 1.836479 1.19s/it
+108
+Train VC 1847 1.640301 Grad Norm 3.612792 2.94s/it
+108
+Train TTS 1848 1.740709 Grad Norm 2.731011 1.76s/it
+108
+Train VC 1849 1.756767 Grad Norm 1.596900 1.23s/it
+108
+Train TTS 1850 1.746447 Grad Norm 4.151002 1.61s/it
+108
+Train VC 1851 1.869567 Grad Norm 3.010046 1.26s/it
+108
+Train TTS 1852 1.738889 Grad Norm 1.276993 2.08s/it
+108
+Train VC 1853 1.660821 Grad Norm 3.327264 1.81s/it
+108
+Train TTS 1854 1.645756 Grad Norm 2.272828 1.62s/it
+108
+Train VC 1855 1.476999 Grad Norm 0.927739 1.81s/it
+108
+Train TTS 1856 1.741290 Grad Norm 2.706161 1.79s/it
+108
+Train VC 1857 1.696685 Grad Norm 2.219175 2.36s/it
+108
+Train TTS 1858 1.648177 Grad Norm 3.437290 2.06s/it
+108
+Train VC 1859 1.633423 Grad Norm 1.118173 1.28s/it
+108
+Train TTS 1860 1.612864 Grad Norm 3.399880 2.24s/it
+108
+Train VC 1861 1.793930 Grad Norm 3.321559 1.28s/it
+108
+Train TTS 1862 1.656889 Grad Norm 2.101338 1.20s/it
+108
+Train VC 1863 1.609797 Grad Norm 1.245944 1.65s/it
+108
+Train TTS 1864 1.689995 Grad Norm 4.252568 1.29s/it
+108
+Train VC 1865 1.772561 Grad Norm 2.544203 1.56s/it
+108
+Train TTS 1866 1.625964 Grad Norm 1.654703 1.54s/it
+108
+Train VC 1867 1.735727 Grad Norm 2.638211 1.77s/it
+108
+Train TTS 1868 1.697720 Grad Norm 1.688910 1.19s/it
+108
+Train VC 1869 1.595803 Grad Norm 2.039065 1.49s/it
+108
+Train TTS 1870 1.565322 Grad Norm 1.011043 1.71s/it
+108
+Train VC 1871 1.684048 Grad Norm 5.950382 2.63s/it
+108
+Train TTS 1872 1.897308 Grad Norm 2.936183 1.59s/it
+108
+Train VC 1873 1.699003 Grad Norm 6.540827 1.99s/it
+108
+Train TTS 1874 1.681133 Grad Norm 1.146959 1.34s/it
+108
+Train VC 1875 1.552079 Grad Norm 1.701653 2.20s/it
+108
+Train TTS 1876 1.772639 Grad Norm 4.195874 1.39s/it
+108
+Train VC 1877 1.768882 Grad Norm 2.938925 1.73s/it
+108
+Train TTS 1878 1.742593 Grad Norm 8.275601 1.12s/it
+108
+Train VC 1879 1.702992 Grad Norm 2.026095 1.36s/it
+108
+Train TTS 1880 1.683919 Grad Norm 2.477321 1.15s/it
+108
+Train VC 1881 1.578151 Grad Norm 1.562119 1.97s/it
+108
+Train TTS 1882 1.719448 Grad Norm 2.709265 1.94s/it
+108
+Train VC 1883 1.657958 Grad Norm 2.844662 2.09s/it
+108
+Train TTS 1884 1.708141 Grad Norm 3.212967 1.59s/it
+108
+Train VC 1885 1.682655 Grad Norm 5.560211 3.09s/it
+108
+Train TTS 1886 1.854349 Grad Norm 3.220165 1.21s/it
+108
+Train VC 1887 1.552961 Grad Norm 2.321441 1.67s/it
+108
+Train TTS 1888 1.652951 Grad Norm 2.106612 1.09s/it
+108
+Train VC 1889 1.712719 Grad Norm 3.367360 1.24s/it
+108
+Train TTS 1890 2.007544 Grad Norm 26.669046 1.20s/it
+108
+Train VC 1891 1.668301 Grad Norm 1.302128 2.02s/it
+108
+Train TTS 1892 1.673304 Grad Norm 2.151322 1.55s/it
+108
+Train VC 1893 1.594591 Grad Norm 3.599724 2.40s/it
+108
+Train TTS 1894 1.910002 Grad Norm 7.092119 1.39s/it
+108
+Train VC 1895 1.734339 Grad Norm 2.698372 1.75s/it
+108
+Train TTS 1896 1.736214 Grad Norm 4.344182 1.84s/it
+108
+Train VC 1897 1.634032 Grad Norm 1.364284 1.51s/it
+108
+Train TTS 1898 1.528520 Grad Norm 2.011901 1.98s/it
+108
+Train VC 1899 1.610502 Grad Norm 2.179774 1.19s/it
+108
+Train TTS 1900 1.707821 Grad Norm 2.888702 1.70s/it
+108
+Train VC 1901 1.798855 Grad Norm 3.645857 1.64s/it
+108
+Train TTS 1902 1.676638 Grad Norm 3.405546 1.91s/it
+108
+Train VC 1903 1.682568 Grad Norm 2.719734 2.89s/it
+108
+Train TTS 1904 1.743537 Grad Norm 10.152603 1.03s/it
+108
+Train VC 1905 1.525010 Grad Norm 1.554919 1.38s/it
+108
+Train TTS 1906 1.671129 Grad Norm 2.667800 1.90s/it
+108
+Train VC 1907 1.773245 Grad Norm 3.283575 1.29s/it
+108
+Train TTS 1908 1.652433 Grad Norm 2.223135 1.86s/it
+108
+Train VC 1909 1.581959 Grad Norm 3.004013 1.71s/it
+108
+Train TTS 1910 1.771772 Grad Norm 2.594670 1.02s/it
+108
+Train VC 1911 1.663134 Grad Norm 4.494563 1.16s/it
+108
+Train TTS 1912 1.666554 Grad Norm 2.325163 1.68s/it
+108
+Train VC 1913 1.710920 Grad Norm 3.398797 1.26s/it
+108
+Train TTS 1914 1.645608 Grad Norm 3.303627 1.82s/it
+108
+Train VC 1915 1.628390 Grad Norm 3.746385 1.76s/it
+108
+Train TTS 1916 1.796071 Grad Norm 4.698714 1.78s/it
+108
+Train VC 1917 1.880797 Grad Norm 3.885360 1.30s/it
+108
+Train TTS 1918 1.639955 Grad Norm 2.752714 1.37s/it
+108
+Train VC 1919 1.686713 Grad Norm 2.819564 1.45s/it
+108
+Train TTS 1920 1.506215 Grad Norm 1.026157 1.99s/it
+108
+Train VC 1921 1.647674 Grad Norm 1.513105 1.40s/it
+108
+Train TTS 1922 1.751401 Grad Norm 3.240192 1.77s/it
+108
+Train VC 1923 1.571220 Grad Norm 3.174333 2.06s/it
+108
+Train TTS 1924 1.735767 Grad Norm 2.642567 1.35s/it
+108
+Train VC 1925 1.629255 Grad Norm 1.866796 1.43s/it
+108
+Train TTS 1926 1.784334 Grad Norm 3.780135 1.36s/it
+108
+Train VC 1927 1.583175 Grad Norm 2.178437 1.28s/it
+108
+Train TTS 1928 1.829285 Grad Norm 3.126173 1.36s/it
+108
+Train VC 1929 1.595353 Grad Norm 2.951636 1.93s/it
+108
+Train TTS 1930 1.656400 Grad Norm 1.664648 1.48s/it
+108
+Train VC 1931 1.636716 Grad Norm 2.757825 1.75s/it
+108
+Train TTS 1932 1.705454 Grad Norm 4.581965 1.57s/it
+108
+Train VC 1933 1.701581 Grad Norm 2.318007 1.78s/it
+108
+Train TTS 1934 1.645823 Grad Norm 2.528114 2.34s/it
+108
+Train VC 1935 1.705390 Grad Norm 3.047221 1.69s/it
+108
+Train TTS 1936 1.662392 Grad Norm 2.408141 1.45s/it
+108
+Train VC 1937 1.739576 Grad Norm 3.548743 1.29s/it
+108
+Train TTS 1938 1.634019 Grad Norm 1.909860 1.65s/it
+108
+Train VC 1939 1.697545 Grad Norm 4.347993 1.53s/it
+108
+Train TTS 1940 1.714959 Grad Norm 3.093066 1.09s/it
+108
+Train VC 1941 1.697913 Grad Norm 1.662512 1.45s/it
+108
+Train TTS 1942 1.831890 Grad Norm 4.392700 1.27s/it
+108
+Train VC 1943 1.606675 Grad Norm 2.702984 1.33s/it
+108
+Train TTS 1944 1.679031 Grad Norm 1.194533 1.31s/it
+108
+Train VC 1945 1.711943 Grad Norm 1.355457 1.31s/it
+108
+Train TTS 1946 1.822793 Grad Norm 3.767112 1.39s/it
+108
+Train VC 1947 1.795120 Grad Norm 2.095459 1.24s/it
+108
+Train TTS 1948 1.654670 Grad Norm 2.684232 2.23s/it
+108
+Train VC 1949 1.686534 Grad Norm 4.347485 1.51s/it
+108
+Train TTS 1950 1.746719 Grad Norm 4.472713 1.43s/it
+108
+Train VC 1951 1.665562 Grad Norm 2.216708 2.26s/it
+108
+Train TTS 1952 1.548710 Grad Norm 1.729762 2.14s/it
+108
+Train VC 1953 1.632796 Grad Norm 1.495404 1.57s/it
+108
+Train TTS 1954 1.823085 Grad Norm 10.263750 1.69s/it
+108
+Train VC 1955 1.662929 Grad Norm 6.037288 2.80s/it
+108
+Train TTS 1956 1.849015 Grad Norm 3.137658 1.45s/it
+108
+Train VC 1957 1.539888 Grad Norm 1.939468 1.81s/it
+108
+Train TTS 1958 1.636322 Grad Norm 2.878773 1.46s/it
+108
+Train VC 1959 1.880811 Grad Norm 3.008790 1.40s/it
+108
+Train TTS 1960 1.676040 Grad Norm 4.068517 1.82s/it
+108
+Train VC 1961 1.645738 Grad Norm 1.283776 1.86s/it
+108
+Train TTS 1962 1.745562 Grad Norm 2.855429 1.78s/it
+108
+Train VC 1963 1.809918 Grad Norm 4.471373 1.89s/it
+108
+Train TTS 1964 1.741029 Grad Norm 3.700714 2.89s/it
+108
+Train VC 1965 1.797481 Grad Norm 3.246404 1.45s/it
+108
+Train TTS 1966 1.673354 Grad Norm 3.715082 1.91s/it
+108
+Train VC 1967 1.767476 Grad Norm 3.011602 1.69s/it
+108
+Train TTS 1968 1.621309 Grad Norm 1.432446 2.04s/it
+108
+Train VC 1969 1.646011 Grad Norm 1.510421 1.24s/it
+108
+Train TTS 1970 1.723364 Grad Norm 3.950915 1.28s/it
+108
+Train VC 1971 1.897349 Grad Norm 2.832039 1.57s/it
+108
+Train TTS 1972 1.616701 Grad Norm 1.353963 1.21s/it
+108
+Train VC 1973 1.572142 Grad Norm 1.166608 1.87s/it
+108
+Train TTS 1974 1.597665 Grad Norm 2.090020 2.20s/it
+108
+Train VC 1975 1.897673 Grad Norm 4.811401 1.41s/it
+108
+Train TTS 1976 1.620669 Grad Norm 2.816279 2.14s/it
+108
+Train VC 1977 1.688805 Grad Norm 2.304634 1.52s/it
+108
+Train TTS 1978 1.696590 Grad Norm 4.031070 1.58s/it
+108
+Train VC 1979 1.699461 Grad Norm 2.679329 1.37s/it
+108
+Train TTS 1980 1.736820 Grad Norm 2.011452 1.63s/it
+108
+Train VC 1981 1.831674 Grad Norm 3.832303 1.22s/it
+108
+Train TTS 1982 1.680625 Grad Norm 2.131020 1.62s/it
+108
+Train VC 1983 1.693146 Grad Norm 3.538710 2.25s/it
+108
+Train TTS 1984 1.611027 Grad Norm 2.105922 1.43s/it
+108
+Train VC 1985 1.815669 Grad Norm 4.045503 1.27s/it
+108
+Train TTS 1986 1.579588 Grad Norm 1.306739 1.44s/it
+108
+Train VC 1987 1.734531 Grad Norm 2.686814 1.57s/it
+108
+Train TTS 1988 1.771850 Grad Norm 1.829336 1.06s/it
+108
+Train VC 1989 1.535765 Grad Norm 1.543722 2.12s/it
+108
+Train TTS 1990 1.699289 Grad Norm 2.333842 1.50s/it
+108
+Train VC 1991 1.728006 Grad Norm 3.688145 1.51s/it
+108
+Train TTS 1992 1.722000 Grad Norm 3.465494 2.77s/it
+108
+Train VC 1993 1.742492 Grad Norm 4.558945 1.22s/it
+108
+Train TTS 1994 1.659441 Grad Norm 2.375358 1.97s/it
+108
+Train VC 1995 1.673275 Grad Norm 2.160993 1.28s/it
+108
+Train TTS 1996 1.587257 Grad Norm 2.606800 2.44s/it
+108
+Train VC 1997 1.707270 Grad Norm 1.675974 1.79s/it
+108
+Train TTS 1998 1.640132 Grad Norm 2.466877 1.77s/it
+108
+Train VC 1999 1.629552 Grad Norm 4.157248 1.73s/it
+108
+Train TTS 2000 1.729067 Grad Norm 3.880946 1.57s/it
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+Validation loss 2000: TTS  1.622296  VC  1.644013
+Saving model and optimizer state at iteration 2000 to outdir/checkpoint_2000
+108
+Train VC 2001 1.716295 Grad Norm 3.338690 2.23s/it
+108
+Train TTS 2002 1.577710 Grad Norm 2.616729 1.24s/it
+108
+Train VC 2003 1.598073 Grad Norm 1.832543 1.68s/it
+108
+Train TTS 2004 1.776583 Grad Norm 3.694849 2.44s/it
+108
+Train VC 2005 1.708937 Grad Norm 1.113405 1.23s/it
+108
+Train TTS 2006 1.616577 Grad Norm 3.432509 1.68s/it
+108
+Train VC 2007 1.988172 Grad Norm 4.206623 1.10s/it
+108
+Train TTS 2008 1.553974 Grad Norm 1.208859 2.76s/it
+108
+Train VC 2009 1.658096 Grad Norm 2.702481 1.61s/it
+108
+Train TTS 2010 1.594464 Grad Norm 3.503943 1.53s/it
+108
+Train VC 2011 1.582532 Grad Norm 2.747592 1.58s/it
+108
+Train TTS 2012 1.793777 Grad Norm 3.643317 1.15s/it
+108
+Train VC 2013 1.631512 Grad Norm 4.092023 2.98s/it
+108
+Train TTS 2014 1.509059 Grad Norm 1.498615 1.79s/it
+108
+Train VC 2015 1.559605 Grad Norm 1.678215 1.34s/it
+108
+Train TTS 2016 1.854851 Grad Norm 7.164864 1.35s/it
+108
+Train VC 2017 1.596961 Grad Norm 3.149676 2.48s/it
+108
+Train TTS 2018 1.727362 Grad Norm 10.529492 1.38s/it
+108
+Train VC 2019 1.532203 Grad Norm 1.657101 2.09s/it
+108
+Train TTS 2020 1.607852 Grad Norm 4.635294 1.57s/it
+108
+Train VC 2021 1.558302 Grad Norm 6.305370 1.28s/it
+108
+Train TTS 2022 1.731465 Grad Norm 3.790637 1.39s/it
+108
+Train VC 2023 1.607339 Grad Norm 2.255293 1.34s/it
+108
+Train TTS 2024 1.660267 Grad Norm 3.644213 1.61s/it
+108
+Train VC 2025 1.700739 Grad Norm 3.637916 1.39s/it
+108
+Train TTS 2026 1.613354 Grad Norm 1.998533 2.07s/it
+108
+Train VC 2027 1.661284 Grad Norm 2.072352 1.23s/it
+108
+Train TTS 2028 1.642396 Grad Norm 2.599281 1.94s/it
+108
+Train VC 2029 1.541857 Grad Norm 2.943657 1.73s/it
+108
+Train TTS 2030 1.678186 Grad Norm 1.715440 1.56s/it
+108
+Train VC 2031 1.518784 Grad Norm 1.735313 1.79s/it
+108
+Train TTS 2032 1.648432 Grad Norm 1.436099 1.48s/it
+108
+Train VC 2033 1.746054 Grad Norm 5.712977 1.26s/it
+108
+Train TTS 2034 1.661685 Grad Norm 3.253381 1.37s/it
+108
+Train VC 2035 1.680901 Grad Norm 3.644382 1.67s/it
+108
+Train TTS 2036 1.573533 Grad Norm 3.195798 2.29s/it
+108
+Train VC 2037 1.742478 Grad Norm 2.862405 1.60s/it
+108
+Train TTS 2038 1.750339 Grad Norm 2.174846 1.16s/it
+108
+Train VC 2039 1.733385 Grad Norm 2.329389 1.46s/it
+108
+Train TTS 2040 1.709255 Grad Norm 2.759854 1.50s/it
+108
+Train VC 2041 1.636047 Grad Norm 2.852197 2.16s/it
+108
+Train TTS 2042 1.591166 Grad Norm 1.648042 1.59s/it
+108
+Train VC 2043 1.583617 Grad Norm 2.948622 1.92s/it
+108
+Train TTS 2044 1.554525 Grad Norm 1.756100 1.39s/it
+108
+Train VC 2045 1.823829 Grad Norm 5.599676 1.62s/it
+108
+Train TTS 2046 1.694643 Grad Norm 2.656546 1.24s/it
+108
+Train VC 2047 1.648194 Grad Norm 7.559039 1.13s/it
+108
+Train TTS 2048 1.615239 Grad Norm 2.399862 1.21s/it
+108
+Train VC 2049 1.736886 Grad Norm 5.141037 1.40s/it
+108
+Train TTS 2050 1.601478 Grad Norm 1.825907 1.57s/it
+108
+Train VC 2051 1.671671 Grad Norm 2.923780 1.72s/it
+108
+Train TTS 2052 1.716079 Grad Norm 8.177793 2.26s/it
+108
+Train VC 2053 1.518216 Grad Norm 1.846808 1.64s/it
+108
+Train TTS 2054 1.913337 Grad Norm 6.110673 1.44s/it
+108
+Train VC 2055 1.675250 Grad Norm 1.515938 1.27s/it
+108
+Train TTS 2056 1.910459 Grad Norm 5.028008 1.30s/it
+108
+Train VC 2057 1.741580 Grad Norm 4.964212 1.43s/it
+108
+Train TTS 2058 1.645700 Grad Norm 4.598508 2.67s/it
+108
+Train VC 2059 1.888249 Grad Norm 6.035648 1.79s/it
+108
+Train TTS 2060 1.699973 Grad Norm 3.666098 1.62s/it
+108
+Train VC 2061 1.856493 Grad Norm 4.432736 1.16s/it
+108
+Train TTS 2062 1.791024 Grad Norm 5.843701 2.26s/it
+108
+Train VC 2063 1.651118 Grad Norm 5.221315 1.58s/it
+108
+Train TTS 2064 1.557592 Grad Norm 3.533988 1.58s/it
+108
+Train VC 2065 1.802043 Grad Norm 3.801235 1.44s/it
+108
+Train TTS 2066 1.802442 Grad Norm 2.707643 1.36s/it
+108
+Train VC 2067 1.590775 Grad Norm 2.174294 1.25s/it
+108
+Train TTS 2068 1.620962 Grad Norm 2.288929 1.85s/it
+108
+Train VC 2069 1.699130 Grad Norm 3.825520 1.81s/it
+108
+Train TTS 2070 1.739710 Grad Norm 5.481876 1.14s/it
+108
+Train VC 2071 1.615931 Grad Norm 3.139286 1.63s/it
+108
+Train TTS 2072 1.846426 Grad Norm 4.380558 2.37s/it
+108
+Train VC 2073 1.632910 Grad Norm 1.865178 1.78s/it
+108
+Train TTS 2074 1.655524 Grad Norm 2.657540 2.18s/it
+108
+Train VC 2075 1.571522 Grad Norm 1.642553 1.47s/it
+108
+Train TTS 2076 1.796619 Grad Norm 4.365031 1.15s/it
+108
+Train VC 2077 1.680842 Grad Norm 4.781253 1.62s/it
+108
+Train TTS 2078 1.645170 Grad Norm 2.341364 1.24s/it
+108
+Train VC 2079 1.780019 Grad Norm 4.479464 1.30s/it
+108
+Train TTS 2080 1.591646 Grad Norm 1.858613 1.15s/it
+108
+Train VC 2081 1.633386 Grad Norm 2.973707 1.29s/it
+108
+Train TTS 2082 1.566020 Grad Norm 2.751755 1.57s/it
+108
+Train VC 2083 1.565098 Grad Norm 2.878340 1.11s/it
+108
+Train TTS 2084 1.910746 Grad Norm 6.917228 2.72s/it
+108
+Train VC 2085 1.641159 Grad Norm 3.201789 1.96s/it
+108
+Train TTS 2086 1.595461 Grad Norm 6.852069 1.43s/it
+108
+Train VC 2087 1.767719 Grad Norm 3.661173 1.22s/it
+108
+Train TTS 2088 1.646183 Grad Norm 6.122345 1.57s/it
+108
+Train VC 2089 1.685839 Grad Norm 2.658126 1.66s/it
+108
+Train TTS 2090 1.618856 Grad Norm 3.886180 3.28s/it
+108
+Train VC 2091 1.655574 Grad Norm 1.883771 2.27s/it
+108
+Train TTS 2092 1.693449 Grad Norm 4.601596 1.63s/it
+108
+Train VC 2093 1.552457 Grad Norm 1.561766 1.61s/it
+108
+Train TTS 2094 1.665483 Grad Norm 3.437385 1.26s/it
+108
+Train VC 2095 1.660155 Grad Norm 1.318165 1.17s/it
+108
+Train TTS 2096 1.694952 Grad Norm 2.552137 1.34s/it
+108
+Train VC 2097 1.659681 Grad Norm 2.931914 1.12s/it
+108
+Train TTS 2098 1.586045 Grad Norm 2.292482 1.65s/it
+108
+Train VC 2099 1.610174 Grad Norm 2.036998 1.61s/it
+108
+Train TTS 2100 1.621079 Grad Norm 2.602651 1.67s/it
+108
+Train VC 2101 1.610277 Grad Norm 1.836300 1.88s/it
+108
+Train TTS 2102 1.774325 Grad Norm 5.429214 1.94s/it
+108
+Train VC 2103 1.700682 Grad Norm 2.854311 1.36s/it
+108
+Train TTS 2104 1.578713 Grad Norm 6.356087 1.48s/it
+108
+Train VC 2105 1.610314 Grad Norm 2.593295 1.84s/it
+108
+Train TTS 2106 1.645143 Grad Norm 1.110136 1.23s/it
+108
+Train VC 2107 1.750721 Grad Norm 2.939423 1.44s/it
+108
+Train TTS 2108 1.582611 Grad Norm 5.492495 1.67s/it
+108
+Train VC 2109 1.724745 Grad Norm 5.229024 2.56s/it
+108
+Train TTS 2110 1.693611 Grad Norm 7.776591 1.49s/it
+108
+Train VC 2111 1.784428 Grad Norm 6.632409 1.48s/it
+108
+Train TTS 2112 1.601433 Grad Norm 2.264565 1.88s/it
+108
+Train VC 2113 1.673100 Grad Norm 5.283578 2.03s/it
+108
+Train TTS 2114 1.617709 Grad Norm 4.815132 1.60s/it
+108
+Train VC 2115 1.673062 Grad Norm 2.275260 1.62s/it
+108
+Train TTS 2116 1.740078 Grad Norm 3.685496 1.94s/it
+108
+Train VC 2117 1.642365 Grad Norm 2.976050 1.31s/it
+108
+Train TTS 2118 1.749988 Grad Norm 3.976091 1.37s/it
+108
+Train VC 2119 1.528918 Grad Norm 1.086439 2.43s/it
+108
+Train TTS 2120 1.763349 Grad Norm 5.456367 2.40s/it
+108
+Train VC 2121 1.894277 Grad Norm 2.954141 1.87s/it
+108
+Train TTS 2122 1.763370 Grad Norm 2.683820 1.68s/it
+108
+Train VC 2123 1.623363 Grad Norm 3.344440 1.63s/it
+108
+Train TTS 2124 1.693319 Grad Norm 7.522398 1.43s/it
+108
+Train VC 2125 1.764746 Grad Norm 3.624152 1.48s/it
+108
+Train TTS 2126 1.631814 Grad Norm 8.889647 2.79s/it
+108
+Train VC 2127 1.656416 Grad Norm 2.505572 1.54s/it
+108
+Train TTS 2128 1.800780 Grad Norm 7.619387 1.26s/it
+108
+Train VC 2129 1.607517 Grad Norm 2.984231 1.65s/it
+108
+Train TTS 2130 1.754841 Grad Norm 4.367136 1.48s/it
+108
+Train VC 2131 1.809175 Grad Norm 3.102467 1.20s/it
+108
+Train TTS 2132 1.918187 Grad Norm 4.616375 1.24s/it
+108
+Train VC 2133 1.523767 Grad Norm 2.936836 1.52s/it
+108
+Train TTS 2134 1.672012 Grad Norm 2.518532 1.84s/it
+108
+Train VC 2135 1.755170 Grad Norm 3.831372 1.66s/it
+108
+Train TTS 2136 1.748419 Grad Norm 6.369062 1.45s/it
+108
+Train VC 2137 1.549167 Grad Norm 1.303338 1.34s/it
+108
+Train TTS 2138 1.657166 Grad Norm 2.798162 1.72s/it
+108
+Train VC 2139 1.715577 Grad Norm 7.047660 1.26s/it
+108
+Train TTS 2140 1.627718 Grad Norm 1.436406 1.17s/it
+108
+Train VC 2141 1.618183 Grad Norm 1.624909 2.25s/it
+108
+Train TTS 2142 1.809637 Grad Norm 3.684605 1.19s/it
+108
+Train VC 2143 1.545190 Grad Norm 1.706288 1.68s/it
+108
+Train TTS 2144 1.727571 Grad Norm 2.947098 1.26s/it
+108
+Train VC 2145 1.705030 Grad Norm 3.020864 1.19s/it
+108
+Train TTS 2146 1.630404 Grad Norm 4.685074 3.02s/it
+108
+Train VC 2147 1.645249 Grad Norm 3.328102 1.21s/it
+108
+Train TTS 2148 1.600331 Grad Norm 3.420304 1.93s/it
+108
+Train VC 2149 1.607451 Grad Norm 2.019533 1.69s/it
+108
+Train TTS 2150 1.639133 Grad Norm 2.364653 1.72s/it
+108
+Train VC 2151 1.662873 Grad Norm 1.458611 1.61s/it
+108
+Train TTS 2152 1.509310 Grad Norm 1.872045 1.69s/it
+108
+Train VC 2153 1.672069 Grad Norm 1.877843 1.77s/it
+108
+Train TTS 2154 1.638251 Grad Norm 4.724759 1.88s/it
+108
+Train VC 2155 1.612481 Grad Norm 6.070688 1.35s/it
+108
+Train TTS 2156 1.610401 Grad Norm 1.274271 1.35s/it
+108
+Train VC 2157 1.853097 Grad Norm 4.041217 1.34s/it
+108
+Train TTS 2158 1.690014 Grad Norm 4.611159 1.36s/it
+108
+Train VC 2159 1.517107 Grad Norm 2.707242 2.97s/it
+108
+Train TTS 2160 1.685407 Grad Norm 2.710185 2.09s/it
+108
+Train VC 2161 1.651227 Grad Norm 2.647148 1.28s/it
+108
+Train TTS 2162 1.662040 Grad Norm 1.951218 1.78s/it
+108
+Train VC 2163 1.588687 Grad Norm 1.695236 1.24s/it
+108
+Train TTS 2164 1.805399 Grad Norm 5.144229 1.34s/it
+108
+Train VC 2165 1.630605 Grad Norm 1.123638 1.28s/it
+108
+Train TTS 2166 1.527072 Grad Norm 2.490734 1.74s/it
+108
+Train VC 2167 1.577632 Grad Norm 1.887926 1.20s/it
+108
+Train TTS 2168 1.769432 Grad Norm 3.250180 1.04s/it
+108
+Train VC 2169 1.766819 Grad Norm 3.735715 1.42s/it
+108
+Train TTS 2170 1.617553 Grad Norm 2.022071 1.34s/it
+108
+Train VC 2171 1.555621 Grad Norm 2.157930 2.53s/it
+108
+Train TTS 2172 1.664439 Grad Norm 2.629604 1.53s/it
+108
+Train VC 2173 1.625117 Grad Norm 2.084594 1.62s/it
+108
+Train TTS 2174 1.785906 Grad Norm 5.724356 1.34s/it
+108
+Train VC 2175 1.588083 Grad Norm 2.460222 2.48s/it
+108
+Train TTS 2176 1.788714 Grad Norm 2.662980 1.27s/it
+108
+Train VC 2177 1.678278 Grad Norm 2.095004 1.12s/it
+108
+Train TTS 2178 1.975869 Grad Norm 3.528259 1.15s/it
+108
+Train VC 2179 1.485065 Grad Norm 0.998366 1.27s/it
+108
+Train TTS 2180 1.541478 Grad Norm 2.277767 1.93s/it
+108
+Train VC 2181 1.772192 Grad Norm 5.757429 1.67s/it
+108
+Train TTS 2182 1.593325 Grad Norm 2.376541 1.49s/it
+108
+Train VC 2183 1.520042 Grad Norm 2.042523 1.32s/it
+108
+Train TTS 2184 1.516672 Grad Norm 4.061501 1.60s/it
+108
+Train VC 2185 1.613324 Grad Norm 2.748196 1.22s/it
+108
+Train TTS 2186 1.501504 Grad Norm 1.010849 1.55s/it
+108
+Train VC 2187 1.469861 Grad Norm 1.985439 2.01s/it
+Epoch: 2
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1332: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1332: UserWarning: nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.
+  warnings.warn("nn.functional.sigmoid is deprecated. Use torch.sigmoid instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/nn/functional.py:1320: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+/home/users/huiqing_lin/nonparaSeq2seqVC_code/pre-train/model/loss.py:40: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  padded = torch.tensor(text_target.data.new(B,1).zero_())
+108
+Train TTS 2188 1.465069 Grad Norm 1.518334 1.34s/it
+108
+Train VC 2189 1.523368 Grad Norm 7.276304 1.60s/it
+108
+Train TTS 2190 1.515712 Grad Norm 4.837408 1.52s/it
+108
+Train VC 2191 1.633363 Grad Norm 3.256585 2.60s/it
+108
+Train TTS 2192 1.528893 Grad Norm 1.075141 1.37s/it
+108
+Train VC 2193 1.573834 Grad Norm 2.132478 1.54s/it
+108
+Train TTS 2194 1.673587 Grad Norm 3.838230 1.10s/it
+108
+Train VC 2195 1.585632 Grad Norm 14.637861 1.28s/it
+108
+Train TTS 2196 1.475333 Grad Norm 1.076669 1.47s/it
+108
+Train VC 2197 1.486446 Grad Norm 2.260203 2.43s/it
+108
+Train TTS 2198 1.620939 Grad Norm 2.543392 1.53s/it
+108
+Train VC 2199 1.626089 Grad Norm 3.100456 1.48s/it
+108
+Train TTS 2200 1.468301 Grad Norm 2.125196 2.40s/it
+108
+Train VC 2201 1.512383 Grad Norm 1.235919 1.84s/it
+108
+Train TTS 2202 1.377045 Grad Norm 2.726139 2.06s/it
+108
+Train VC 2203 1.436013 Grad Norm 1.781820 1.60s/it
+108
+Train TTS 2204 1.570803 Grad Norm 3.352611 1.51s/it
+108
+Train VC 2205 1.519803 Grad Norm 1.251238 1.24s/it
+108
+Train TTS 2206 1.403482 Grad Norm 1.478850 1.88s/it
+108
+Train VC 2207 1.459436 Grad Norm 0.869905 1.69s/it
+108
+Train TTS 2208 1.515658 Grad Norm 2.277388 1.46s/it
+108
+Train VC 2209 1.663142 Grad Norm 3.655658 1.79s/it
+108
+Train TTS 2210 1.417451 Grad Norm 1.215443 1.68s/it
+108
+Train VC 2211 1.565014 Grad Norm 4.028776 1.80s/it
+108
+Train TTS 2212 1.476302 Grad Norm 1.181582 1.35s/it
+108
+Train VC 2213 1.658088 Grad Norm 3.373982 1.27s/it
+108
+Train TTS 2214 1.544957 Grad Norm 1.668790 1.48s/it
+108
+Train VC 2215 1.435956 Grad Norm 1.085385 1.72s/it
+108
+Train TTS 2216 1.626620 Grad Norm 4.282701 1.45s/it
+108
+Train VC 2217 1.546616 Grad Norm 2.404596 1.56s/it
+108
+Train TTS 2218 1.630903 Grad Norm 1.621990 1.38s/it
+108
+Train VC 2219 1.727519 Grad Norm 2.726355 1.13s/it
+108
+Train TTS 2220 1.599658 Grad Norm 3.297232 2.60s/it
+108
+Train VC 2221 1.607723 Grad Norm 3.295973 1.79s/it
+108
+Train TTS 2222 1.715199 Grad Norm 2.699706 1.30s/it
+108
+Train VC 2223 1.509933 Grad Norm 1.912834 1.35s/it
+108
+Train TTS 2224 1.527439 Grad Norm 2.873490 1.20s/it
+108
+Train VC 2225 1.428026 Grad Norm 2.692167 1.94s/it
+108
+Train TTS 2226 1.469302 Grad Norm 1.023986 1.70s/it
+108
+Train VC 2227 1.415679 Grad Norm 2.266478 2.00s/it
+108
+Train TTS 2228 1.435330 Grad Norm 2.119239 1.98s/it
+108
+Train VC 2229 1.562498 Grad Norm 3.909234 1.43s/it
+108
+Train TTS 2230 1.516593 Grad Norm 4.283861 1.24s/it
+108
+Train VC 2231 1.681277 Grad Norm 4.454788 1.41s/it
+108
+Train TTS 2232 1.732256 Grad Norm 7.263762 1.15s/it
+108
+Train VC 2233 1.517141 Grad Norm 1.125366 1.15s/it
+108
+Train TTS 2234 1.486141 Grad Norm 4.150924 2.07s/it
+108
+Train VC 2235 1.491304 Grad Norm 3.659915 1.90s/it
+108
+Train TTS 2236 1.412230 Grad Norm 1.408669 2.42s/it
+108
+Train VC 2237 1.637810 Grad Norm 1.341182 1.32s/it
+108
+Train TTS 2238 1.532577 Grad Norm 1.009116 1.11s/it
+108
+Train VC 2239 1.613994 Grad Norm 2.928986 1.45s/it
+108
+Train TTS 2240 1.536985 Grad Norm 1.515782 1.34s/it
+108
+Train VC 2241 1.522239 Grad Norm 1.613498 1.27s/it
+108
+Train TTS 2242 1.679534 Grad Norm 3.318650 1.85s/it
+108
+Train VC 2243 1.658731 Grad Norm 2.365313 1.19s/it
+108
+Train TTS 2244 1.559226 Grad Norm 2.041236 1.28s/it
+108
+Train VC 2245 1.405739 Grad Norm 1.580952 2.12s/it
+108
+Train TTS 2246 1.513463 Grad Norm 2.052605 1.65s/it
+108
+Train VC 2247 1.604871 Grad Norm 2.867229 1.76s/it
+108
+Train TTS 2248 1.587857 Grad Norm 1.332889 1.18s/it
+108
+Train VC 2249 1.502883 Grad Norm 1.394883 1.12s/it
+108
+Train TTS 2250 1.380636 Grad Norm 0.973381 1.70s/it
+108
+Train VC 2251 1.591939 Grad Norm 2.470414 1.62s/it
+108
+Train TTS 2252 1.511881 Grad Norm 3.286963 2.18s/it
+108
+Train VC 2253 1.476193 Grad Norm 2.666853 1.71s/it
+108
+Train TTS 2254 1.513794 Grad Norm 5.192228 1.75s/it
+108
+Train VC 2255 1.546872 Grad Norm 1.809087 1.32s/it
+108
+Train TTS 2256 1.579278 Grad Norm 3.586220 1.68s/it
+108
+Train VC 2257 1.562623 Grad Norm 1.558780 1.40s/it
+108
+Train TTS 2258 1.545967 Grad Norm 2.334206 1.33s/it
+108
+Train VC 2259 1.603320 Grad Norm 3.232601 1.36s/it
+108
+Train TTS 2260 1.462858 Grad Norm 3.123690 2.20s/it
+108
+Train VC 2261 1.618442 Grad Norm 2.415504 1.30s/it
+108
+Train TTS 2262 1.505583 Grad Norm 2.300546 1.05s/it
+108
+Train VC 2263 1.595052 Grad Norm 1.951995 1.65s/it
+108
+Train TTS 2264 1.459014 Grad Norm 2.052838 1.23s/it
+108
+Train VC 2265 1.607912 Grad Norm 2.527985 1.86s/it
+108
+Train TTS 2266 1.603298 Grad Norm 3.132387 1.83s/it
+108
+Train VC 2267 1.658945 Grad Norm 5.178684 1.16s/it
+108
+Train TTS 2268 1.442214 Grad Norm 0.959783 1.54s/it
+108
+Train VC 2269 1.706544 Grad Norm 4.335055 1.79s/it
+108
+Train TTS 2270 1.538382 Grad Norm 2.272147 1.55s/it
+108
+Train VC 2271 1.505856 Grad Norm 0.834507 1.49s/it
+108
+Train TTS 2272 1.500226 Grad Norm 1.651741 1.77s/it
+108
+Train VC 2273 1.562509 Grad Norm 2.312986 1.70s/it
+108
+Train TTS 2274 1.589741 Grad Norm 4.823593 2.30s/it
+108
+Train VC 2275 1.432216 Grad Norm 4.244094 3.02s/it
+108
+Train TTS 2276 1.538122 Grad Norm 2.326767 1.48s/it
+108
+Train VC 2277 1.556823 Grad Norm 3.210991 1.06s/it
+108
+Train TTS 2278 1.572540 Grad Norm 3.502945 1.58s/it
+108
+Train VC 2279 1.579014 Grad Norm 1.916587 1.84s/it
+108
+Train TTS 2280 1.532968 Grad Norm 1.459659 1.56s/it
+108
+Train VC 2281 1.791001 Grad Norm 6.133043 1.24s/it
+108
+Train TTS 2282 1.500327 Grad Norm 2.479356 1.41s/it
+108
+Train VC 2283 1.479939 Grad Norm 2.164551 1.19s/it
+108
+Train TTS 2284 1.559791 Grad Norm 2.134061 1.14s/it
+108
+Train VC 2285 1.721832 Grad Norm 4.440033 1.05s/it
+108
+Train TTS 2286 1.433971 Grad Norm 1.402696 1.40s/it
+108
+Train VC 2287 1.439930 Grad Norm 2.473899 1.84s/it
+108
+Train TTS 2288 1.628345 Grad Norm 1.760582 1.55s/it
+108
+Train VC 2289 1.558460 Grad Norm 3.335339 2.02s/it
+108
+Train TTS 2290 1.660050 Grad Norm 3.765947 1.49s/it
+108
+Train VC 2291 1.537817 Grad Norm 0.997216 1.45s/it
+108
+Train TTS 2292 1.661410 Grad Norm 4.402643 2.47s/it
+108
+Train VC 2293 1.510717 Grad Norm 1.448815 1.50s/it
+108
+Train TTS 2294 1.509434 Grad Norm 3.692786 2.47s/it
+108
+Train VC 2295 1.535534 Grad Norm 1.990516 1.36s/it
+108
+Train TTS 2296 1.529850 Grad Norm 2.771559 2.27s/it
+108
+Train VC 2297 1.513237 Grad Norm 2.738064 1.50s/it
+108
+Train TTS 2298 1.500311 Grad Norm 2.786013 1.80s/it
+108
+Train VC 2299 1.617986 Grad Norm 3.167202 1.80s/it
+108
+Train TTS 2300 1.451016 Grad Norm 1.084725 1.37s/it
+108
+Train VC 2301 1.583478 Grad Norm 2.261215 1.44s/it
+108
+Train TTS 2302 1.549357 Grad Norm 1.764760 1.14s/it
+108
+Train VC 2303 1.469404 Grad Norm 1.436388 1.42s/it
+108
+Train TTS 2304 1.493533 Grad Norm 2.399139 1.74s/it
+108
+Train VC 2305 1.497246 Grad Norm 3.049302 2.31s/it
+108
+Train TTS 2306 1.703313 Grad Norm 4.049924 1.13s/it
+108
+Train VC 2307 1.468486 Grad Norm 1.989142 1.91s/it
+108
+Train TTS 2308 1.510600 Grad Norm 4.244453 2.17s/it
+108
+Train VC 2309 1.579981 Grad Norm 2.718496 1.76s/it
+108
+Train TTS 2310 1.446205 Grad Norm 1.058982 1.51s/it
+108
+Train VC 2311 1.583865 Grad Norm 2.732234 1.43s/it
+108
+Train TTS 2312 1.564152 Grad Norm 2.370830 1.14s/it
+108
+Train VC 2313 1.810895 Grad Norm 7.151955 1.53s/it
+108
+Train TTS 2314 1.644809 Grad Norm 2.631009 1.57s/it
+108
+Train VC 2315 1.440413 Grad Norm 3.399087 1.84s/it
+108
+Train TTS 2316 1.490450 Grad Norm 2.184553 2.07s/it
+108
+Train VC 2317 1.483703 Grad Norm 1.317356 1.47s/it
+108
+Train TTS 2318 1.560329 Grad Norm 2.044125 1.56s/it
+108
+Train VC 2319 1.491102 Grad Norm 1.743733 1.72s/it
+108
+Train TTS 2320 1.543956 Grad Norm 1.926611 1.76s/it
+108
+Train VC 2321 1.503038 Grad Norm 4.968873 1.58s/it
+108
+Train TTS 2322 1.487116 Grad Norm 1.962183 1.38s/it
+108
+Train VC 2323 1.544681 Grad Norm 3.629559 2.11s/it
+108
+Train TTS 2324 1.855473 Grad Norm 3.321916 1.32s/it
+108
+Train VC 2325 1.829216 Grad Norm 3.497184 1.70s/it
+108
+Train TTS 2326 1.455536 Grad Norm 1.516852 3.10s/it
+108
+Train VC 2327 1.529719 Grad Norm 2.952921 2.03s/it
+108
+Train TTS 2328 1.523928 Grad Norm 1.851191 1.38s/it
+108
+Train VC 2329 1.524890 Grad Norm 3.646797 1.57s/it
+108
+Train TTS 2330 1.662486 Grad Norm 3.046129 1.70s/it
+108
+Train VC 2331 1.583345 Grad Norm 3.308256 1.23s/it
+108
+Train TTS 2332 1.553672 Grad Norm 2.196053 2.64s/it
+108
+Train VC 2333 1.569971 Grad Norm 1.769453 1.43s/it
+108
+Train TTS 2334 1.481798 Grad Norm 2.327044 2.21s/it
+108
+Train VC 2335 1.501650 Grad Norm 1.814754 1.20s/it
+108
+Train TTS 2336 1.585437 Grad Norm 6.388150 1.70s/it
+108
+Train VC 2337 1.520737 Grad Norm 1.404078 1.29s/it
+108
+Train TTS 2338 1.488737 Grad Norm 1.984721 1.13s/it
+108
+Train VC 2339 1.627406 Grad Norm 2.319858 1.28s/it
+108
+Train TTS 2340 1.678557 Grad Norm 2.802841 1.16s/it
+108
+Train VC 2341 1.476406 Grad Norm 4.310749 1.75s/it
+108
+Train TTS 2342 1.481023 Grad Norm 1.437367 1.70s/it
+108
+Train VC 2343 1.464978 Grad Norm 1.862134 1.44s/it
+108
+Train TTS 2344 1.653470 Grad Norm 6.626588 1.38s/it
+108
+Train VC 2345 1.523022 Grad Norm 2.284078 1.87s/it
+108
+Train TTS 2346 1.520832 Grad Norm 1.411776 1.52s/it
+108
+Train VC 2347 1.602974 Grad Norm 2.341450 1.37s/it
+108
+Train TTS 2348 1.544425 Grad Norm 1.357779 1.20s/it
+108
+Train VC 2349 1.674254 Grad Norm 1.610840 1.37s/it
+108
+Train TTS 2350 1.583456 Grad Norm 2.465343 1.76s/it
+108
+Train VC 2351 1.649682 Grad Norm 4.643828 1.13s/it
+108
+Train TTS 2352 1.564091 Grad Norm 3.432690 1.68s/it
+108
+Train VC 2353 1.579537 Grad Norm 2.131466 1.64s/it
+108
+Train TTS 2354 1.471921 Grad Norm 1.573280 2.46s/it
+108
+Train VC 2355 1.606888 Grad Norm 1.537707 1.90s/it
+108
+Train TTS 2356 1.694034 Grad Norm 1.955019 1.32s/it
+108
+Train VC 2357 1.572820 Grad Norm 3.322162 2.08s/it
+108
+Train TTS 2358 1.416659 Grad Norm 1.251761 2.82s/it
+108
+Train VC 2359 1.499887 Grad Norm 3.361536 1.66s/it
+108
+Train TTS 2360 1.573422 Grad Norm 2.412525 1.16s/it
+108
+Train VC 2361 1.632736 Grad Norm 1.672103 1.14s/it
+108
+Train TTS 2362 1.524594 Grad Norm 4.365289 1.65s/it
+108
+Train VC 2363 1.479253 Grad Norm 1.355563 1.32s/it
+108
+Train TTS 2364 1.594281 Grad Norm 2.279899 1.24s/it
+108
+Train VC 2365 1.664571 Grad Norm 3.987615 2.23s/it
+108
+Train TTS 2366 1.555490 Grad Norm 2.213799 1.47s/it
+108
+Train VC 2367 1.441110 Grad Norm 0.854633 1.81s/it
+108
+Train TTS 2368 1.555453 Grad Norm 2.130625 1.41s/it
+108
+Train VC 2369 1.412603 Grad Norm 1.376105 1.63s/it
+108
+Train TTS 2370 1.415009 Grad Norm 2.244532 1.75s/it
+108
+Train VC 2371 1.625523 Grad Norm 1.164368 1.07s/it
+108
+Train TTS 2372 1.607193 Grad Norm 1.319945 2.11s/it
+108
+Train VC 2373 1.496485 Grad Norm 2.534698 1.24s/it
+108
+Train TTS 2374 1.613398 Grad Norm 1.969339 1.10s/it
+108
+Train VC 2375 1.479247 Grad Norm 2.288306 1.26s/it
+108
+Train TTS 2376 1.575383 Grad Norm 4.162942 1.59s/it
+108
+Train VC 2377 1.611242 Grad Norm 3.990869 1.35s/it
+108
+Train TTS 2378 1.634356 Grad Norm 3.952865 1.61s/it
+108
+Train VC 2379 1.570150 Grad Norm 1.575062 1.27s/it
+108
+Train TTS 2380 1.568062 Grad Norm 3.632227 1.21s/it
+108
+Train VC 2381 1.528160 Grad Norm 1.292610 1.38s/it
+108
+Train TTS 2382 1.480370 Grad Norm 2.425745 1.68s/it
+108
+Train VC 2383 1.534335 Grad Norm 6.874402 1.48s/it
+108
+Train TTS 2384 1.660136 Grad Norm 3.126726 1.05s/it
+108
+Train VC 2385 1.446599 Grad Norm 1.118068 1.29s/it
+108
+Train TTS 2386 1.413313 Grad Norm 1.463935 1.33s/it
+108
+Train VC 2387 1.559928 Grad Norm 4.173907 1.60s/it
+108
+Train TTS 2388 1.572234 Grad Norm 6.617675 1.38s/it
+108
+Train VC 2389 1.514505 Grad Norm 3.949288 2.02s/it
+108
+Train TTS 2390 1.574598 Grad Norm 4.122347 1.65s/it
+108
+Train VC 2391 1.441740 Grad Norm 1.280855 1.63s/it
+108
+Train TTS 2392 1.660906 Grad Norm 6.008250 1.22s/it
+108
+Train VC 2393 1.712287 Grad Norm 3.892906 1.50s/it
+108
+Train TTS 2394 1.576742 Grad Norm 2.341135 1.04s/it
+108
+Train VC 2395 1.567407 Grad Norm 3.466838 1.20s/it
+108
+Train TTS 2396 1.580733 Grad Norm 3.061904 1.51s/it
+108
+Train VC 2397 1.531779 Grad Norm 2.349373 2.42s/it
+108
+Train TTS 2398 1.591117 Grad Norm 2.930057 1.28s/it
+108
+Train VC 2399 1.541047 Grad Norm 2.329091 1.52s/it
+108
+Train TTS 2400 1.665692 Grad Norm 2.244639 1.21s/it
+108
+Train VC 2401 1.650750 Grad Norm 2.321082 1.39s/it
+108
+Train TTS 2402 1.662206 Grad Norm 4.731772 1.90s/it
+108
+Train VC 2403 1.557838 Grad Norm 2.054027 1.30s/it
+108
+Train TTS 2404 1.595001 Grad Norm 2.570452 1.77s/it
+108
+Train VC 2405 1.649959 Grad Norm 5.639616 1.73s/it
+108
+Train TTS 2406 1.583937 Grad Norm 1.317184 1.24s/it
+108
+Train VC 2407 1.511247 Grad Norm 1.364524 1.23s/it
+108
+Train TTS 2408 1.434578 Grad Norm 1.051239 1.46s/it
+108
+Train VC 2409 1.570315 Grad Norm 3.517617 1.82s/it
+108
+Train TTS 2410 1.517647 Grad Norm 0.995941 1.10s/it
+108
+Train VC 2411 1.484209 Grad Norm 1.767879 2.15s/it
+108
+Train TTS 2412 1.613320 Grad Norm 3.579004 1.77s/it
+108
+Train VC 2413 1.624626 Grad Norm 4.448317 1.39s/it
+108
+Train TTS 2414 1.589778 Grad Norm 2.957587 1.02s/it
+108
+Train VC 2415 1.609111 Grad Norm 2.099870 1.09s/it
+108
+Train TTS 2416 1.482043 Grad Norm 1.721511 1.19s/it
+108
+Train VC 2417 1.549932 Grad Norm 2.408904 1.53s/it
+108
+Train TTS 2418 1.607891 Grad Norm 2.135520 2.04s/it
+108
+Train VC 2419 1.585274 Grad Norm 1.453111 1.30s/it
+108
+Train TTS 2420 1.527224 Grad Norm 1.297180 1.75s/it
+108
+Train VC 2421 1.505128 Grad Norm 2.411085 2.13s/it
+108
+Train TTS 2422 1.472424 Grad Norm 2.131204 1.64s/it
+108
+Train VC 2423 1.507024 Grad Norm 1.996463 1.39s/it
+108
+Train TTS 2424 1.601769 Grad Norm 3.281514 1.33s/it
+108
+Train VC 2425 1.659554 Grad Norm 3.193964 1.75s/it
+108
+Train TTS 2426 1.631232 Grad Norm 4.207081 1.24s/it
+108
+Train VC 2427 1.694615 Grad Norm 3.433496 1.05s/it
+108
+Train TTS 2428 1.516444 Grad Norm 3.146658 1.94s/it
+108
+Train VC 2429 1.592836 Grad Norm 2.110150 1.45s/it
+108
+Train TTS 2430 1.608134 Grad Norm 3.116889 1.07s/it
+108
+Train VC 2431 1.588171 Grad Norm 4.277065 2.08s/it
+108
+Train TTS 2432 1.639938 Grad Norm 4.525546 2.59s/it
+108
+Train VC 2433 1.455454 Grad Norm 2.232048 2.12s/it
+108
+Train TTS 2434 1.451785 Grad Norm 3.106305 1.70s/it
+108
+Train VC 2435 1.459215 Grad Norm 0.978620 1.66s/it
+108
+Train TTS 2436 1.718490 Grad Norm 4.219551 2.01s/it
+108
+Train VC 2437 1.583851 Grad Norm 3.969894 1.29s/it
+108
+Train TTS 2438 1.524136 Grad Norm 8.091012 1.90s/it
+108
+Train VC 2439 1.507478 Grad Norm 1.995728 1.40s/it
+108
+Train TTS 2440 1.476119 Grad Norm 0.820963 1.45s/it
+108
+Train VC 2441 1.583613 Grad Norm 3.109124 1.14s/it
+108
+Train TTS 2442 1.545543 Grad Norm 4.683471 1.82s/it
+108
+Train VC 2443 1.596090 Grad Norm 1.783522 1.38s/it
+108
+Train TTS 2444 1.633534 Grad Norm 3.897620 1.33s/it
+108
+Train VC 2445 1.578558 Grad Norm 2.723512 1.37s/it
+108
+Train TTS 2446 1.482321 Grad Norm 2.213205 2.16s/it
+108
+Train VC 2447 1.483510 Grad Norm 2.070936 2.24s/it
+108
+Train TTS 2448 1.657044 Grad Norm 3.822921 1.37s/it
+108
+Train VC 2449 1.523674 Grad Norm 1.495142 1.42s/it
+108
+Train TTS 2450 1.646640 Grad Norm 2.743626 1.40s/it
+108
+Train VC 2451 1.727683 Grad Norm 3.250316 2.20s/it
+108
+Train TTS 2452 1.571577 Grad Norm 2.120008 1.05s/it
+108
+Train VC 2453 1.672477 Grad Norm 3.525670 1.83s/it
+108
+Train TTS 2454 1.493928 Grad Norm 1.864021 1.82s/it
+108
+Train VC 2455 1.549466 Grad Norm 3.157173 1.44s/it
+108
+Train TTS 2456 1.374329 Grad Norm 1.240798 2.23s/it
+108
+Train VC 2457 1.505072 Grad Norm 2.344801 2.00s/it
+108
+Train TTS 2458 1.427192 Grad Norm 1.811786 1.76s/it
+108
+Train VC 2459 1.528331 Grad Norm 3.070254 1.25s/it
+108
+Train TTS 2460 1.543249 Grad Norm 3.372172 2.34s/it
+108
+Train VC 2461 1.544517 Grad Norm 3.793465 1.57s/it
+108
+Train TTS 2462 1.474339 Grad Norm 1.209549 1.73s/it
+108
+Train VC 2463 1.587595 Grad Norm 3.354816 1.44s/it
+108
+Train TTS 2464 1.612915 Grad Norm 2.492216 1.61s/it
+108
+Train VC 2465 1.790558 Grad Norm 4.519203 1.68s/it
+108
+Train TTS 2466 1.694614 Grad Norm 3.255965 1.17s/it
+108
+Train VC 2467 1.521298 Grad Norm 2.822298 2.66s/it
+108
+Train TTS 2468 1.507403 Grad Norm 4.069830 1.62s/it
+108
+Train VC 2469 1.521253 Grad Norm 3.669147 1.90s/it
+108
+Train TTS 2470 1.527886 Grad Norm 1.602600 1.65s/it
+108
+Train VC 2471 1.413712 Grad Norm 2.196705 1.63s/it
+108
+Train TTS 2472 1.606120 Grad Norm 3.445244 1.47s/it
+108
+Train VC 2473 1.537743 Grad Norm 1.962511 1.56s/it
+108
+Train TTS 2474 1.548547 Grad Norm 3.683392 1.64s/it
+108
+Train VC 2475 1.375229 Grad Norm 1.451028 2.07s/it
+108
+Train TTS 2476 1.578143 Grad Norm 0.962074 1.46s/it
+108
+Train VC 2477 1.520840 Grad Norm 2.347840 1.32s/it
+108
+Train TTS 2478 1.482267 Grad Norm 1.792916 1.21s/it
+108
+Train VC 2479 1.504519 Grad Norm 1.281000 1.65s/it
+108
+Train TTS 2480 1.570394 Grad Norm 2.740654 1.48s/it
+108
+Train VC 2481 1.546663 Grad Norm 2.446535 1.27s/it
+108
+Train TTS 2482 1.479730 Grad Norm 2.401000 2.15s/it
+108
+Train VC 2483 1.422797 Grad Norm 0.903814 1.23s/it
+108
+Train TTS 2484 1.541674 Grad Norm 2.588928 1.37s/it
+108
+Train VC 2485 1.521087 Grad Norm 1.879039 1.35s/it
+108
+Train TTS 2486 1.570389 Grad Norm 3.000744 1.53s/it
+108
+Train VC 2487 1.510908 Grad Norm 2.189535 2.01s/it
+108
+Train TTS 2488 1.671165 Grad Norm 3.344292 1.53s/it
+108
+Train VC 2489 1.597986 Grad Norm 3.921603 1.62s/it
+108
+Train TTS 2490 1.473544 Grad Norm 2.828357 1.34s/it
+108
+Train VC 2491 1.559354 Grad Norm 1.879981 1.26s/it
+108
+Train TTS 2492 1.488476 Grad Norm 1.360077 2.16s/it
+108
+Train VC 2493 1.597830 Grad Norm 4.888229 1.91s/it
+108
+Train TTS 2494 1.575905 Grad Norm 3.261074 1.38s/it
+108
+Train VC 2495 1.571259 Grad Norm 1.921711 1.64s/it
+108
+Train TTS 2496 1.552421 Grad Norm 3.110924 1.38s/it
+108
+Train VC 2497 1.515063 Grad Norm 2.689886 1.77s/it
+108
+Train TTS 2498 1.361766 Grad Norm 1.406613 2.06s/it
+108
+Train VC 2499 1.507574 Grad Norm 1.140989 1.66s/it
+108
+Train TTS 2500 1.471898 Grad Norm 1.190283 1.75s/it
+108
+Train VC 2501 1.791958 Grad Norm 3.991126 1.96s/it
+108
+Train TTS 2502 1.825969 Grad Norm 6.601809 1.59s/it
+108
+Train VC 2503 1.514474 Grad Norm 1.560641 1.16s/it
+108
+Train TTS 2504 1.590847 Grad Norm 3.313921 1.28s/it
+108
+Train VC 2505 1.463405 Grad Norm 1.023670 1.64s/it
+108
+Train TTS 2506 1.494562 Grad Norm 1.693747 1.46s/it
+108
+Train VC 2507 1.463951 Grad Norm 2.971301 2.48s/it
+108
+Train TTS 2508 1.519495 Grad Norm 1.389736 1.38s/it
+108
+Train VC 2509 1.519851 Grad Norm 4.612607 1.30s/it
+108
+Train TTS 2510 1.353425 Grad Norm 0.712048 1.90s/it
+108
+Train VC 2511 1.384188 Grad Norm 1.036632 1.32s/it
+108
+Train TTS 2512 1.555068 Grad Norm 3.061515 1.35s/it
+108
+Train VC 2513 1.458404 Grad Norm 1.757782 1.94s/it
+108
+Train TTS 2514 1.482094 Grad Norm 1.687314 1.66s/it
+108
+Train VC 2515 1.429370 Grad Norm 1.892332 1.49s/it
+108
+Train TTS 2516 1.628495 Grad Norm 4.099097 1.42s/it
+108
+Train VC 2517 1.523050 Grad Norm 3.559053 1.66s/it
+108
+Train TTS 2518 1.470315 Grad Norm 1.139999 1.84s/it
+108
+Train VC 2519 1.529615 Grad Norm 4.366179 1.17s/it
+108
+Train TTS 2520 1.681267 Grad Norm 3.292079 1.19s/it
+108
+Train VC 2521 1.534343 Grad Norm 2.685903 1.16s/it
+108
+Train TTS 2522 1.478978 Grad Norm 1.932960 1.85s/it
+108
+Train VC 2523 1.610965 Grad Norm 3.437264 1.61s/it
+108
+Train TTS 2524 1.595815 Grad Norm 1.901664 1.46s/it
+108
+Train VC 2525 1.453420 Grad Norm 0.852912 1.21s/it
+108
+Train TTS 2526 1.596805 Grad Norm 2.762557 1.12s/it
+108
+Train VC 2527 1.432702 Grad Norm 0.973839 1.71s/it
+108
+Train TTS 2528 1.340951 Grad Norm 1.385921 2.92s/it
+108
+Train VC 2529 1.719154 Grad Norm 2.598537 1.21s/it
+108
+Train TTS 2530 1.593092 Grad Norm 3.364968 1.32s/it
+108
+Train VC 2531 1.531347 Grad Norm 2.150512 1.65s/it
+108
+Train TTS 2532 1.593943 Grad Norm 2.608838 1.40s/it
+108
+Train VC 2533 1.504579 Grad Norm 2.400105 1.44s/it
+108
+Train TTS 2534 1.594660 Grad Norm 1.339035 1.36s/it
+108
+Train VC 2535 1.459488 Grad Norm 1.672440 1.60s/it
+108
+Train TTS 2536 1.603988 Grad Norm 5.415915 1.41s/it
+108
+Train VC 2537 1.377481 Grad Norm 177.532412 2.99s/it
+108
+Train TTS 2538 1.546578 Grad Norm 4.283108 1.72s/it
+108
+Train VC 2539 1.467173 Grad Norm 1.524813 1.35s/it
+108
+Train TTS 2540 1.545220 Grad Norm 3.305840 1.94s/it
+108
+Train VC 2541 1.483501 Grad Norm 1.500099 1.38s/it
+108
+Train TTS 2542 1.528716 Grad Norm 3.909964 2.36s/it
+108
+Train VC 2543 1.754806 Grad Norm 4.003280 1.62s/it
+108
+Train TTS 2544 1.499161 Grad Norm 1.584867 2.15s/it
+108
+Train VC 2545 1.608616 Grad Norm 3.000957 1.58s/it
+108
+Train TTS 2546 1.561374 Grad Norm 5.084458 2.47s/it
+108
+Train VC 2547 1.530892 Grad Norm 1.492504 1.66s/it
+108
+Train TTS 2548 1.598215 Grad Norm 1.408924 1.43s/it
+108
+Train VC 2549 1.688143 Grad Norm 3.068558 1.42s/it
+108
+Train TTS 2550 1.472511 Grad Norm 2.585334 1.58s/it
+108
+Train VC 2551 1.499395 Grad Norm 2.268623 2.74s/it
+108
+Train TTS 2552 1.673140 Grad Norm 3.486827 1.88s/it
+108
+Train VC 2553 1.593537 Grad Norm 1.648433 1.59s/it
+108
+Train TTS 2554 1.562859 Grad Norm 2.240639 1.40s/it
+108
+Train VC 2555 1.544004 Grad Norm 3.364274 1.58s/it
+108
+Train TTS 2556 1.426576 Grad Norm 1.252900 1.86s/it
+108
+Train VC 2557 1.543399 Grad Norm 3.304385 2.08s/it
+108
+Train TTS 2558 1.411024 Grad Norm 1.502123 1.90s/it
+108
+Train VC 2559 1.535364 Grad Norm 1.531575 1.78s/it
+108
+Train TTS 2560 1.442190 Grad Norm 0.922283 1.98s/it
+108
+Train VC 2561 1.442138 Grad Norm 1.359458 1.69s/it
+108
+Train TTS 2562 1.689620 Grad Norm 6.297445 1.81s/it
+108
+Train VC 2563 1.625339 Grad Norm 3.908994 1.25s/it
+108
+Train TTS 2564 1.416604 Grad Norm 1.458910 2.75s/it
+108
+Train VC 2565 1.434997 Grad Norm 1.409803 2.26s/it
+108
+Train TTS 2566 1.661867 Grad Norm 5.290678 1.98s/it
+108
+Train VC 2567 1.712577 Grad Norm 2.839990 1.76s/it
+108
+Train TTS 2568 1.588037 Grad Norm 1.891712 1.50s/it
+108
+Train VC 2569 1.465597 Grad Norm 0.836745 1.14s/it
+108
+Train TTS 2570 1.550620 Grad Norm 1.221648 1.16s/it
+108
+Train VC 2571 1.619036 Grad Norm 3.647198 1.40s/it
+108
+Train TTS 2572 1.694213 Grad Norm 2.770695 1.46s/it
+108
+Train VC 2573 1.517123 Grad Norm 2.936475 1.40s/it
+108
+Train TTS 2574 1.513293 Grad Norm 2.093851 2.04s/it
+108
+Train VC 2575 1.619501 Grad Norm 2.033164 1.32s/it
+108
+Train TTS 2576 1.571473 Grad Norm 4.694058 1.93s/it
+108
+Train VC 2577 1.426376 Grad Norm 0.761340 1.70s/it
+108
+Train TTS 2578 1.514107 Grad Norm 7.492197 2.70s/it
+108
+Train VC 2579 1.521987 Grad Norm 2.788538 2.53s/it
+108
+Train TTS 2580 1.654667 Grad Norm 3.542434 1.61s/it
+108
+Train VC 2581 1.603628 Grad Norm 2.661817 1.35s/it
+108
+Train TTS 2582 1.780134 Grad Norm 6.196516 1.20s/it
+108
+Train VC 2583 1.647772 Grad Norm 1.381838 1.22s/it
+108
+Train TTS 2584 1.667953 Grad Norm 3.450002 1.30s/it
+108
+Train VC 2585 1.640716 Grad Norm 2.754984 1.81s/it
+108
+Train TTS 2586 1.576274 Grad Norm 1.649438 2.02s/it
+108
+Train VC 2587 1.701606 Grad Norm 2.528611 1.25s/it
+108
+Train TTS 2588 1.639317 Grad Norm 4.322412 1.31s/it
+108
+Train VC 2589 1.493553 Grad Norm 1.965310 1.76s/it
+108
+Train TTS 2590 1.526125 Grad Norm 2.605019 2.25s/it
+108
+Train VC 2591 1.527227 Grad Norm 2.606129 2.06s/it
+108
+Train TTS 2592 1.683414 Grad Norm 3.455440 1.28s/it
+108
+Train VC 2593 1.575203 Grad Norm 1.542572 1.65s/it
+108
+Train TTS 2594 1.640572 Grad Norm 1.885214 0.96s/it
+108
+Train VC 2595 1.652211 Grad Norm 4.668083 1.69s/it
+108
+Train TTS 2596 1.688567 Grad Norm 2.782455 1.10s/it
+108
+Train VC 2597 1.632857 Grad Norm 3.412042 1.18s/it
+108
+Train TTS 2598 1.561664 Grad Norm 1.376324 1.23s/it
+108
+Train VC 2599 1.566273 Grad Norm 2.242468 1.65s/it
+108
+Train TTS 2600 1.623456 Grad Norm 2.569619 1.43s/it
+108
+Train VC 2601 1.672156 Grad Norm 2.665587 1.85s/it
+108
+Train TTS 2602 1.720428 Grad Norm 2.566615 1.11s/it
+108
+Train VC 2603 1.583459 Grad Norm 2.116576 1.54s/it
+108
+Train TTS 2604 1.544177 Grad Norm 1.722349 1.59s/it
+108
+Train VC 2605 1.740271 Grad Norm 2.695307 1.41s/it
+108
+Train TTS 2606 1.497085 Grad Norm 1.887258 2.14s/it
+108
+Train VC 2607 1.581232 Grad Norm 1.351984 1.20s/it
+108
+Train TTS 2608 1.541201 Grad Norm 0.908128 1.96s/it
+108
+Train VC 2609 1.533346 Grad Norm 3.190468 1.72s/it
+108
+Train TTS 2610 1.659803 Grad Norm 4.956178 1.51s/it
+108
+Train VC 2611 1.673476 Grad Norm 3.272595 1.72s/it
+108
+Train TTS 2612 1.702648 Grad Norm 3.366596 1.94s/it
+108
+Train VC 2613 1.512822 Grad Norm 1.041766 1.89s/it
+108
+Train TTS 2614 1.586474 Grad Norm 1.910934 1.85s/it
+108
+Train VC 2615 1.612853 Grad Norm 2.108835 1.40s/it
+108
+Train TTS 2616 1.462621 Grad Norm 1.004963 1.56s/it
+108
+Train VC 2617 1.565801 Grad Norm 2.247375 1.50s/it
+108
+Train TTS 2618 1.499397 Grad Norm 2.118866 1.51s/it
+108
+Train VC 2619 1.603800 Grad Norm 2.615807 1.67s/it
+108
+Train TTS 2620 1.639015 Grad Norm 4.036730 1.63s/it
+108
+Train VC 2621 1.557894 Grad Norm 2.204316 1.95s/it
+108
+Train TTS 2622 1.607619 Grad Norm 2.176833 1.32s/it
+108
+Train VC 2623 1.662260 Grad Norm 3.014037 1.33s/it
+108
+Train TTS 2624 1.561309 Grad Norm 1.577006 1.51s/it
+108
+Train VC 2625 1.476344 Grad Norm 2.203753 1.37s/it
+108
+Train TTS 2626 1.452430 Grad Norm 0.859645 1.44s/it
+108
+Train VC 2627 1.555392 Grad Norm 2.011658 1.37s/it
+108
+Train TTS 2628 1.427999 Grad Norm 1.366505 1.55s/it
+108
+Train VC 2629 1.498582 Grad Norm 3.291144 1.29s/it
+108
+Train TTS 2630 1.491537 Grad Norm 3.359915 1.76s/it
+108
+Train VC 2631 1.721023 Grad Norm 4.646391 1.30s/it
+108
+Train TTS 2632 1.515335 Grad Norm 1.205126 2.55s/it
+108
+Train VC 2633 1.466974 Grad Norm 1.345466 2.95s/it
+108
+Train TTS 2634 1.572111 Grad Norm 3.419156 1.97s/it
+108
+Train VC 2635 1.656808 Grad Norm 5.774831 1.72s/it
+108
+Train TTS 2636 1.526531 Grad Norm 2.068757 1.63s/it
+108
+Train VC 2637 1.584342 Grad Norm 1.744585 1.17s/it
+108
+Train TTS 2638 1.476822 Grad Norm 0.787256 1.49s/it
+108
+Train VC 2639 1.461658 Grad Norm 2.720326 1.56s/it
+108
+Train TTS 2640 1.652656 Grad Norm 4.885676 1.28s/it
+108
+Train VC 2641 1.527801 Grad Norm 1.223490 1.42s/it
+108
+Train TTS 2642 1.541608 Grad Norm 0.943729 2.42s/it
+108
+Train VC 2643 1.519066 Grad Norm 3.576067 2.10s/it
+108
+Train TTS 2644 1.390008 Grad Norm 1.030014 2.40s/it
+108
+Train VC 2645 1.452271 Grad Norm 1.262566 1.66s/it
+108
+Train TTS 2646 1.463515 Grad Norm 2.180601 1.51s/it
+108
+Train VC 2647 1.515738 Grad Norm 1.886929 1.46s/it
+108
+Train TTS 2648 1.472623 Grad Norm 1.364813 1.66s/it
+108
+Train VC 2649 1.513726 Grad Norm 1.866013 1.59s/it
+108
+Train TTS 2650 1.581618 Grad Norm 2.274596 1.17s/it
+108
+Train VC 2651 1.440008 Grad Norm 1.378320 1.51s/it
+108
+Train TTS 2652 1.380675 Grad Norm 1.296607 2.48s/it
+108
+Train VC 2653 1.603012 Grad Norm 3.053974 1.73s/it
+108
+Train TTS 2654 1.435681 Grad Norm 1.918601 1.57s/it
+108
+Train VC 2655 1.451318 Grad Norm 1.301248 1.80s/it
+108
+Train TTS 2656 1.563087 Grad Norm 4.008708 1.27s/it
+108
+Train VC 2657 1.529515 Grad Norm 3.120194 1.46s/it
+108
+Train TTS 2658 1.415709 Grad Norm 2.335751 1.42s/it
+108
+Train VC 2659 1.530411 Grad Norm 2.765224 1.58s/it
+108
+Train TTS 2660 1.413157 Grad Norm 3.616103 2.09s/it
+108
+Train VC 2661 1.430100 Grad Norm 1.177176 1.67s/it
+108
+Train TTS 2662 1.577193 Grad Norm 1.670708 1.86s/it
+108
+Train VC 2663 1.559913 Grad Norm 1.632076 1.57s/it
+108
+Train TTS 2664 1.438827 Grad Norm 2.387841 2.34s/it
+108
+Train VC 2665 1.750340 Grad Norm 4.462614 1.55s/it
+108
+Train TTS 2666 1.616131 Grad Norm 3.495480 1.21s/it
+108
+Train VC 2667 1.559743 Grad Norm 4.027049 1.81s/it
+108
+Train TTS 2668 1.430064 Grad Norm 1.900663 1.95s/it
+108
+Train VC 2669 1.468137 Grad Norm 1.184938 1.62s/it
+108
+Train TTS 2670 1.448001 Grad Norm 2.589423 2.24s/it
+108
+Train VC 2671 1.530945 Grad Norm 1.279668 1.09s/it
+108
+Train TTS 2672 1.517106 Grad Norm 2.231074 1.45s/it
+108
+Train VC 2673 1.469473 Grad Norm 1.039289 1.73s/it
+108
+Train TTS 2674 1.506804 Grad Norm 2.025444 1.86s/it
+108
+Train VC 2675 1.462126 Grad Norm 1.634739 1.52s/it
+108
+Train TTS 2676 1.528002 Grad Norm 2.670781 1.05s/it
+108
+Train VC 2677 1.472946 Grad Norm 1.183494 1.38s/it
+108
+Train TTS 2678 1.432563 Grad Norm 1.348783 1.78s/it
+108
+Train VC 2679 1.476643 Grad Norm 1.764734 1.65s/it
+108
+Train TTS 2680 1.456219 Grad Norm 1.027926 2.11s/it
+108
+Train VC 2681 1.529927 Grad Norm 1.557613 1.51s/it
+108
+Train TTS 2682 1.479464 Grad Norm 1.873043 1.93s/it
+108
+Train VC 2683 1.394128 Grad Norm 0.906330 1.73s/it
+108
+Train TTS 2684 1.634697 Grad Norm 4.890099 1.42s/it
+108
+Train VC 2685 1.541360 Grad Norm 1.146945 1.60s/it
+108
+Train TTS 2686 1.440239 Grad Norm 1.007588 1.56s/it
+108
+Train VC 2687 1.760813 Grad Norm 4.873180 1.48s/it
+108
+Train TTS 2688 1.458979 Grad Norm 1.321345 1.94s/it
+108
+Train VC 2689 1.524303 Grad Norm 2.308095 2.58s/it
+108
+Train TTS 2690 1.652208 Grad Norm 3.856528 1.05s/it
+108
+Train VC 2691 1.509316 Grad Norm 2.377869 1.98s/it
+108
+Train TTS 2692 1.579059 Grad Norm 2.596549 1.83s/it
+108
+Train VC 2693 1.588124 Grad Norm 3.733520 1.17s/it
+108
+Train TTS 2694 1.477809 Grad Norm 1.865272 1.59s/it
+108
+Train VC 2695 1.517034 Grad Norm 1.198263 1.40s/it
+108
+Train TTS 2696 1.757116 Grad Norm 7.467277 1.27s/it
+108
+Train VC 2697 1.498237 Grad Norm 2.408711 1.60s/it
+108
+Train TTS 2698 1.418164 Grad Norm 0.884159 1.79s/it
+108
+Train VC 2699 1.523263 Grad Norm 2.083950 1.22s/it
+108
+Train TTS 2700 1.512015 Grad Norm 2.076171 1.26s/it
+108
+Train VC 2701 1.519821 Grad Norm 0.904624 1.16s/it
+108
+Train TTS 2702 1.601365 Grad Norm 3.195506 1.60s/it
+108
+Train VC 2703 1.515059 Grad Norm 2.154539 1.51s/it
+108
+Train TTS 2704 1.577786 Grad Norm 1.062829 1.82s/it
+108
+Train VC 2705 1.517084 Grad Norm 2.979762 2.32s/it
+108
+Train TTS 2706 1.497996 Grad Norm 2.092498 1.91s/it
+108
+Train VC 2707 1.660404 Grad Norm 3.226768 1.19s/it
+108
+Train TTS 2708 1.432976 Grad Norm 1.471385 1.36s/it
+108
+Train VC 2709 1.468880 Grad Norm 1.428708 1.86s/it
+108
+Train TTS 2710 1.418821 Grad Norm 0.983378 1.82s/it
+108
+Train VC 2711 1.429268 Grad Norm 2.334184 1.71s/it
+108
+Train TTS 2712 1.414241 Grad Norm 1.607119 1.38s/it
+108
+Train VC 2713 1.441634 Grad Norm 1.108922 1.52s/it
+108
+Train TTS 2714 1.499010 Grad Norm 2.485226 1.32s/it
+108
+Train VC 2715 1.477601 Grad Norm 1.964725 1.74s/it
+108
+Train TTS 2716 1.513098 Grad Norm 1.346847 1.25s/it
+108
+Train VC 2717 1.650307 Grad Norm 1.658322 1.43s/it
+108
+Train TTS 2718 1.470902 Grad Norm 1.226232 1.58s/it
+108
+Train VC 2719 1.458415 Grad Norm 2.330017 1.61s/it
+108
+Train TTS 2720 1.621629 Grad Norm 2.614846 1.44s/it
+108
+Train VC 2721 1.500622 Grad Norm 1.551821 1.27s/it
+108
+Train TTS 2722 1.441617 Grad Norm 1.143045 1.51s/it
+108
+Train VC 2723 1.489530 Grad Norm 1.083248 1.41s/it
+108
+Train TTS 2724 1.448557 Grad Norm 0.961977 1.37s/it
+108
+Train VC 2725 1.386374 Grad Norm 0.804070 1.68s/it
+108
+Train TTS 2726 1.514482 Grad Norm 1.216723 1.56s/it
+108
+Train VC 2727 1.493154 Grad Norm 2.438847 1.68s/it
+108
+Train TTS 2728 1.542103 Grad Norm 1.565396 1.38s/it
+108
+Train VC 2729 1.552479 Grad Norm 2.409682 1.82s/it
+108
+Train TTS 2730 1.470681 Grad Norm 1.361823 1.35s/it
+108
+Train VC 2731 1.501491 Grad Norm 1.653100 2.25s/it
+108
+Train TTS 2732 1.479291 Grad Norm 1.123304 1.69s/it
+108
+Train VC 2733 1.467892 Grad Norm 0.702489 1.18s/it
+108
+Train TTS 2734 1.389980 Grad Norm 1.012139 1.80s/it
+108
+Train VC 2735 1.508918 Grad Norm 1.913455 1.65s/it
+108
+Train TTS 2736 1.534308 Grad Norm 2.096905 1.38s/it
+108
+Train VC 2737 1.404936 Grad Norm 0.866682 1.48s/it
+108
+Train TTS 2738 1.391006 Grad Norm 0.911460 1.44s/it
+108
+Train VC 2739 1.454923 Grad Norm 1.377401 2.11s/it
+108
+Train TTS 2740 1.564059 Grad Norm 2.801872 1.53s/it
+108
+Train VC 2741 1.473080 Grad Norm 1.564668 1.19s/it
+108
+Train TTS 2742 1.552363 Grad Norm 1.784355 1.14s/it
+108
+Train VC 2743 1.521417 Grad Norm 1.557686 2.03s/it
+108
+Train TTS 2744 1.427327 Grad Norm 2.316614 1.84s/it
+108
+Train VC 2745 1.440558 Grad Norm 1.153108 1.52s/it
+108
+Train TTS 2746 1.574341 Grad Norm 2.820639 1.37s/it
+108
+Train VC 2747 1.485920 Grad Norm 1.421504 1.70s/it
+108
+Train TTS 2748 1.405441 Grad Norm 1.437955 1.87s/it
+108
+Train VC 2749 1.451346 Grad Norm 2.076471 1.65s/it
+108
+Train TTS 2750 1.477466 Grad Norm 0.969200 1.42s/it
+108
+Train VC 2751 1.478206 Grad Norm 1.817916 1.31s/it
+108
+Train TTS 2752 1.582794 Grad Norm 2.357750 0.94s/it
+108
+Train VC 2753 1.443476 Grad Norm 1.102031 1.77s/it
+108
+Train TTS 2754 1.440845 Grad Norm 0.759749 2.58s/it
+108
+Train VC 2755 1.399890 Grad Norm 0.976690 1.43s/it
+108
+Train TTS 2756 1.472356 Grad Norm 1.868788 1.60s/it
+108
+Train VC 2757 1.464076 Grad Norm 1.871517 1.33s/it
+108
+Train TTS 2758 1.437826 Grad Norm 1.513305 1.52s/it
+108
+Train VC 2759 1.462527 Grad Norm 4.758229 1.25s/it
+108
+Train TTS 2760 1.350117 Grad Norm 1.438472 1.98s/it
+108
+Train VC 2761 1.435883 Grad Norm 1.575248 1.23s/it
+108
+Train TTS 2762 1.407471 Grad Norm 0.784098 1.53s/it
+108
+Train VC 2763 1.556940 Grad Norm 1.501902 2.87s/it
+108
+Train TTS 2764 1.584038 Grad Norm 2.078222 2.31s/it
+108
+Train VC 2765 1.414846 Grad Norm 2.327094 2.99s/it
+108
+Train TTS 2766 1.519666 Grad Norm 1.889775 1.29s/it
+108
+Train VC 2767 1.454870 Grad Norm 1.958075 1.40s/it
+108
+Train TTS 2768 1.531295 Grad Norm 1.203112 1.11s/it
+108
+Train VC 2769 1.518224 Grad Norm 1.718195 1.24s/it
+108
+Train TTS 2770 1.431111 Grad Norm 1.958844 1.80s/it
+108
+Train VC 2771 1.327535 Grad Norm 2.466956 2.12s/it
+108
+Train TTS 2772 1.535717 Grad Norm 1.587244 1.72s/it
+108
+Train VC 2773 1.434021 Grad Norm 2.410628 2.53s/it
+108
+Train TTS 2774 1.463204 Grad Norm 1.771893 2.26s/it
+108
+Train VC 2775 1.427828 Grad Norm 0.878706 1.70s/it
+108
+Train TTS 2776 1.352928 Grad Norm 0.867947 2.22s/it
+108
+Train VC 2777 1.627395 Grad Norm 14.367246 1.75s/it
+108
+Train TTS 2778 1.436537 Grad Norm 2.859271 1.39s/it
+108
+Train VC 2779 1.415350 Grad Norm 1.154947 1.18s/it
+108
+Train TTS 2780 1.550684 Grad Norm 3.688648 1.54s/it
+108
+Train VC 2781 1.314902 Grad Norm 0.687457 1.60s/it
+108
+Train TTS 2782 1.516472 Grad Norm 3.880228 1.42s/it
+108
+Train VC 2783 1.507303 Grad Norm 2.209093 1.38s/it
+108
+Train TTS 2784 1.442403 Grad Norm 0.898351 1.63s/it
+108
+Train VC 2785 1.597722 Grad Norm 1.505385 2.15s/it
+108
+Train TTS 2786 1.566888 Grad Norm 2.799737 1.40s/it
+108
+Train VC 2787 1.436185 Grad Norm 1.202405 1.78s/it
+108
+Train TTS 2788 1.521450 Grad Norm 1.598085 2.12s/it
+108
+Train VC 2789 1.390931 Grad Norm 1.646507 2.00s/it
+108
+Train TTS 2790 1.398507 Grad Norm 1.188568 1.29s/it
+108
+Train VC 2791 1.422015 Grad Norm 0.787027 1.74s/it
+108
+Train TTS 2792 1.420422 Grad Norm 1.316519 1.68s/it
+108
+Train VC 2793 1.450762 Grad Norm 1.151671 1.09s/it
+108
+Train TTS 2794 1.476620 Grad Norm 0.759114 1.54s/it
+108
+Train VC 2795 1.422069 Grad Norm 1.785242 1.83s/it
+108
+Train TTS 2796 1.383201 Grad Norm 0.745622 1.37s/it
+108
+Train VC 2797 1.669279 Grad Norm 5.013736 1.37s/it
+108
+Train TTS 2798 1.530494 Grad Norm 2.101388 1.64s/it
+108
+Train VC 2799 1.468205 Grad Norm 1.203889 1.53s/it
+108
+Train TTS 2800 1.441170 Grad Norm 1.160147 1.88s/it
+108
+Train VC 2801 1.558635 Grad Norm 2.884859 1.16s/it
+108
+Train TTS 2802 1.589618 Grad Norm 2.206823 1.13s/it
+108
+Train VC 2803 1.476424 Grad Norm 3.323819 2.43s/it
+108
+Train TTS 2804 1.447288 Grad Norm 1.900939 1.92s/it
+108
+Train VC 2805 1.578344 Grad Norm 1.433044 1.54s/it
+108
+Train TTS 2806 1.449393 Grad Norm 2.571920 1.78s/it
+108
+Train VC 2807 1.613577 Grad Norm 2.733847 1.72s/it
+108
+Train TTS 2808 1.453300 Grad Norm 1.224483 1.79s/it
+108
+Train VC 2809 1.570572 Grad Norm 1.461735 1.45s/it
+108
+Train TTS 2810 1.513775 Grad Norm 3.111771 1.33s/it
+108
+Train VC 2811 1.678647 Grad Norm 2.587639 1.16s/it
+108
+Train TTS 2812 1.451033 Grad Norm 1.018239 1.46s/it
+108
+Train VC 2813 1.535834 Grad Norm 3.532907 1.19s/it
+108
+Train TTS 2814 1.665513 Grad Norm 6.126848 2.14s/it
+108
+Train VC 2815 1.522191 Grad Norm 2.009777 1.37s/it
+108
+Train TTS 2816 1.483227 Grad Norm 1.065372 1.28s/it
+108
+Train VC 2817 1.408269 Grad Norm 1.511497 2.51s/it
+108
+Train TTS 2818 1.412015 Grad Norm 1.374314 1.60s/it
+108
+Train VC 2819 1.451005 Grad Norm 1.577113 1.26s/it
+108
+Train TTS 2820 1.495698 Grad Norm 2.350891 1.75s/it
+108
+Train VC 2821 1.516212 Grad Norm 2.421061 1.43s/it
+108
+Train TTS 2822 1.363887 Grad Norm 1.048984 1.70s/it
+108
+Train VC 2823 1.356716 Grad Norm 1.237189 1.46s/it
+108
+Train TTS 2824 1.350562 Grad Norm 0.845128 1.63s/it
+108
+Train VC 2825 1.550097 Grad Norm 1.201019 1.83s/it
+108
+Train TTS 2826 1.433735 Grad Norm 0.913984 1.75s/it
+108
+Train VC 2827 1.395653 Grad Norm 1.835331 1.78s/it
+108
+Train TTS 2828 1.477205 Grad Norm 2.419380 1.69s/it
+108
+Train VC 2829 1.464223 Grad Norm 1.237735 1.23s/it
+108
+Train TTS 2830 1.548593 Grad Norm 1.933838 1.56s/it
+108
+Train VC 2831 1.455747 Grad Norm 2.211699 1.84s/it
+108
+Train TTS 2832 1.440902 Grad Norm 0.825236 1.55s/it
+108
+Train VC 2833 1.490672 Grad Norm 1.939011 1.60s/it
+108
+Train TTS 2834 1.593559 Grad Norm 1.744579 1.39s/it
+108
+Train VC 2835 1.377777 Grad Norm 0.777358 1.88s/it
+108
+Train TTS 2836 1.418106 Grad Norm 0.714532 1.55s/it
+108
+Train VC 2837 1.342274 Grad Norm 1.136410 2.75s/it
+108
+Train TTS 2838 1.590862 Grad Norm 3.955981 1.10s/it
+108
+Train VC 2839 1.416421 Grad Norm 1.404482 1.92s/it
+108
+Train TTS 2840 1.541570 Grad Norm 2.207516 1.12s/it
+108
+Train VC 2841 1.439611 Grad Norm 2.227065 2.32s/it
+108
+Train TTS 2842 1.462974 Grad Norm 1.246319 1.92s/it
+108
+Train VC 2843 1.529899 Grad Norm 3.302115 1.41s/it
+108
+Train TTS 2844 1.667199 Grad Norm 3.083367 1.03s/it
+108
+Train VC 2845 1.452681 Grad Norm 2.422805 2.28s/it
+108
+Train TTS 2846 1.400237 Grad Norm 0.911985 1.63s/it
+108
+Train VC 2847 1.518900 Grad Norm 8.297067 2.72s/it
+108
+Train TTS 2848 1.524772 Grad Norm 1.202224 1.37s/it
+108
+Train VC 2849 1.318140 Grad Norm 1.073103 2.55s/it
+108
+Train TTS 2850 1.456781 Grad Norm 2.051160 1.60s/it
+108
+Train VC 2851 1.420547 Grad Norm 0.834613 1.52s/it
+108
+Train TTS 2852 1.458271 Grad Norm 1.228128 1.47s/it
+108
+Train VC 2853 1.366628 Grad Norm 1.007984 1.56s/it
+108
+Train TTS 2854 1.414731 Grad Norm 1.309837 1.75s/it
+108
+Train VC 2855 1.592078 Grad Norm 5.012236 1.70s/it
+108
+Train TTS 2856 1.541217 Grad Norm 2.910560 1.22s/it
+108
+Train VC 2857 1.433276 Grad Norm 1.173565 2.43s/it
+108
+Train TTS 2858 1.471135 Grad Norm 3.514920 2.01s/it
+108
+Train VC 2859 1.528459 Grad Norm 2.237256 1.28s/it
+108
+Train TTS 2860 1.557851 Grad Norm 2.192754 1.52s/it
+108
+Train VC 2861 1.680547 Grad Norm 2.911081 1.47s/it
+108
+Train TTS 2862 1.448200 Grad Norm 1.384629 1.12s/it
+108
+Train VC 2863 1.414918 Grad Norm 0.867290 1.09s/it
+108
+Train TTS 2864 1.496536 Grad Norm 3.979644 1.35s/it
+108
+Train VC 2865 1.482203 Grad Norm 1.084264 1.74s/it
+108
+Train TTS 2866 1.468815 Grad Norm 3.197320 1.27s/it
+108
+Train VC 2867 1.560337 Grad Norm 3.673456 1.75s/it
+108
+Train TTS 2868 1.364843 Grad Norm 1.103358 2.55s/it
+108
+Train VC 2869 1.524385 Grad Norm 1.975739 1.43s/it
+108
+Train TTS 2870 1.468235 Grad Norm 1.850768 1.12s/it
+108
+Train VC 2871 1.690507 Grad Norm 5.482594 1.55s/it
+108
+Train TTS 2872 1.484636 Grad Norm 2.482056 1.34s/it
+108
+Train VC 2873 1.382811 Grad Norm 1.200116 2.57s/it
+108
+Train TTS 2874 1.404398 Grad Norm 1.183304 2.13s/it
+108
+Train VC 2875 1.491453 Grad Norm 1.746781 1.58s/it
+108
+Train TTS 2876 1.504244 Grad Norm 2.171010 1.26s/it
+108
+Train VC 2877 1.521255 Grad Norm 1.859907 1.81s/it
+108
+Train TTS 2878 1.532027 Grad Norm 3.725399 1.15s/it
+108
+Train VC 2879 1.375138 Grad Norm 0.855407 1.58s/it
+108
+Train TTS 2880 1.428493 Grad Norm 1.404233 1.81s/it
+108
+Train VC 2881 1.545675 Grad Norm 4.270191 1.30s/it
+108
+Train TTS 2882 1.492992 Grad Norm 0.910483 1.35s/it
+108
+Train VC 2883 1.422009 Grad Norm 1.094238 2.19s/it
+108
+Train TTS 2884 1.324188 Grad Norm 1.635979 3.14s/it
+108
+Train VC 2885 1.533254 Grad Norm 2.140758 1.39s/it
+108
+Train TTS 2886 1.382532 Grad Norm 1.855819 1.64s/it
+108
+Train VC 2887 1.478516 Grad Norm 1.479634 1.13s/it
+108
+Train TTS 2888 1.412256 Grad Norm 1.155119 3.11s/it
+108
+Train VC 2889 1.447153 Grad Norm 1.920790 1.66s/it
+108
+Train TTS 2890 1.544782 Grad Norm 5.340618 1.24s/it
+108
+Train VC 2891 1.595280 Grad Norm 3.951987 1.48s/it
+108
+Train TTS 2892 1.341914 Grad Norm 1.281093 2.04s/it
+108
+Train VC 2893 1.411683 Grad Norm 3.567077 1.42s/it
+108
+Train TTS 2894 1.422483 Grad Norm 1.704382 1.34s/it
+108
+Train VC 2895 1.640074 Grad Norm 2.422347 1.95s/it
+108
+Train TTS 2896 1.400380 Grad Norm 1.385550 1.70s/it
+108
+Train VC 2897 1.436474 Grad Norm 1.163538 1.09s/it
+108
+Train TTS 2898 1.396988 Grad Norm 1.145104 1.68s/it
+108
+Train VC 2899 1.370023 Grad Norm 2.877711 1.96s/it
+108
+Train TTS 2900 1.551447 Grad Norm 3.778903 1.21s/it
+108
+Train VC 2901 1.475433 Grad Norm 1.092531 1.29s/it
+108
+Train TTS 2902 1.427994 Grad Norm 1.823837 2.13s/it
+108
+Train VC 2903 1.469760 Grad Norm 2.485847 1.38s/it
+108
+Train TTS 2904 1.374099 Grad Norm 0.723010 1.71s/it
+108
+Train VC 2905 1.510089 Grad Norm 2.244279 1.38s/it
+108
+Train TTS 2906 1.426210 Grad Norm 1.222552 1.90s/it
+108
+Train VC 2907 1.417316 Grad Norm 3.628151 1.89s/it
+108
+Train TTS 2908 1.352258 Grad Norm 0.619552 1.54s/it
+108
+Train VC 2909 1.511813 Grad Norm 2.051061 1.91s/it
+108
+Train TTS 2910 1.413215 Grad Norm 1.328427 1.37s/it
+108
+Train VC 2911 1.436291 Grad Norm 4.597981 2.45s/it
+108
+Train TTS 2912 1.439587 Grad Norm 1.536593 1.54s/it
+108
+Train VC 2913 1.489436 Grad Norm 3.385219 1.04s/it
+108
+Train TTS 2914 1.466191 Grad Norm 1.456850 1.90s/it
+108
+Train VC 2915 1.463202 Grad Norm 1.226600 2.19s/it
+108
+Train TTS 2916 1.481989 Grad Norm 2.397898 1.16s/it
+108
+Train VC 2917 1.447721 Grad Norm 3.501969 1.22s/it
+108
+Train TTS 2918 1.477766 Grad Norm 2.250293 1.72s/it
+108
+Train VC 2919 1.781410 Grad Norm 5.172595 1.33s/it
+108
+Train TTS 2920 1.450100 Grad Norm 5.661959 2.06s/it
+108
+Train VC 2921 1.399575 Grad Norm 1.988537 2.06s/it
+108
+Train TTS 2922 1.415734 Grad Norm 0.980954 1.27s/it
+108
+Train VC 2923 1.438276 Grad Norm 3.673907 2.09s/it
+108
+Train TTS 2924 1.472585 Grad Norm 4.549720 1.49s/it
+108
+Train VC 2925 1.566294 Grad Norm 9.962667 1.57s/it
+108
+Train TTS 2926 1.337417 Grad Norm 1.945408 1.43s/it
+108
+Train VC 2927 1.390672 Grad Norm 0.695922 1.37s/it
+108
+Train TTS 2928 1.394881 Grad Norm 1.265554 1.71s/it
+108
+Train VC 2929 1.259108 Grad Norm 0.964129 2.66s/it
+108
+Train TTS 2930 1.526392 Grad Norm 1.974015 1.62s/it
+108
+Train VC 2931 1.403878 Grad Norm 3.262593 2.96s/it
+108
+Train TTS 2932 1.449968 Grad Norm 0.938667 1.02s/it
+108
+Train VC 2933 1.524757 Grad Norm 1.847549 1.26s/it
+108
+Train TTS 2934 1.567739 Grad Norm 3.077760 1.34s/it
+108
+Train VC 2935 1.406008 Grad Norm 3.602523 1.76s/it
+108
+Train TTS 2936 1.975816 Grad Norm 2.864361 1.05s/it
+108
+Train VC 2937 1.395481 Grad Norm 0.925342 1.49s/it
+108
+Train TTS 2938 1.484381 Grad Norm 3.112832 1.22s/it
+108
+Train VC 2939 1.576968 Grad Norm 3.413383 1.67s/it
+108
+Train TTS 2940 1.475284 Grad Norm 2.917225 1.97s/it
+108
+Train VC 2941 1.480293 Grad Norm 1.071491 1.25s/it
+108
+Train TTS 2942 1.402157 Grad Norm 2.316231 1.83s/it
+108
+Train VC 2943 1.571010 Grad Norm 3.149704 1.40s/it
+108
+Train TTS 2944 1.444304 Grad Norm 2.206607 1.54s/it
+108
+Train VC 2945 1.510977 Grad Norm 1.755494 1.16s/it
+108
+Train TTS 2946 1.539356 Grad Norm 3.045908 1.65s/it
+108
+Train VC 2947 1.541116 Grad Norm 1.274584 1.21s/it
+108
+Train TTS 2948 1.383148 Grad Norm 1.625336 1.84s/it
+108
+Train VC 2949 1.456174 Grad Norm 1.544762 1.78s/it
+108
+Train TTS 2950 1.570799 Grad Norm 3.647311 1.05s/it
+108
+Train VC 2951 1.568832 Grad Norm 2.566539 1.10s/it
+108
+Train TTS 2952 1.503073 Grad Norm 4.226275 1.52s/it
+108
+Train VC 2953 1.489854 Grad Norm 1.299417 1.35s/it
+108
+Train TTS 2954 1.636279 Grad Norm 2.845049 1.38s/it
+108
+Train VC 2955 1.490985 Grad Norm 3.151791 1.21s/it
+108
+Train TTS 2956 1.510821 Grad Norm 1.252664 1.17s/it
+108
+Train VC 2957 1.532559 Grad Norm 2.212135 1.09s/it
+108
+Train TTS 2958 1.556918 Grad Norm 2.535882 1.82s/it
+108
+Train VC 2959 1.439470 Grad Norm 1.581890 1.57s/it
+108
+Train TTS 2960 1.314828 Grad Norm 1.204259 2.62s/it
+108
+Train VC 2961 1.459026 Grad Norm 0.997572 1.32s/it
+108
+Train TTS 2962 1.446587 Grad Norm 1.621472 1.31s/it
+108
+Train VC 2963 1.479937 Grad Norm 2.033726 1.46s/it
+108
+Train TTS 2964 1.419948 Grad Norm 1.892196 2.63s/it
+108
+Train VC 2965 1.585194 Grad Norm 3.065259 1.63s/it
+108
+Train TTS 2966 1.526600 Grad Norm 3.297234 1.17s/it
+108
+Train VC 2967 1.368468 Grad Norm 2.527594 2.30s/it
+108
+Train TTS 2968 1.443421 Grad Norm 1.606107 1.46s/it
+108
+Train VC 2969 1.427181 Grad Norm 3.412868 1.43s/it
+108
+Train TTS 2970 1.499229 Grad Norm 5.316093 1.24s/it
+108
+Train VC 2971 1.429583 Grad Norm 1.344854 1.70s/it
+108
+Train TTS 2972 1.524221 Grad Norm 3.601566 1.75s/it
+108
+Train VC 2973 1.500361 Grad Norm 3.442829 1.72s/it
+108
+Train TTS 2974 1.483906 Grad Norm 1.207140 1.20s/it
+108
+Train VC 2975 1.456688 Grad Norm 1.694865 2.09s/it
+108
+Train TTS 2976 1.398650 Grad Norm 0.759371 1.64s/it
+108
+Train VC 2977 1.531443 Grad Norm 1.847657 3.04s/it
+108
+Train TTS 2978 1.550602 Grad Norm 2.441247 1.37s/it
+108
+Train VC 2979 1.501375 Grad Norm 1.643725 1.44s/it
+108
+Train TTS 2980 1.512130 Grad Norm 4.291734 1.62s/it
+108
+Train VC 2981 1.424215 Grad Norm 1.525312 1.38s/it
+108
+Train TTS 2982 1.446517 Grad Norm 2.977150 1.26s/it
+108
+Train VC 2983 1.561206 Grad Norm 1.878989 1.28s/it
+108
+Train TTS 2984 1.504113 Grad Norm 4.156562 1.29s/it
+108
+Train VC 2985 1.674308 Grad Norm 4.118445 1.23s/it
+108
+Train TTS 2986 1.557882 Grad Norm 3.075619 1.40s/it
+108
+Train VC 2987 1.386419 Grad Norm 1.709649 1.87s/it
+108
+Train TTS 2988 1.430621 Grad Norm 2.236892 1.77s/it
+108
+Train VC 2989 1.489312 Grad Norm 2.870130 1.12s/it
+108
+Train TTS 2990 1.504761 Grad Norm 1.310361 1.69s/it
+108
+Train VC 2991 1.473728 Grad Norm 2.200446 1.57s/it
+108
+Train TTS 2992 1.341590 Grad Norm 1.484491 3.09s/it
+108
+Train VC 2993 1.554959 Grad Norm 5.301452 1.67s/it
+108
+Train TTS 2994 1.457499 Grad Norm 2.183631 1.50s/it
+108
+Train VC 2995 1.441390 Grad Norm 2.454303 1.55s/it
+108
+Train TTS 2996 1.459466 Grad Norm 2.941240 1.90s/it
+108
+Train VC 2997 1.514717 Grad Norm 3.841621 1.85s/it
+108
+Train TTS 2998 1.465640 Grad Norm 0.882557 1.24s/it
+108
+Train VC 2999 1.470124 Grad Norm 2.219074 1.06s/it
+108
+Train TTS 3000 1.582845 Grad Norm 2.575028 1.96s/it
+ERROR: Unexpected bus error encountered in worker. This might be caused by insufficient shared memory (shm).
+ 108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+108
+Exception ignored in: <bound method _DataLoaderIter.__del__ of <torch.utils.data.dataloader._DataLoaderIter object at 0x7f45245698d0>>
+Traceback (most recent call last):
+  File "/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 717, in __del__
+    self._shutdown_workers()
+  File "/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 713, in _shutdown_workers
+    w.join()
+  File "/opt/conda/lib/python3.6/multiprocessing/process.py", line 124, in join
+    res = self._popen.wait(timeout)
+  File "/opt/conda/lib/python3.6/multiprocessing/popen_fork.py", line 50, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/opt/conda/lib/python3.6/multiprocessing/popen_fork.py", line 28, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+  File "/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 274, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 96) is killed by signal: Bus error. 
+Traceback (most recent call last):
+  File "train.py", line 371, in <module>
+    args.warm_start, args.n_gpus, args.rank, args.group_name, hparams)
+  File "train.py", line 329, in train
+    hparams.distributed_run, rank)
+  File "train.py", line 134, in validate
+    for i, batch in enumerate(val_loader):
+  File "/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 631, in __next__
+    idx, batch = self._get_batch()
+  File "/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/utils/data/dataloader.py", line 610, in _get_batch
+    return self.data_queue.get()
+  File "/opt/conda/lib/python3.6/multiprocessing/queues.py", line 113, in get
+    return _ForkingPickler.loads(res)
+  File "/home/users/huiqing_lin/nonparaSeq2seqVC_code/venv/lib/python3.6/site-packages/torch/multiprocessing/reductions.py", line 256, in rebuild_storage_fd
+    fd = df.detach()
+  File "/opt/conda/lib/python3.6/multiprocessing/resource_sharer.py", line 57, in detach
+    with _resource_sharer.get_connection(self._id) as conn:
+  File "/opt/conda/lib/python3.6/multiprocessing/resource_sharer.py", line 87, in get_connection
+    c = Client(address, authkey=process.current_process().authkey)
+  File "/opt/conda/lib/python3.6/multiprocessing/connection.py", line 493, in Client
+    answer_challenge(c, authkey)
+  File "/opt/conda/lib/python3.6/multiprocessing/connection.py", line 732, in answer_challenge
+    message = connection.recv_bytes(256)         # reject large message
+  File "/opt/conda/lib/python3.6/multiprocessing/connection.py", line 216, in recv_bytes
+    buf = self._recv_bytes(maxlength)
+  File "/opt/conda/lib/python3.6/multiprocessing/connection.py", line 407, in _recv_bytes
+    buf = self._recv(4)
+  File "/opt/conda/lib/python3.6/multiprocessing/connection.py", line 379, in _recv
+    chunk = read(handle, remaining)
+ConnectionResetError: [Errno 104] Connection reset by peer
+docker exec failed, exit status=1

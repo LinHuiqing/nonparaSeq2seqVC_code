@@ -20,9 +20,9 @@ def create_hparams(hparams_string=None, verbose=False):
         ################################
         # Data Parameters              #
         ################################
-        training_list='/home/jxzhang/Documents/DataSets/VCTK/list/train_english_extend_no_indian.list',
-        validation_list='/home/jxzhang/Documents/DataSets/VCTK/list/eval_english_extend_no_indian.list',
-        mel_mean_std='/home/jxzhang/Documents/DataSets/VCTK/mel_mean_std.npy',
+        training_list='/home/users/huiqing_lin/scratch/DS_10283_2651/VCTK-Corpus/train.csv',
+        validation_list='/home/users/huiqing_lin/scratch/DS_10283_2651/VCTK-Corpus/val.csv',
+        mel_mean_std='/home/users/huiqing_lin/scratch/DS_10283_2651/VCTK-Corpus/mel_mean_std.npy',
 
         ################################
         # Data Parameters              #
@@ -30,7 +30,7 @@ def create_hparams(hparams_string=None, verbose=False):
         n_mel_channels=80,
         n_spc_channels=1025,
         n_symbols=41, #
-        n_speakers=99, #
+        n_speakers=108, #
         predict_spectrogram=False,
 
         ################################

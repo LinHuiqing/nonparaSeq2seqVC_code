@@ -1,0 +1,29 @@
+#!/bin/bash
+#PBS -l select=1:ncpus=5:ngpus=1
+#PBS -l pmem=60GB
+#PBS -N main
+#PBS -j oe
+#PBS -o output_log.txt
+#PBS -e error_log.txt
+#PBS -v CONTAINER_IMAGE=nvcr.io/nvidia/pytorch:20.02-py3
+#PBS -q research
+
+cd "$PBS_O_WORKDIR" || exit $?
+#nvidia-smi
+export HOME=/home/users/huiqing_lin
+
+pwd
+cd ~/nonparaSeq2seqVC_code
+
+export PATH="/opt/conda/bin/:$PATH"
+
+python -V
+pip -V
+#pip install virtualenv
+#python -m virtualenv venv
+source venv/bin/activate
+python -V
+pip -V
+
+cd pre-train
+bash run_40000.sh
