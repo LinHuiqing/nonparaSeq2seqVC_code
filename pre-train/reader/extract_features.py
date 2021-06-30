@@ -11,7 +11,13 @@ def extract_mel_spec(filename):
     saved spec shape [n_frames, 1025]
     saved mel shape [n_frames, 80]
     '''
-    y, sample_rate = librosa.load(filename)
+    try:
+        y, sample_rate = librosa.load(filename)
+    except Exception as e:
+        # print(e)
+        print(filename)
+        # quit()
+        raise e
 
     spec = librosa.core.stft(y=y, 
                              n_fft=2048, 

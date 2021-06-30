@@ -3,4 +3,4 @@ events.*
 *.pdf
 *.pyc
 
-dataset/
+dataset/*
